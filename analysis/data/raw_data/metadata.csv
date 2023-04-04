@@ -1,0 +1,549 @@
+sample_id;inv_nr;sub_nr;site_id;sweref_x;sweref_y;parish;color;hue;munsell_hue;munsell_value;material;point_type;artefact;type;find_context;patina;texture_1;texture_2;luster;sediment;foliation;topgraphy;homogeneity;inclusion;max_width_mm;max_length_mm;max_height_mm;weight_g
+1;4925;;;7097169;695505;Bjurholm;Translucent;Colourless;2.5Y; 8/2;Quartzite;lanceolate, straight base;Arrowhead;Point;Stray find;No;Massive;Fine-grained;Bright vitreous;None;None;Fine;Yes;;18;58;5;6
+2;92433;4;Bjurholm 336;7096348;692959;Bjurholm;Black;Dark;N1; ;Quartzite;;Arrowhead fragment;Point fragment;Excavation;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;Yes;;15;24;5;2
+3;15302;1;Bjurholm 335;7096501;692860;Bjurholm;Gray;Dark;7.5Y; 3/1;Quartzite;;Arrowhead preform;Preform;Excavation;Yes;Granular;Medium-grained;Bright vitreous;Possible bedding;None;Fine;Yes;;21;53;7;7
+4;15302;23;Bjurholm 335;7096501;692860;Bjurholm;Black;Dark;N1; ;Quartzite;;Arrowhead fragment;Point fragment;Excavation;Yes;Granular;Medium-grained;Bright vitreous;None;None;Fine;Yes;;15;15;7;2
+5;15302;35;Bjurholm 335;7096501;692860;Bjurholm;Opaque;Light;2.5Y; 9/1;Brecciated quartz;;Arrowhead fragment;Point fragment;Excavation;No;Massive;Fine-grained;Bright vitreous;None;None;Fine;No;Dark mineral grains;11;16;6;
+6;15319;15;Burträsk 32;7149885;761582;Burträsk;Gray;Dark;N4; ;Quartzite;;Point fragment;Point fragment;Excavation;No;Massive;Fine-grained;Dull;None;None;Conchoidal;No;Quartz;15;16;5;1
+7;27124;1;Burträsk 181;7165076;783785;Burträsk;Opaque;Light;5Y; 9/2;Quartz;;Point preform;Preform;Surveyed;Yes;Massive;Massive;Bright vitreous;None;None;Irregular;Yes;;43;48;;
+8;4603;;;7132482;784349;Bygdeå;Gray;Dark;N2; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Stray find;No;Granular;Medium-grained;Bright vitreous;Possible bedding;None;Conchoidal;Yes;;15;81;;
+9;17440;;;7144375;717871;Degerfors;Opaque;Light;5Y; 9/2;Quartz;lanceolate;Point;Point;Stray find;No;Massive;Fine-grained;Waxy;None;None;Conchoidal;Yes;;18;42;7;7
+10;19273;12;Degerfors 167;7144375;717871;Degerfors;Opaque;Light;5Y; 8/2;Quartzite;;Arrowhead;Point;Surveyed;No;Massive;Medium-grained;Waxy;None;None;Fine;No;Dark mineral grains;18;23;6;3
+11;10141;2 (b);;7144375;717871;Degerfors;Opaque;Light;5Y; 8/1;Quartzite;tanged;Point;Point;Unknown;No;Granular;Medium-grained;Bright vitreous;None;None;Smooth;Yes;;12;25;4;2
+12;10141;4 (d);;7144375;717871;Degerfors;Opaque;Light;7.5Y; 8/2;Brecciated quartz;;Point;Point;Unknown;No;Massive;Medium-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;23;30;6;7
+13;14056;1;;7144375;717871;Degerfors;White;Light;10Y; 6/3;Quartzite;lanceolate;Point;Point;Stray find;No;Massive;Fine-grained;Bright vitreous;None;Yes;Conchoidal;Yes;;22;42;7;7
+14;15204;4;Degerfors 318;7141879;717255;Degerfors;White;Light;10Y; 9/1;Quartzite;;Point preform;Preform;Surveyed;Yes;Granular;Coarse-grained;Dull;None;Yes;Conchoidal;No;Quartz;37;53;17;30
+15;32334;52;Lycksele 301;7168150;676423;Lycksele;Opaque;Light;5Y; 9/1;Quartzite;;Point;Point;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Irregular;Yes;;21;33;;10,9
+16;32334;53;Lycksele 301;7168150;676423;Lycksele;White;White;N9; ;Quartzite;triangular, straight base;Arrowhead;Point;Excavation;Yes;Granular;Fine-grained;Waxy;None;None;Fine;Yes;;20,8;43,6;;8
+17;32334;54;Lycksele 301;7168150;676423;Lycksele;Black;Dark;N1; ;Quartzite;lanceolate;Arrowhead fragment;Point fragment;Excavation;Yes;Granular;Fine-grained;Waxy;None;None;Fine;No;Mineral grains;16,8;35,7;;3,4
+18;32334;56;Lycksele 301;7168150;676423;Lycksele;Opaque;Light;2.5Y; 9/2;Quartzite;lanceolate, straight base;Arrowhead;Point;Excavation;No;Granular;Fine-grained;Waxy;None;None;Fine;Yes;;19,6;41,3;;4,1
+19;32334;57;Lycksele 301;7168150;676423;Lycksele;Black;Dark;N1; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Excavation;Yes;Granular;Medium-grained;Dull;None;Foliated;Fine;Yes;;16,2;55,7;;6,2
+20;32334;58;Lycksele 301;7168150;676423;Lycksele;Black;Dark;N1; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Excavation;Yes;Granular;Medium-grained;Bright vitreous;None;Foliated;Fine;No;Mineral grains;18,8;53,2;;7,3
+21;32334;59;Lycksele 301;7168150;676423;Lycksele;White;White;N9; 8/2;Quartzite;lanceolate, straight base;Arrowhead;Point;Excavation;No;Granular;Fine-grained;Bright vitreous;None;Foliated;Fine;Yes;;16,5;39,7;;4,2
+22;35444;1;Lycksele 401;7182333;648209;Lycksele;Black;Dark;N1; ;Quartzite;triangular, straight base;Arrowhead;Point;Surveyed;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Mineral grains;22;45;;
+23;35444;2;Lycksele 401;7182333;648209;Lycksele;Opaque;Light;5Y; 8/3;Quartz;;Arrowhead;Point;Surveyed;No;Massive;Fine-grained;Waxy;None;None;Fine;Yes;;15;32;;
+24;4130;;;7295916;573443;Sorsele;Opaque;Light;7.5Y; 7/2;Quartzite;lanceolate, straight base;Arrowhead;Point;Stray find;No;Massive;Fine-grained;Bright vitreous;None;None;Fine;Yes;;15;59;;
+25;14745;7;Sorsele 282;7245571;623775;Sorsele;Gray;Dark;N3; ;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;38;56;20;33
+26;4131;;;7295916;573443;Sorsele;Translucent;Light;7.5Y; 7/2;Quartzite;lanceolate, straight base;Arrowhead fragment;Point fragment;Stray find;No;Massive;Fine-grained;Bright vitreous;None;None;Conchoidal;Yes;;18;50;6;6
+27;14724;1;;7295916;573443;Sorsele;Translucent;Colourless;; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Stray find;No;Massive;Fine-grained;Bright vitreous;None;None;Smooth;Yes;;23;44;6;7
+28;14777;2;Sorsele 552;7316830;555778;Sorsele;Black;Dark;N2; ;Quartzite;;Point;Point;Surveyed;Yes;Granular;Medium-grained;Bright vitreous;None;None;Smooth;No;Bands of quartz;15;15;5;2
+29;19282;5;Sorsele 733;7300838;576919;Sorsele;Opaque;Light;2.5Y; 8/1;Quartzite;lanceolate, convex base;Arrowhead;Point;Excavation;No;Massive;Fine-grained;Bright vitreous;None;None;Smooth;Yes;;9;25;5;2
+30;19282;6;Sorsele 733;7300838;576919;Sorsele;Gray;Dark;N3; ;Quartzite;;Preform;Preform;Excavation;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Bands of dark mineral;38;77;20;75
+31;19282;7;Sorsele 733;7300838;576919;Sorsele;Gray;Dark;N1; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Smooth;No;Bands of quartz;17;31;6;5
+32;19282;8;Sorsele 733;7300838;576919;Sorsele;Black;Dark;N1; ;Quartzite;lanceolate;Point;Point;Excavation;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Mineral grains;25;55;9;13
+33;35401;2;Sorsele 334;7267203;584998;Sorsele;Translucent;Light;5Y; 9/1;Brecciated quartz;straight base;Point fragment;Point fragment;Surveyed;No;Massive;Fine-grained;Waxy;None;None;Fine;No;Dark mineral grains;17;25;;
+34;19340;5;Stensele 83;7216217;605963;Stensele;Opaque;White;N9; ;Quartzite;;Point fragment;Point;Excavation;No;Massive;Fine-grained;Bright vitreous;None;None;Fine;Yes;;23;32;8;6
+35;19373;;Stensele 481;7223941;592246;Stensele;Black;Dark;N1; ;Quartzite;;Arrowhead;Point;Surveyed;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;19;30;6;5
+36;19382;15;Stensele 74;7221583;597773;Stensele;Opaque;Light;7.5Y; 8/1;Quartzite;lanceolate;Arrowhead fragment;Point fragment;Surveyed;No;Massive;Fine-grained;Bright vitreous;None;None;Fine;Yes;;19;42;7;6
+37;92139;;Stensele 200;7261567;546025;Stensele;Opaque;Light;7.5Y; 8/1;Brecciated quartz;lanceolate, straight base;Arrowhead fragment;Point fragment;Stray find;No;Massive;Fine-grained;Waxy;None;None;Smooth;No;Dark mineral grains;20;33;7;6
+38;92143;1;Stensele 106;7260504;545445;Stensele;Opaque;Light;7.5Y; 7/2;Brecciated quartz;straight base;Arrowhead fragment;Point fragment;Stray find;Yes;Massive;Fine-grained;Waxy;None;None;Smooth;No;Dark mineral grains;21;29;5;3
+39;1037;;;7096297;752920;Umeå;Opaque;Light;7.5Y; 8/2;Brecciated quartz;lanceolate, straight base;Arrowhead;Point;Stray find;No;Massive;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;20;71;7;
+40;32023;1;Umeå 262;7099908;754073;Umeå;Translucent;Colourless;; ;Quartz;;Point;Point;Survey;No;Massive;Massive;Bright vitreous;None;None;Irregular;No;Dark mineral grains;6;15;;
+41;92382;3;Umeå 510;7108970;753228;Umeå;Gray;Dark;N2; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Excavation/Survey;No;Massive;Fine-grained;Bright vitreous;None;None;Conchoidal;No;Bands of quartz and mineral grains;18;46;5;5
+42;27179;57;UmeÅ 600;7096297;752920;Umeå;Gray;Dark;N3; ;Quartzite;lanceolate, concave base;Arrowhead;Point;Unknown;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Mineral grains;13;51;;
+43;27179;47;UmeÅ 600;7096297;752920;Umeå;Opaque;Light;7.5Y; 7/3;Brecciated quartz;lanceolate, straight base;Arrowhead;Point;Unknown;Yes;Massive;Fine-grained;Bright vitreous;None;None;Fine;No;Dark mineral grains;17;56;;
+44;19283;5;Stensele 75;7221248;598195;Stensele;White;White;N9; ;Quartzite;;Point preform;Preform;Surveyed;No;Granular;Fine-grained;Bright vitreous;None;None;Irregular;Yes;;31;68;18;40
+45;19295;3;Stensele 271;7216749;599351;Stensele;Opaque;Light;7.5Y; 9/1;Quartzite;;Point preform;Preform;Surveyed;Yes;Granular;Fine-grained;Waxy;None;None;Irregular;No;Dark mineral grains;22;43;9;10
+46;2450;;Mickelträsk;7096297;752920;Umeå;Opaque;Light;5Y; 8/1;Brecciated quartz;lanceolate, convex base;Spearpoint;Point;Stray find;No;Granular;Fine-grained;Waxy;Possible bedding;None;Fine;No;Dark mineral inclusion;63;184;10;
+47;7971;;Rödå;7116308;741320;Umeå;Opaque;Light;5Y; 7/2;Brecciated quartz;;Spearpoint preform;Preform;Stray find;Yes;Massive;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;61;114;;
+48;27179;28;UmeÅ 600;7090224;753231;Umeå;Opaque;Light;5Y; 7/1;Brecciated quartz;;Knife preform;Knife;Unknown;No;Massive;Fine-grained;Waxy;None;None;Fine;No;Dark mineral inclusion;50;123;;
+49;27179;28;UmeÅ 600;7096297;752920;Umeå;Opaque;Dark;5Y; 5/4;Brecciated quartz;lanceolate, straight base;Arrowhead;Point;Unknown;No;Massive;Fine-grained;Waxy;None;None;Smooth;No;Dark mineral grains;14;41;;
+50;27171;12;;7096297;752920;Umeå;White;White;N9; ;Quartzite;straight base;Point;Point;Unknown;No;Massive;Fine-grained;Bright vitreous;None;None;Fine;Yes;;15;22;;
+51;32327;;;7096297;752920;Umeå;Opaque;Dark;7.5Y; 5/4;Brecciated quartz;lanceolate, straight base;Arrowhead;Point;Unknown;No;Massive;Fine-grained;Waxy;None;None;Smooth;No;Dark mineral grains;15;35;;
+52;4923;;;7099679;730889;Vännäs;Gray;Dark;N3; ;Quartzite;lanceolate, concave base;Arrowhead;Point;Stray find;No;Granular;Fine-grained;Bright vitreous;Possible bedding;None;Conchoidal;No;Bands of dark mineral;17;45;7;4
+53;90687;;;7099679;730889;Vännäs;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Unknown;No;Granular;Fine-grained;Bright vitreous;None;None;Conchoidal;Yes;;32;94;11;37
+54;2550;1;Åsele 115;7118200;614649;Åsele;Gray;Dark;N2; ;Quartzite;lanceolate;Arrowhead;Point;Stray find;No;Massive;Fine-grained;Waxy;None;None;Fine;Yes;;20;44;7;8
+55;2550;2;Åsele 115;7118200;614649;Åsele;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Stray find;No;Massive;Fine-grained;Waxy;None;None;Smooth;No;Bands of quartz;23;48;9;11
+56;2550;4;Åsele 115;7118200;614649;Åsele;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;18;24;7;2
+57;2550;5;Åsele 115;7118200;614649;Åsele;Translucent;Colourless;; ;Quartzite;straight base;Point;Point;Stray find;No;Massive;Fine-grained;Bright vitreous;None;None;Fine;Yes;;18;21;6;4
+58;2550;6;Åsele 115;7118200;614649;Åsele;Dark yellow;Dark;7.5Y; 3/4;Quartzite;straight base;Point;Point;Stray find;Yes;Massive;Fine-grained;Bright vitreous;None;None;Conchoidal;Yes;;17;12;4;2
+59;27179;21;UmeÅ 600;7090224;753231;Umeå;Opaque;Light;5Y; 6/4;Brecciated quartz;;Dagger;Knife;Unknown;No;Massive;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;40;157;;
+60;2473;1;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N3; ;Quartzite;;Point preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Fine;No;Mineral grains;27;52;9;19
+61;2473;2;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N3; ;Quartzite;;Point preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Mineral grains;30;85;12;25
+62;2473;3;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N2; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Mineral grains;26;100;9;26
+63;2473;4;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N2; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Mineral grains;29;104;11;36
+64;2473;5;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N2; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Fine;No;Mineral grains;27;109;10;30
+65;2473;6;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N2; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Mineral grains;30;101;10;30
+66;2473;7;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N2; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;29;90;10;24
+67;2473;8;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N2; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;29;96;9;27
+68;2473;9;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N2; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Mineral grains;29;92;9;23
+69;2473;10;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N2; ;Quartzite;;Arrowhead preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Mineral grains;32;72;12;26
+70;2473;11;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N3; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;27;93;10;26
+71;2473;12;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N2; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Mineral grains;30;98;11;31
+72;2473;13;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N3; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Mineral grains;32;93;11;32
+73;2473;14;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N2; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Mineral grains;37;116;11;46
+74;2473;15;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N1; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Dark mineral inclusion;30;96;12;35
+75;2473;16;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N1; ;Quartzite;;Arrowhead preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;Possible bedding;None;Conchoidal;No;Dark mineral inclusion;30;82;10;23
+76;2473;17;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N1; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;29;105;11;32
+77;2473;18;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N1; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;30;120;10;40
+78;2473;19;Brännraningen;7097810;737137;Vännäs;Gray streaked with black;Dark;N2; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;No;Granular;Fine-grained;Bright vitreous;Possible bedding;None;Conchoidal;No;Dark mineral inclusion;25;117;9;29
+79;2473;20;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N1; ;Quartzite;;Arrowhead preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Mineral grains;26;56;10;13
+80;2473;21;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N1; ;Quartzite;;Point preform fragment;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Dark mineral inclusion;30;54;11;19
+81;2473;22;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N1; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Mineral grains;30;93;10;28
+82;2473;23;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N1; ;Quartzite;;Point preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;32;53;11;23
+83;2473;24;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N1; ;Quartzite;;Arrowhead preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Mineral grains;28;81;10;24
+84;2473;25;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N2; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;25;91;10;21
+85;2473;26;Brännraningen;7097810;737137;Vännäs;Gray;Dark;N2; ;Quartzite;;Spearpoint preform;Preform;stray find - hoard;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Dark mineral inclusion;32;94;11;34
+86;2859;1;Dorotea 225;7175429;525341;Dorotea;Gray streaked with black;Dark;7.5Y; 3/1;Quartzite;;Point preform fragment;Preform;Stray find;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;No;Dark mineral inclusion;23;35;7;5
+87;2859;2;Dorotea 225;7175429;525341;Dorotea;Black;Dark;N1; ;Quartzite;;Point preform fragment;Preform;Stray find;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;32;45;8;15
+88;2859;3;Dorotea 225;7175429;525341;Dorotea;Dark gray;Dark;10Y; 3/1;Quartzite;;Point preform fragment;Preform;Stray find;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;28;38;8;12
+89;2860;3;Dorotea 229;7175796;524955;Dorotea;Gray;Dark;7.5Y; 2/1;Quartzite;;Point preform fragment;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Bands of quartz;25;35;9;10
+90;2860;4;Dorotea 229;7175796;524955;Dorotea;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;28;58;9;18
+91;2860;5;Dorotea 229;7175796;524955;Dorotea;Gray;Dark;N2; ;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;26;63;8;14
+92;2863;2;Dorotea 304;7174756;522069;Dorotea;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;36;61;15;35
+93;2863;3;Dorotea 304;7174756;522069;Dorotea;Gray;Light;7.5Y; 6/1;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Bright vitreous;None;None;Irregular;No;Bands of quartz;39;97;14;51
+94;2863;4;Dorotea 304;7174756;522069;Dorotea;Gray;Dark;5GY; 4/1;Quartzite;;Arrowhead preform;Preform;Stray find;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Bands of quartz;25;70;19;38
+95;2863;5;Dorotea 304;7174756;522069;Dorotea;Black;Dark;N1; ;Quartzite;;Point preform fragment;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Mineral grains;42;65;13;35
+96;2863;6;Dorotea 304;7174756;522069;Dorotea;Black;Dark;N1; ;Quartzite;;Point preform fragment;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;34;45;14;22
+97;2872;11;Dorotea 118;7165907;521840;Dorotea;Gray;Dark;N5; ;Quartzite;;Point preform;Preform;Surveyed;Yes;Massive;Fine-grained;Bright vitreous;None;Possible foliation;Conchoidal;Yes;;44;62;29;96
+98;2873;11;Dorotea 118;7165907;521840;Dorotea;Black;Dark;N2; ;Quartzite;;Spearpoint fragment;Point fragment;Surveyed;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;44;56;14;38
+99;2876;11;Dorotea 19;7128043;554611;Dorotea;Black;Dark;N1; ;Quartzite;triangular, concave base;Arrowhead;Point;Surveyed;No;Granular;Fine-grained;Waxy;None;None;Fine;Yes;;15;45;;
+100;2877;2;Dorotea 17;7131531;554728;Dorotea;Gray;Dark;N2; ;Quartzite;;Point fragment;Point;Surveyed;No;Massive;Fine-grained;Bright vitreous;None;None;Smooth;No;Dark mineral inclusion;31;22;6;6
+101;2877;8;Dorotea 17;7131531;554728;Dorotea;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Surveyed;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;30;50;8;12
+102;3725;7;Dorotea 214;7169499;533049;Dorotea;Black;Dark;N1; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Surveyed;Yes;Granular;Fine-grained;Bright vitreous;None;None;Conchoidal;Yes;;19;53;7;6
+103;3725;9;Dorotea 214;7169499;533049;Dorotea;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Surveyed;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;31;48;10;16
+104;3725;10;Dorotea 214;7169499;533049;Dorotea;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Surveyed;No;Granular;Fine-grained;Bright vitreous;None;None;Smooth;No;Dark mineral inclusion;31;55;9;14
+105;3725;11;Dorotea 214;7169499;533049;Dorotea;Opaque;Light;5Y; 9/1;Quartzite;;Point fragment;Point;Surveyed;Yes;Massive;Fine-grained;Waxy;None;None;Fine;Yes;;20;26;7;4
+106;3725;19;Dorotea 214;7169499;533049;Dorotea;Black;Dark;N2; ;Quartzite;;Point preform;Preform;Surveyed;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Quartz;45;92;24;88
+107;3725;20;Dorotea 214;7169499;533049;Dorotea;Black;Dark;N2; ;Quartzite;;Point preform;Preform;Surveyed;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Bands of quartz;43;81;18;70
+108;3725;21;Dorotea 214;7169499;533049;Dorotea;Black;Dark;N2; ;Quartzite;;Point preform;Preform;Surveyed;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;40;90;23;77
+109;3728;7;Dorotea 302;7169794;531356;Dorotea;Gray;Dark;7.5Y; 2/1;Quartzite;;Arrowhead preform;Preform;Surveyed;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;22;78;12;20
+110;3725;22;Dorotea 214;7169499;533049;Dorotea;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Surveyed;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Bands of quartz;51;82;18;80
+111;3725;25;Dorotea 214;7169499;533049;Dorotea;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Surveyed;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;No;Bands of quartz;46;71;13;44
+112;3728;6;Dorotea 302;7169794;531356;Dorotea;Gray;Dark;7.5Y; 2/1;Quartzite;;Point preform;Preform;Surveyed;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;15;27;6;2
+113;3728;8;Dorotea 302;7169794;531356;Dorotea;Black;Dark;N1; ;Quartzite;triangular, straight base;Arrowhead;Point;Surveyed;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;17;39;10;6
+114;3730;5;Dorotea 226;7169945;531290;Dorotea;Light gray;Light;N8; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Surveyed;No;Granular;Medium-grained;Dull;None;None;Fine;Yes;;21;69;8;11
+115;3730;6;Dorotea 226;7169945;531290;Dorotea;Light gray;Light;N8; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Surveyed;No;Granular;Fine-grained;Dull;None;None;Fine;Yes;;13;38;6;4
+116;3730;7;Dorotea 226;7169945;531290;Dorotea;Dark gray;Dark;N2; ;Quartzite;;Point preform fragment;Preform;Surveyed;No;Granular;Medium-grained;Waxy;None;None;Fine;No;Bands of quartz;30;41;8;9
+117;3739;1;Dorotea 10;7139492;553134;Dorotea;Dark gray;Dark;N2; ;Quartzite;;Point fragment;Point;Surveyed;Yes;Granular;Fine-grained;Bright vitreous;None;None;Smooth;No;Mineral grains;15;42;8;7
+118;3731;2;Dorotea 215;7169138;533634;Dorotea;Gray;Dark;N5; ;Quartzite;;Point preform;Preform;Surveyed;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Dark mineral inclusion;45;94;33;127
+119;3732a;3;Dorotea 246;7170110;530327;Dorotea;Gray;Dark;N5; ;Quartzite;;Spearpoint;Point;Survey;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Bands of quartz;28;54;11;18
+120;3735;3;Dorotea 106;7169617;532658;Dorotea;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Surveyed;Yes;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Mineral grains;33;49;10;17
+121;3739;2;Dorotea 10;7139492;553134;Dorotea;Black;Dark;N1; ;Quartzite;;Preform;Preform;Surveyed;No;Granular;Fine-grained;Waxy;None;None;Fine;No;Quartz grains;23;38;9;10
+122;17944;8;Dorotea 143;7135759;553501;Dorotea;Gray;Dark;2.5PB; 5/1;Quartzite;;Point preform;Preform;Surveyed;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Dark mineral inclusion;42;87;23;74
+123;17944;9;Dorotea 143;7135759;553501;Dorotea;Gray;Dark;7.5Y; 3/1;Quartzite;;Point preform;Preform;Surveyed;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;40;77;18;46
+124;17944;18;Dorotea 143;7135759;553501;Dorotea;Dark gray;Dark;N3; ;Quartzite;;Point preform;Preform;Surveyed;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Dark mineral inclusion;23;54;8;16
+125;17944;45;Dorotea 143;7135759;553501;Dorotea;Opaque;Light;2.5Y; 9/1;Quartz;lanceolate, straight base;Arrowhead;Point;Surveyed;No;Massive;Fine-grained;Waxy;None;None;Smooth;No;Dark mineral grains;17;45;6;4
+126;17945;9;Dorotea 84;7138940;553416;Dorotea;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Excavation;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;41;53;11;29
+127;17945;26;Dorotea 84;7138940;553416;Dorotea;Gray;Dark;N2; ;Quartzite;;Point fragment;Point;Excavation;No;Massive;Fine-grained;Bright vitreous;None;None;Smooth;No;Dark mineral inclusion;13;23;4;
+128;17945;31;Dorotea 84;7138940;553416;Dorotea;Black;Dark;N1; ;Quartzite;lanceolate, straight base;Arrowhead fragment;Point fragment;Excavation;No;Granular;Fine-grained;Waxy;None;None;Fine;No;Bands of quartz;14;42;5;7
+129;17945;36;Dorotea 84;7138940;553416;Dorotea;Dark yellow;Light;2.5Y; 6/3;Quartzite;lanceolate;Point;Point;Excavation;Yes;Massive;Fine-grained;Bright vitreous;None;None;Smooth;Yes;;18;27;5;5
+130;17945;43;Dorotea 84;7138940;553416;Dorotea;Light gray;Dark;10Y; 5/2;Quartzite;;Point fragment;Point;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Smooth;No;Dark mineral grains;21;24;7;5
+131;17945;53;Dorotea 84;7138940;553416;Dorotea;Opaque;Light;5Y; 6/2;Quartzite;triangular, concave base;Arrowhead;Point;Excavation;Yes;Granular;Fine-grained;Waxy;None;Possible foliation;Smooth;No;;21;44;9;7
+132;17945;47;Dorotea 84;7138940;553416;Dorotea;Black;Dark;N1; ;Quartzite;;Point fragment;Point;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Smooth;Yes;;16;20;6;3
+133;17945;48;Dorotea 84;7138940;553416;Dorotea;Gray;Dark;5Y; 2/1;Quartzite;;Point preform;Preform;Excavation;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;48;115;26;135
+134;17945;65;Dorotea 84;7138940;553416;Dorotea;Opaque;Light;5Y; 7/1;Quartzite;;Point fragment;Point;Excavation;No;Massive;Fine-grained;Bright vitreous;None;None;Conchoidal;No;Dark mineral inclusion;18;27;6;4
+135;17945;66;Dorotea 84;7138940;553416;Dorotea;Opaque;Light;5Y; 7/1;Quartzite;straight base;Arrowhead fragment;Point fragment;Excavation;No;Massive;Fine-grained;Bright vitreous;None;None;Smooth;Yes;;29;51;10;22
+136;17945;68;Dorotea 84;7138940;553416;Dorotea;White;Light;5Y; 8/1;Quartzite;straight base;Arrowhead;Point;Excavation;No;Granular;Fine-grained;Dull;None;None;Smooth;No;Bands of quartz;15;24;5;2
+137;17945;70;Dorotea 84;7138940;553416;Dorotea;Dark yellow;Dark;2.5Y; 4/3;Quartzite;;Point fragment;Point;Excavation;No;Granular;Fine-grained;Waxy;None;None;Smooth;Yes;;12;18;4;
+138;17945;73;Dorotea 84;7138940;553416;Dorotea;Gray;Dark;N4; ;Quartzite;;Point preform;Preform;Excavation;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Dark mineral inclusion;30;35;10;12
+139;2860;1;Dorotea 229;7175796;524955;Dorotea;Black;Dark;N3; ;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Waxy;Possible bedding;None;Conchoidal;No;Dark mineral inclusion;47;86;15;63
+140;2860;10;Dorotea 229;7175796;524955;Dorotea;Black;Dark;N2; ;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Fine;No;Bands of quartz;26;44;26;9
+141;2860;11;Dorotea 229;7175796;524955;Dorotea;Black;Dark;N2; ;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Dark mineral inclusion;35;44;12;20
+142;2860;12;Dorotea 229;7175796;524955;Dorotea;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Stray find;No;Granular;Fine-grained;Waxy;Possible bedding;None;Conchoidal;No;Dark mineral inclusion;27;45;9;10
+143;31990;;Dorotea 507;7150720;545284;Dorotea;White;Light;7.5Y; 8/2;Quartzite;lanceolate, convex base;Spearpoint;Point;Surveyed;Yes;Massive;Fine-grained;Bright vitreous;None;None;Smooth;No;Iron;43;143;;
+144;2860;13;Dorotea 229;7175796;524955;Dorotea;Gray;Dark;N1; ;Quartzite;;Point preform fragment;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;20;20;8;30
+145;31991;;Dorotea 628;7138721;553788;Dorotea;Brown streaked with black;Dark;2.5Y; 4/3;Quartzite;lanceolate;Spearpoint;Point;Surveyed;No;Granular;Fine-grained;Bright vitreous;None;None;Smooth;No;Dark mineral inclusion;35;98;;
+146;3713;1;Dorotea 229;7175796;524955;Dorotea;White;Light;5Y; 9/1;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Dull;None;None;Conchoidal;No;Quartz;26;54;10;11
+147;3713;3;Dorotea 229;7175796;524955;Dorotea;Gray;Light;N6; ;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Dark mineral inclusion;41;78;14;35
+148;3715;2;Dorotea 304;7174756;522069;Dorotea;Brown;Dark;2.5Y; 3/2;Quartzite;;Point fragment;Point;Stray find;No;Granular;Fine-grained;Waxy;None;None;Smooth;Yes;;12;15;5;2
+149;3715;3;Dorotea 304;7174756;522069;Dorotea;Gray;Light;2.5Y; 6/1;Quartzite;;Point preform fragment;Preform;Stray find;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral inclusion;25;16;11;6
+150;3715;5;Dorotea 304;7174756;522069;Dorotea;Gray;Dark;N3; ;Quartzite;;Point preform fragment;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;37;30;13;15
+151;3715;6;Dorotea 304;7174756;522069;Dorotea;Gray;Dark;N3; ;Quartzite;;Point preform fragment;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Bands of quartz;34;33;11;12
+152;2479;2;Åsele 182;7120412;600842;Åsele;White streaked with black;Dark;N3; ;Quartzite;;Point preform;Preform;Survey;Yes;Granular;Fine-grained;Dull;None;None;Conchoidal;No;Dark mineral inclusion;44;76;19;63
+153;2482;15;Åsele 182;7120412;600842;Åsele;Brown;Dark;5Y; 4/3;Quartzite;;Point preform;Preform;Survey;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Dark mineral inclusion;42;91;25;125
+154;2478;2;Åsele 409;7116870;615892;Åsele;White;Light;5Y; 9/1;Quartzite;;Point preform;Preform;Unknown;Yes;Granular;Fine-grained;Dull;None;None;Smooth;No;Dark mineral inclusion;40;80;13;42
+155;4514;1;;7119882;617013;Åsele;Opaque;Light;2.5Y; 8/1;Quartzite;;Arrowhead preform;Preform;Unknown;No;Granular;Fine-grained;Bright vitreous;None;None;Conchoidal;Yes;;18;40;6;4
+156;4514;2;;7119882;617013;Åsele;Gray;Light;5Y; 6/1;Quartzite;;Point preform;Preform;Unknown;Yes;Granular;Fine-grained;Dull;None;None;Smooth;No;Dark mineral inclusion;30;33;10;13
+157;4514;3;;7119882;617013;Åsele;Brown;Dark;2.5Y; 3/2;Quartzite;;Point preform;Preform;Unknown;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Dark mineral inclusion;29;42;9;13
+158;4514;4;;7119882;617013;Åsele;Black;Dark;N1; ;Quartzite;triangular, straight base;Arrowhead;Point;Unknown;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;20;47;6;5
+159;4514;5;;7119882;617013;Åsele;Black;Dark;N1; ;Quartzite;;Arrowhead preform;Preform;Unknown;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;25;50;7;11
+160;4514;6;;7119882;617013;Åsele;Black;Dark;N1; ;Quartzite;;Arrowhead preform;Preform;Unknown;Yes;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;25;51;8;12
+161;4514;7;;7119882;617013;Åsele;Black;Dark;N1; ;Quartzite;;Point preform fragment;Preform;Unknown;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;30;23;7;7
+162;4514;8;;7119882;617013;Åsele;Gray;Dark;N2; ;Quartzite;;Arrowhead preform;Preform;Unknown;No;Granular;Medium-grained;Bright vitreous;None;None;Smooth;No;Mineral grains;17;42;6;5
+163;4514;9;;7119882;617013;Åsele;Gray;Dark;N2; ;Quartzite;;Point preform fragment;Preform;Unknown;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;25;31;7;6
+164;4514;10;;7119882;617013;Åsele;Black;Dark;N1; ;Quartzite;;Point preform fragment;Preform;Unknown;No;Granular;Medium-grained;Waxy;None;None;Smooth;Yes;;18;28;6;3
+165;7975;1 (a);;7119882;617013;Åsele;Black;Dark;N1; ;Quartzite;straight base;Point fragment;Point fragment;Unknown;No;Granular;Fine-grained;Dull;None;None;Conchoidal;Yes;;15;17;4;
+166;7975;15 (o);;7119882;617013;Åsele;Gray;Dark;N4; ;Quartzite;;Point preform;Preform;Unknown;Yes;Granular;Fine-grained;Waxy;None;None;Weathered;No;Dark mineral inclusion;21;37;7;6
+167;17938;14;Åsele 393;7117732;614540;Åsele;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Excavation;No;Granular;Fine-grained;Dull;None;None;Smooth;Yes;;31;33;10;11
+168;21592;1;Åsele 129;7116373;615774;Åsele;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Excavation;No;Granular;Medium-grained;Waxy;None;None;Fine;Yes;;28;41;11;12
+169;21592;6;Åsele 129;7116373;615774;Åsele;Gray;Dark;N1; ;Quartzite;;Point preform;Preform;Excavation;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;23;19;17;3
+170;21592;7;Åsele 129;7116373;615774;Åsele;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Smooth;Yes;;14;18;6;2
+171;21592;8;Åsele 129;7116373;615774;Åsele;Gray;Dark;N4; ;Quartzite;;Point preform;Preform;Excavation;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;Yes;;15;17;16;2
+172;21592;9;Åsele 129;7116373;615774;Åsele;Black;Dark;N1; ;Quartzite;lanceolate;Arrowhead;Point;Excavation;Yes;Granular;Fine-grained;Waxy;None;None;Fine;No;Bands of quartz;16;61;7;6
+173;21592;10;Åsele 129;7116373;615774;Åsele;Opaque;Dark;2.5Y; 3/1;Brecciated quartz;straight base;Point fragment;Point fragment;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Fine;No;Dark mineral inclusion;17;23;5;3
+174;21592;11;Åsele 129;7116373;615774;Åsele;Gray;Dark;N1; ;Quartzite;concave base;Point fragment;Point fragment;Excavation;Yes;Granular;Fine-grained;Dull;None;None;Conchoidal;Yes;;18;18;5;2
+175;21592;14;Åsele 129;7116373;615774;Åsele;Gray;Dark;N4; ;Quartzite;;Point preform;Preform;Excavation;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral inclusion;29;52;11;17
+176;21592;15;Åsele 129;7116373;615774;Åsele;Black;Dark;N1; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Fine;No;Banded quartz;17;61;6;7
+177;21592;16;Åsele 129;7116373;615774;Åsele;Black;Dark;N1; ;Quartzite;;Preform;Preform;Excavation;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Mineral grains;29;51;12;16
+178;21652;2;Åsele 91;7116832;612227;Åsele;White;Light;7.5Y; 7/1;Quartzite;;Point fragment;Point fragment;Survey;Yes;Granular;Fine-grained;Bright vitreous;None;None;Smooth;No;Dark mineral inclusion;17;35;6;6
+179;21652;3;Åsele 91;7116832;612227;Åsele;Opaque;Light;5Y; 7/2;Brecciated quartz;triangular, convex base;Arrowhead;Point;Survey;No;Massive;Fine-grained;Bright vitreous;None;None;Smooth;No;Dark mineral grains;16;27;5;2
+180;21652;10;Åsele 91;7116832;612227;Åsele;Opaque;Light;5Y; 7/2;Quartz;;Point fragment;Point fragment;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Smooth;No;Dark mineral grains;12;13;4;1
+181;21653;9;Åsele 92;7116829;611906;Åsele;Opaque;Light;5Y; 7/2;Quartz;;Point preform;Preform;Excavation;Yes;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;32;34;9;10
+182;21657;24;Åsele 99;7119120;610139;Åsele;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Excavation;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;34;42;9;14
+183;21657;26;Åsele 99;7119120;610139;Åsele;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Excavation;No;Granular;Medium-grained;Bright vitreous;None;None;Smooth;No;Mineral grains;40;54;14;31
+184;21658;1;Åsele 101;7118728;609614;Åsele;White;Light;5Y; 9/1;Quartzite;triangular, straight base;Arrowhead fragment;Point fragment;Survey;No;Granular;Medium-grained;Dull;None;None;Smooth;No;Quartz and matrix;19;42;7;7
+185;21664;26;Åsele 107;7118235;610410;Åsele;Black;Dark;N1; ;Quartzite;;Preform;Preform;Excavation;No;Granular;Fine-grained;Bright vitreous;Bedding;None;Smooth;No;Banded;33;37;9;11
+186;21664;27;Åsele 107;7118235;610410;Åsele;Gray;Dark;N2; ;Quartzite;;Point preform;Preform;Survey;Yes;Granular;Medium-grained;Bright vitreous;None;None;Fine;No;Dark mineral inclusion;38;40;7;14
+187;21664;28;Åsele 107;7118235;610410;Åsele;Gray;Dark;N1; ;Quartzite;;Point preform;Preform;Survey;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Mineral grains;28;50;10;12
+188;21674;1;Åsele 117;7123473;611413;Åsele;Gray;Dark;N1; ;Quartzite;;Point fragment;Point fragment;Excavation;No;Granular;Medium-grained;Waxy;None;None;Smooth;No;Mineral grains;17;28;4;2
+189;21674;2;Åsele 117;7123473;611413;Åsele;Light gray;Light;5Y; 6/1;Quartzite;triangular, straight base;Arrowhead;Point;Excavation;Yes;Granular;Fine-grained;Dull;None;None;Fine;No;Mineral grains;13;22;3;1
+190;21676;2;Åsele 119;7126336;609922;Åsele;Black;Dark;N1; ;Quartzite;;Point fragment;Point fragment;Excavation;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Mineral grains;30;36;10;13
+191;21674;55;Åsele 117;7123473;611413;Åsele;Gray;Dark;N4; ;Quartzite;;Point preform;Preform;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Conchoidal;No;Dark mineral inclusion and iron;25;64;10;18
+192;27157;1;Åsele 236;7121285;635089;Åsele;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Mineral grains;30;50;;
+193;15254;1;Vilhelmina 619;7205350;539917;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;67;123;34;301
+194;15252;2;Vilhelmina 619;7205350;539917;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;36;46;10;21
+195;15285;8;Vilhelmina 240;7174962;566693;Vilhelmina;Opaque;Light;5Y; 7/3;Brecciated quartz;;Spearpoint fragment;Point fragment;Stray find;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;35;92;10;31
+196;14591;20;Vilhelmina 643;7196664;540871;Vilhelmina;Black;Dark;5Y; 2/1;Quartzite;;Point preform;Preform;Survey;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;47;98;26;103
+197;14591;15;Vilhelmina 643;7196664;540871;Vilhelmina;Gray;Dark;5Y; 3/1;Quartzite;;Point preform;Preform;Survey;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Dark mineral inclusion;45;78;19;66
+198;14591;21;Vilhelmina 643;7196664;540871;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Survey;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;61;114;26;209
+199;15252;14;Vilhelmina 619;7205350;539917;Vilhelmina;Black;Dark;N1; ;Quartzite;;Scraper;Scraper;Stray find;No;Granular;Medium-grained;Waxy;None;None;Smooth;Yes;;42;67;12;38
+200;15253;1;Vilhelmina 611;7203619;540620;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Stray find;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;25;69;11;16
+201;14073;88;Vilhelmina 636;7201659;541153;Vilhelmina;Gray streaked with black;Light;5Y; 6/1;Quartzite;;Point preform;Preform;Excavation;Yes;Granular;Medium-grained;Dull;None;None;Conchoidal;No;Dark mineral inclusion;39;77;19;56
+202;14672;1;Vilhelmina 168;7196187;576229;Vilhelmina;Gray streaked with white;Dark;N3; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Stray find;Yes;Massive;Fine-grained;Bright vitreous;None;None;Conchoidal;No;Mineral inclusion;12;42;5;2
+203;14672;2;Vilhelmina 168;7196187;576229;Vilhelmina;Opaque;Light;5Y; 7/1;Quartz;;Point preform fragment;Preform;Stray find;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;18;41;7;6
+204;15252;4;Vilhelmina 619;7205350;539917;Vilhelmina;Black;Dark;N1; ;Quartzite;;Arrowhead preform fragment;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;24;58;10;16
+205;14733;2;Vilhelmina 931;7195741;581917;Vilhelmina;Opaque;Light;7.5Y; 8/1;Quartzite;;Point preform fragment;Preform;Stray find;No;Granular;Fine-grained;Bright vitreous;None;None;Smooth;Yes;;16;58;5;7
+206;14754;2;Vilhelmina 854;7217560;557478;Vilhelmina;Light gray;Light;2.5Y; 9/1;Quartzite;straight base;Point fragment;Point fragment;Survey;Yes;Granular;Medium-grained;Dull;None;None;Fine;No;Bands of quartz;17;41;5;6
+207;13988;2;Vilhelmina 542;7173407;571126;Vilhelmina;Gray streaked with black;Dark;5Y; 3/2;Quartzite;;Point preform;Preform;Excavation;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Dark mineral inclusion;26;65;13;19
+208;14073;93;Vilhelmina 636;7201659;541153;Vilhelmina;Gray streaked with black;Dark;5Y; 4/2;Quartzite;;Point preform;Preform;Excavation;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral inclusion;33;47;11;15
+209;14491;1;Vilhelmina 941;7196260;580291;Vilhelmina;Opaque;Light;2.5Y; 8/1;Brecciated quartz;triangular, straight base;Arrowhead;Point;Stray find;No;Massive;Fine-grained;Waxy;None;None;Fine;No;Dark mineral grains;20;46;7;8
+210;15252;5;Vilhelmina 619;7205350;539917;Vilhelmina;Gray;Dark;N1; ;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Bright vitreous;None;None;Smooth;Yes;;27;58;12;13
+211;14733;6;Vilhelmina 931;7195741;581917;Vilhelmina;Opaque;Light;2.5Y; 8/2;Quartzite;straight base;Point fragment;Point fragment;Stray find;No;Granular;Fine-grained;Bright vitreous;Possible bedding;None;Smooth;Yes;;19;15;6;2
+212;14073;87;Vilhelmina 636;7201659;541153;Vilhelmina;Gray streaked with black;Light;5Y; 6/1;Quartzite;;Point preform;Preform;Excavation;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Dark mineral inclusion;50;86;30;112
+213;14591;12;Vilhelmina 643;7196664;540871;Vilhelmina;Gray;Dark;N3; ;Quartzite;;Point preform;Preform;Survey;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Dark mineral inclusion;53;91;20;93
+214;15252;3;Vilhelmina 619;7205350;539917;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform fragment;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Smooth;Yes;;43;38;14;24
+215;15252;1;Vilhelmina 619;7205350;539917;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform fragment;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Smooth;Yes;;43;39;16;24
+216;14591;3;Vilhelmina 643;7196664;540871;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Survey;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;46;83;17;72
+217;14559;22;Vilhelmina 1254;7173533;570768;Vilhelmina;Black;Dark;N1; ;Quartzite;;Retouched flake;Flake;Survey;No;Granular;Fine-grained;Bright vitreous;None;None;Smooth;Yes;;24;26;6;4
+218;14755;4;Vilhelmina 948;7197896;578653;Vilhelmina;Gray;Light;7.5Y; 6/1;Quartzite;;Point fragment;Point;Survey;No;Granular;Medium-grained;Dull;None;None;Fine;Yes;;17;51;6;5
+219;14551;3;Vilhelmina 1364;7174189;568873;Vilhelmina;Gray;Dark;N3; ;Quartzite;;Point preform fragment;Preform;Survey;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Dark mineral inclusion;33;44;9;13
+220;14493;6;Vilhelmina 1170;7230709;551461;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Survey;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;47;79;20;72
+221;14073;86;Vilhelmina 636;7201659;541153;Vilhelmina;Gray streaked with black;Dark;7.5Y; 4/1;Quartzite;;Point preform;Preform;Excavation;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Dark mineral inclusion;31;51;10;19
+222;14492;7;Vilhelmina 948;7197896;578653;Vilhelmina;Black;Dark;N1; ;Slate;;Spearpoint preform;Preform;Survey;Yes;Massive;Fine-grained;Dull;None;Foliated;Smooth;Yes;;41;71;9;29
+223;14755;2;Vilhelmina 948;7197896;578653;Vilhelmina;Gray;Dark;7.5Y; 4/1;Quartzite;;Point preform fragment;Preform;Survey;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;29;64;11;20
+224;14733;1;Vilhelmina 931;7195741;581917;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform fragment;Preform;Stray find;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;30;70;9;21
+225;14722;1;Kittelforsen;7156301;583928;Vilhelmina;Black;Dark;N1; ;Quartzite;;Spearpoint preform;Preform;Unknown;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Mineral grains;30;120;11;54
+226;14733;4;Vilhelmina 931;7195741;581917;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point fragment;Point fragment;Stray find;Yes;Granular;Fine-grained;Bright vitreous;None;None;Conchoidal;Yes;;16;52;6;7
+227;13995;3;Vilhelmina 539;7171348;570601;Vilhelmina;Gray;Dark;7.5Y; 3/1;Quartzite;straight base;Arrowhead fragment;Point fragment;Survey;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;No;Dark mineral inclusion;18;34;6;4
+228;14733;5;Vilhelmina 931;7195741;581917;Vilhelmina;Gray;Dark;7.5Y; 3/1;Quartzite;concave base;Arrowhead fragment;Point fragment;Stray find;Yes;Granular;Medium-grained;Bright vitreous;None;None;Fine;No;Dark mineral inclusion;17;42;7;6
+229;14559;13;Vilhelmina 1254;7173533;570768;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Survey;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;25;48;8;10
+230;14492;8;Vilhelmina 949;7201665;548201;Vilhelmina;Opaque;Light;5Y; 9/1;Brecciated quartz;lanceolate, straight base;Arrowhead;Point;Survey;No;Massive;Fine-grained;Waxy;None;Possible foliation;Fine;No;Dark mineral grains;18;68;6;10
+231;14559;20;Vilhelmina 1254;7173533;570768;Vilhelmina;Gray;Dark;N3; ;Quartzite;straight base;Arrowhead fragment;Point fragment;Survey;No;Granular;Fine-grained;Waxy;None;None;Fine;No;;16;30;5;5
+232;14559;17;Vilhelmina 1254;7173533;570768;Vilhelmina;Gray streaked with white;Dark;N3; ;Quartzite;;Arrowhead fragment;Point fragment;Survey;Yes;Granular;Medium-grained;Bright vitreous;None;None;Fine;No;;14;24;3;2
+233;14559;18;Vilhelmina 1254;7173533;570768;Vilhelmina;Light gray;Light;10B; 6/1;Quartzite;;Arrowhead fragment;Point fragment;Survey;No;Massive;Fine-grained;Dull;None;Possible foliation;Fine;No;;16;33;3;2
+234;14559;21;Vilhelmina 1254;7173533;570768;Vilhelmina;Black;Dark;N1; ;Quartzite;straight base;Arrowhead fragment;Point fragment;Survey;No;Granular;Medium-grained;Waxy;None;None;Fine;Yes;;23;37;7;7
+235;15256;;Vilhelmina 240;7174962;566693;Vilhelmina;Black;Dark;N1; ;Quartzite;;Spearpoint fragment;Point fragment;Stray find;No;Granular;Medium-grained;Waxy;None;None;Fine;Yes;;34;97;8;40
+236;14559;19;Vilhelmina 1254;7173533;570768;Vilhelmina;White;Light;2.5Y; 7/1;Quartzite;straight base;Point fragment;Point fragment;Survey;No;Granular;Fine-grained;Dull;None;None;Fine;No;;8;28;4;2
+237;14559;15;Vilhelmina 1254;7173533;570768;Vilhelmina;Black;Dark;N1; ;Quartzite;;Arrowhead preform;Preform;Survey;Yes;Granular;Fine-grained;Bright vitreous;None;None;Weathered;No;;19;39;6;5
+238;14559;16;Vilhelmina 1254;7173533;570768;Vilhelmina;Black;Dark;N1; ;Quartzite;;Arrowhead fragment;Point fragment;Survey;No;Granular;Fine-grained;Waxy;None;None;Fine;Yes;;15;43;5;4
+239;14497;1;Vilhelmina 952;7198162;578491;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Survey;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;48;109;22;111
+240;13733;4;Vilhelmina 948;7197896;578653;Vilhelmina;Gray;Dark;7.5Y; 4/1;Quartzite;;Arrowhead preform;Preform;Survey;Yes;Granular;Medium-grained;Bright vitreous;None;None;Fine;No;Mineral grains;31;82;9;28
+241;2505;1;Vilhelmina 115;7204853;518271;Vilhelmina;Brown streaked with black;Dark;5Y; 3/2;Quartzite;;Point preform;Preform;Stray find;No;Conglomerate;Fine-grained;Waxy;Bedding;None;Smooth;No;Bands of quartz;29;89;9;30
+242;6863;7;;7201665;548201;Vilhelmina;White;White;N9; ;Quartzite;;Arrowhead preform;Preform;Stray find;No;Granular;Medium-grained;Dull;None;Possible foliation;Conchoidal;Yes;;24;52;11;12
+243;6731;7;Vilhelmina 181;7195514;581852;Vilhelmina;Gray;Dark;N3; ;Quartzite;;Arrowhead preform fragment;Preform;Survey;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;No;Dark mineral inclusion;21;35;8;5
+244;2505;2;Vilhelmina 115;7204853;518271;Vilhelmina;Gray;Light;7.5Y; 7/1;Quartzite;;Arrowhead fragment;Point fragment;Stray find;No;Granular;Fine-grained;Dull;None;None;Fine;Yes;;17;40;5;3
+245;2538;27;Vilhelmina 118;7204670;519129;Vilhelmina;Opaque;Light;5Y; 9/2;Quartzite;;Point preform;Preform;Stray find;No;Granular;Fine-grained;Bright vitreous;None;None;Conchoidal;Yes;;28;38;8;10
+246;2645;10;Vilhelmina 117;7204780;518625;Vilhelmina;White;Light;7.5Y; 8/2;Quartzite;;Point preform;Preform;Stray find;No;Massive;Fine-grained;Bright vitreous;None;None;Conchoidal;Yes;;23;38;7;8
+247;2534;1;Vilhelmina 31;7233725;544397;Vilhelmina;Light gray;Light;7.5Y; 7/1;Quartzite;;Point preform;Preform;Stray find;Yes;Granular;Medium-grained;Dull;None;None;Conchoidal;Yes;;26;56;11;12
+248;6724;6;;7201665;548201;Vilhelmina;Gray streaked with black;Dark;2.5Y; 3/2;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Dark mineral inclusion;35;106;11;93
+249;2501;1;Vilhelmina 115;7204853;518271;Vilhelmina;Gray streaked with black;Dark;7.5Y; 3/2;Quartzite;;Point preform;Preform;Stray find;No;Massive;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Dark mineral inclusion;40;90;18;70
+250;13734;2;Vilhelmina 181;7195514;581852;Vilhelmina;Gray;Light;5Y; 6/2;Quartzite;;Retouched flake;Flake;Survey;No;Granular;Medium-grained;Bright vitreous;None;None;Smooth;No;Bands of quartz;30;72;11;18
+251;9492;c;Vilhelmina 356;7172579;571869;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Smooth;Yes;;22;74;;
+252;13718;31;Vilhelmina 503;7176005;566228;Vilhelmina;Opaque;Light;N8; ;Quartz;;Preform;Preform;Excavation;No;Massive;Massive;Bright vitreous;None;None;Irregular;Yes;;25;27;11;6
+253;9492;a;Vilhelmina 118;7204670;519129;Vilhelmina;Gray streaked with black;Dark;5Y; 5/1;Quartzite;;Spearpoint preform;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Fine;No;Dark mineral inclusion;30;138;15;55
+254;9492;b;Vilhelmina 118;7204670;519129;Vilhelmina;Gray streaked with black;Dark;5Y; 5/1;Quartzite;;Spearpoint preform;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Dark mineral inclusion;31;126;13;51
+255;2538;22;Vilhelmina 118;7204670;519129;Vilhelmina;Opaque;Light;5Y; 8/1;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;66;135;32;58
+256;13732;123;Vilhelmina 190;7194990;583867;Vilhelmina;Light gray;Light;7.5Y; 7/1;Quartzite;;Point preform;Preform;Excavation;Yes;Granular;Medium-grained;Dull;None;None;Conchoidal;No;Dark mineral inclusion;47;90;25;107
+257;6722;4;Laxb�cken;7168646;565632;Vilhelmina;Black;Dark;N1; ;Quartzite;;Scraper;Scraper;Stray find;No;Granular;Fine-grained;Waxy;None;None;Smooth;No;Dark mineral inclusion;25;58;8;17
+258;3372;2;Vilhelmina 115;7204853;518271;Vilhelmina;Gray;Dark;N2; ;Quartzite;;Arrowhead fragment;Point fragment;Stray find;Yes;Granular;Fine-grained;Waxy;None;None;Smooth;No;Bands of quartz;11;22;5;2
+259;2645;3;Vilhelmina 117;7204780;518625;Vilhelmina;Black;Dark;N1; ;Quartzite;straight base;Point fragment;Point fragment;Stray find;No;Granular;Fine-grained;Waxy;None;None;Smooth;Yes;;14;33;4;4
+260;2538;28;Vilhelmina 118;7204670;519129;Vilhelmina;Opaque;Light;7.5Y; 6/1;Quartzite;;Point preform;Preform;Stray find;Yes;Granular;Fine-grained;Waxy;None;Foliated;Conchoidal;No;Dark mineral inclusion;51;46;17;30
+261;2538;30;Vilhelmina 118;7204670;519129;Vilhelmina;Opaque;Light;5Y; 9/1;Quartzite;;Point preform;Preform;Stray find;No;Granular;Fine-grained;Waxy;None;None;Smooth;No;Dark mineral grains;30;30;8;9
+262;2645;9;Vilhelmina 117;7204780;518625;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Stray find;No;Massive;Fine-grained;Waxy;None;None;Smooth;Yes;;18;46;9;7
+263;6729;8;Laxb�cken;7168646;565632;Vilhelmina;Black;Dark;N1; ;Quartzite;;Scraper;Scraper;Stray find;No;Granular;Medium-grained;Waxy;None;None;Smooth;Yes;;46;56;10;32
+264;3377;2;Vilhelmina 95;7207069;515822;Vilhelmina;Orange;Light;2.5Y; 6/8;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;29;60;15;30
+265;3371;1;Vilhelmina 114;7204798;517965;Vilhelmina;Black;Dark;N1; ;Quartzite;straight base;Arrowhead fragment;Point fragment;Stray find;No;Granular;Medium-grained;Waxy;None;None;Fine;Yes;;20;36;7;6
+266;3378;7;Vilhelmina 96;7201665;548201;Vilhelmina;Black;Dark;N1; ;Quartzite;;Scraper;Scraper;Stray find;Yes;Granular;Medium-grained;Bright vitreous;None;None;Smooth;No;Bands of quartz;39;50;17;39
+267;2502;1;Vilhelmina 115;7207094;515912;Vilhelmina;Gray streaked with black;Light;7.5Y; 6/2;Quartzite;straight base;Arrowhead fragment;Point fragment;Stray find;No;Granular;Fine-grained;Bright vitreous;None;None;Smooth;No;Dark mineral inclusion;18;15;5;2
+268;13720;1;Vilhelmina 235;7175875;565898;Vilhelmina;Gray;Dark;N2; ;Quartzite;lanceolate, straight base;Arrowhead fragment;Point fragment;Excavation;Yes;Granular;Fine-grained;Waxy;None;None;Fine;No;Bands of quartz;18;48;7;6
+269;2502;2;Vilhelmina 115;7204853;518271;Vilhelmina;Gray;Dark;10Y; 4/2;Quartzite;;Arrowhead fragment;Point fragment;Stray find;No;Granular;Fine-grained;Bright vitreous;None;None;Smooth;Yes;;15;14;4;
+270;2510;6;Vilhelmina 33;7233481;547334;Vilhelmina;Gray;Light;10Y; 7/1;Quartzite;;Arrowhead preform;Preform;Stray find;No;Granular;Fine-grained;Bright vitreous;None;None;Wave weathered;No;Dark mineral inclusion and bands of quartz;24;21;10;6
+271;2534;2;Vilhelmina 31;7233725;544397;Vilhelmina;Gray;Light;10Y; 7/1;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;No;Bands of quartz;26;50;8;11
+272;2520;2;Vilhelmina 114;7204798;517965;Vilhelmina;Black;Dark;N1; ;Quartzite;;Arrowhead fragment;Point fragment;Stray find;No;Granular;Medium-grained;Waxy;None;None;Smooth;No;Bands of quartz;17;41;8;5
+273;13721;14;Vilhelmina 552;7194832;583937;Vilhelmina;Light gray;Light;7.5Y; 7/1;Quartzite;;Arrowhead preform;Preform;Excavation;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;Yes;;28;68;8;14
+274;13735;3;Vilhelmina 631;7204191;540555;Vilhelmina;Gray;Dark;10Y; 3/1;Quartzite;;Point preform;Preform;Survey;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Bands of quartz;39;84;21;55
+275;13733;8;Vilhelmina 948;7197896;578653;Vilhelmina;Opaque;Light;5Y; 8/2;Brecciated quartz;lanceolate, concave base;Arrowhead;Point;Survey;No;Massive;Fine-grained;Waxy;None;Possible foliation;Fine;No;Dark mineral grains;15;77;7;
+276;13721;25;Vilhelmina 552;7194832;583937;Vilhelmina;Gray;Dark;N2; ;Quartzite;;Spearpoint preform;Preform;Excavation;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;24;113;13;32
+277;13734;19;Vilhelmina 181;7195514;581852;Vilhelmina;Black;Dark;N1; ;Quartzite;lanceolate, straight base;Spearpoint;Point;Survey;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;18;90;6;
+278;9492;c;Vilhelmina 118;7204670;519129;Vilhelmina;Gray streaked with black;Dark;5Y; 4/2;Quartzite;;Spearpoint preform;Preform;Stray find;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Dark mineral inclusion;31;104;14;42
+279;13728;;Vilhelmina 816;7199555;577326;Vilhelmina;Opaque;Light;5Y; 9/1;Quartzite;;Point preform;Preform;Survey;No;Granular;Fine-grained;Waxy;None;None;Fine;No;Dark mineral grains;37;73;;
+280;2645;1;Vilhelmina 117;7204780;518625;Vilhelmina;Gray streaked with black;Dark;N2; ;Quartzite;;Point preform;Preform;Stray find;Yes;Granular;Medium-grained;Bright vitreous;None;None;Fine;No;Dark mineral inclusion;31;62;9;19
+281;9492;d;Vilhelmina 356;7172579;571869;Vilhelmina;Gray streaked with black;Dark;5Y; 4/2;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Dark mineral inclusion;25;90;11;27
+282;6726;64;Vilhelmina 263;7173526;570492;Vilhelmina;Black;Dark;N2; ;Quartzite;;Point preform;Preform;Stray find;No;Granular;Medium-grained;Waxy;None;None;Smooth;Yes;;34;54;12;24
+283;6729;11;Vilhelmina 252;7169461;564823;Vilhelmina;Gray streaked with black;Light;2.5Y; 8/1;Quartzite;;Point preform fragment;Preform;Stray find;Yes;Granular;Fine-grained;Dull;None;None;Smooth;No;Dark mineral inclusion and white discoloration;24;26;9;9
+284;6729;12;Vilhelmina 252;7169461;564823;Vilhelmina;Opaque;Light;5Y; 6/3;Quartzite;;Point fragment;Point fragment;Stray find;No;Granular;Fine-grained;Bright vitreous;None;None;Smooth;Yes;;18;19;6;6
+285;31639;1;Tärna 34;7316753;502381;Tärna;Opaque;Light;2.5Y; 9/1;Brecciated quartz;;Retouched flake;Flake;Survey;Yes;Granular;Fine-grained;Waxy;None;Possible foliation;Conchoidal;No;Dark mineral grains;50;78;13;49
+286;31639;2;Tärna 34;7316753;502381;Tärna;Opaque;Light;5Y; 7/2;Brecciated quartz;;Point preform;Preform;Survey;Yes;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;42;54;13;31
+287;31901;14;Tärna 565;7327215;481201;Tärna;Opaque;Light;2.5Y; 9/1;Brecciated quartz;;Scraper;Scraper;Excavation;Yes;Granular;Fine-grained;Waxy;None;Possible foliation;Conchoidal;No;Dark mineral grains;45;93;18;70
+288;31684;1;Tärna 594;7327983;491179;Tärna;Opaque;Light;5Y; 8/2;Brecciated quartz;;Point preform;Preform;Survey;Yes;Granular;Fine-grained;Waxy;None;Possible foliation;Conchoidal;No;Dark mineral grains;39;77;22;57
+289;31694;1;Tärna 14;7325955;493928;Tärna;Opaque;Light;5Y; 8/1;Brecciated quartz;;Arrowhead preform;Preform;Survey;No;Granular;Fine-grained;Waxy;None;None;Fine;No;Dark mineral grains;29;68;7;17
+290;31639;3;Tärna 34;7316753;502381;Tärna;Opaque;Light;5Y; 7/6;Brecciated quartz;;Point preform fragment;Preform;Survey;Yes;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;28;43;7;10
+291;31639;4;Tärna 34;7316753;502381;Tärna;Opaque;Light;5Y; 9/1;Brecciated quartz;;Point preform fragment;Preform;Survey;Yes;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;36;27;9;11
+292;31639;5;Tärna 34;7316753;502381;Tärna;Opaque;Light;5Y; 9/1;Brecciated quartz;;Scraper;Scraper;Survey;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;33;37;12;17
+293;31641;1;Tärna 39;7315331;500907;Tärna;Opaque;Light;5Y; 8/1;Brecciated quartz;;Point preform;Preform;Survey;Yes;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;38;65;14;31
+294;31689;21;Tärna 610;7315998;501779;Tärna;Opaque;Light;5Y; 8/1;Brecciated quartz;;Point preform;Preform;Survey;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;31;61;14;27
+295;31903;28;Tärna 549;7324575;493441;Tärna;Opaque;Light;5Y; 9/1;Brecciated quartz;;Arrowhead preform;Preform;Excavation;Yes;Granular;Fine-grained;Waxy;None;Possible foliation;Conchoidal;No;Dark mineral grains;25;42;6;9
+296;31903;33;Tärna 549;7324575;493441;Tärna;Opaque;Light;5Y; 9/1;Brecciated quartz;;Point preform;Preform;Excavation;No;Granular;Fine-grained;Waxy;Possible bedding;None;Conchoidal;No;Bands of dark mineral;35;44;10;14
+297;31903;9;Tärna 549;7324575;493441;Tärna;Opaque;Light;5Y; 9/1;Brecciated quartz;;Point preform fragment;Preform;Excavation;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;19;31;12;3
+298;31617;2;Tärna 610;7315998;501779;Tärna;Opaque;Light;7.5Y; 9/1;Brecciated quartz;;Point preform;Preform;Survey;Yes;Granular;Fine-grained;Bright vitreous;None;None;Fine;No;Dark mineral grains;62;98;24;178
+299;31684;2;Tärna 594;7327983;491179;Tärna;Opaque;Light;5Y; 9/1;Brecciated quartz;;Point preform;Preform;Survey;Yes;Granular;Fine-grained;Bright vitreous;None;None;Conchoidal;No;Dark mineral grains;38;59;12;27
+300;31640;1;Tärna 37;7315883;501589;Tärna;Opaque;Light;5Y; 9/1;Brecciated quartz;;Point preform;Preform;Survey;Yes;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;29;44;10;13
+301;31903;27;Tärna 549;7324575;493441;Tärna;Translucent;Light;5Y; 9/1;Brecciated quartz;;Arrowhead fragment;Point fragment;Excavation;Yes;Massive;Fine-grained;Waxy;None;None;Fine;No;Dark mineral grains and bands of quartz;23;25;6;4
+302;31676;7;Tärna 593;7328100;491305;Tärna;Opaque;Light;5Y; 9/1;Brecciated quartz;;Point preform;Preform;Survey;Yes;Massive;Fine-grained;Waxy;None;None;Fine;No;Dark mineral grains;27;58;;
+303;31903;13;Tärna 549;7324575;493441;Tärna;Opaque;Light;5Y; 9/1;Brecciated quartz;;Point preform;Preform;Excavation;No;Massive;Fine-grained;Waxy;None;None;Fine;No;Dark mineral grains;23;57;11;11
+304;31903;8;Tärna 549;7324575;493441;Tärna;Opaque;Light;5Y; 6/1;Brecciated quartz;;Arrowhead fragment;Point fragment;Excavation;No;Granular;Fine-grained;Waxy;None;None;Fine;No;Dark mineral grains;16;37;6;5
+305;31901;13;Tärna 565;7327215;481201;Tärna;Opaque;Light;2.5GY; 9/1;Brecciated quartz;;Point preform;Preform;Excavation;No;Massive;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;52;75;28;90
+306;15239;1;Tärna 89;7290914;508698;Tärna;Opaque;Dark;5Y; 5/4;Brecciated quartz;lanceolate, convex base;Spearpoint;Point;Stray find;Yes;Massive;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;23;115;;
+307;31703;1;Tärna 656;7331934;479565;Tärna;Opaque;Light;N8; ;Brecciated quartz;;Point preform;Preform;Survey;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Bands of dark mineral;66;165;36;430
+308;7973;1;;7285986;509493;Tärna;Translucent;Light;2.5Y; 9/1;Brecciated quartz;;Point fragment;Point fragment;Unknown;No;Massive;Fine-grained;Waxy;None;Possible foliation;Smooth;No;Dark mineral grains;31;55;;
+309;31689;5;Tärna 610;7315998;501779;Tärna;Opaque;Dark;7.5Y; 5/2;Brecciated quartz;;Point preform;Preform;Survey;No;Granular;Medium-grained;Waxy;None;None;Fine;No;Dark mineral inclusion;23;61;7;11
+310;31689;2;Tärna 610;7315998;501779;Tärna;Opaque;Light;2.5Y; 9/1;Brecciated quartz;;Point preform;Preform;Survey;Yes;Granular;Medium-grained;Waxy;None;Possible foliation;Fine;No;Dark mineral grains;27;72;12;23
+311;31903;31;Tärna 549;7324575;493441;Tärna;Translucent;Light;5Y; 9/1;Brecciated quartz;;Point preform;Preform;Excavation;Yes;Massive;Fine-grained;Waxy;None;None;Fine;No;Dark mineral grains;32;34;7;8
+312;31903;12;Tärna 549;7324575;493441;Tärna;Translucent;Light;5Y; 9/1;Brecciated quartz;;Arrowhead fragment;Point fragment;Excavation;Yes;Massive;Fine-grained;Waxy;None;None;Fine;No;Dark mineral grains;19;30;5;2
+313;31903;35;Tärna 549;7324575;493441;Tärna;Opaque;Light;2.5Y; 9/1;Brecciated quartz;;Arrowhead fragment;Point fragment;Excavation;Yes;Massive;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;28;50;8;14
+314;15237;1;;7285986;509493;Tärna;Opaque;Light;2.5Y; 9/1;Brecciated quartz;;Point fragment;Point fragment;Unknown;No;Massive;Fine-grained;Waxy;None;None;Fine;No;Dark mineral grains;26;53;;
+315;31677;2;Tärna 594;7327983;491179;Tärna;Opaque;Light;5Y; 8/2;Brecciated quartz;;Point preform;Preform;Survey;Yes;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;31;103;25;72
+316;31677;3;Tärna 594;7327983;491179;Tärna;Opaque;Light;2.5Y; 9/1;Brecciated quartz;;Point preform;Preform;Survey;Yes;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;41;84;23;63
+317;15222;1;;7285986;509493;Tärna;Opaque;Light;2.5Y; 9/1;Brecciated quartzite;;Point preform;Preform;Survey;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;42;113;;
+318;15239;2;Tärna 89;7290912;508697;Tärna;Translucent;Dark;2.5Y; 4/3;Quartzite;;Point preform;Preform;Stray find;No;Granular;Fine-grained;Bright vitreous;None;None;Smooth;Yes;;22;47;;
+319;15223;6;;7285986;509493;Tärna;Opaque;Light;2.5Y; 9/1;Brecciated quartzite;;Point preform;Preform;Survey;No;Granular;Fine-grained;Waxy;None;None;Smooth;No;Dark mineral inclusion;29;48;;
+320;3433;1;;7285986;509493;Tärna;Opaque;Light;2.5Y; 9/1;Quartzite;;Point preform;Preform;Unknown;Yes;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral grains;21;61;;
+321;3421;;;7285986;509493;Tärna;Gray;Dark;N2; ;Quartzite;straight base;Point fragment;Point fragment;Stray find;Yes;Granular;Fine-grained;Bright vitreous;None;None;Conchoidal;No;Bands of quartz;16;50;;
+322;15350;12;Vilhelmina 977;7208869;567544;Vilhelmina;Black;Dark;N1; ;Quartzite;lanceolate, straight base;Spearpoint;Point;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Conchoidal;Yes;;18;109;7;14
+323;15350;117;Vilhelmina 977;7208869;567544;Vilhelmina;Gray streaked with black;Light;5Y; 6/2;Quartzite;;Point fragment;Point;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Fine;No;Dark mineral inclusion;19;55;5;6
+324;15350;93;Vilhelmina 977;7208869;567544;Vilhelmina;Gray streaked with black;Light;5Y; 6/2;Quartzite;;Arrowhead preform;Preform;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Fine;No;Dark mineral inclusion;24;61;8;13
+325;15350;111;Vilhelmina 977;7208869;567544;Vilhelmina;Light gray streaked with white;White;N9; ;Quartzite;;Point preform;Preform;Excavation;Yes;Granular;Fine-grained;Dull;None;None;Fine;No;White discoloration;37;55;16;33
+326;15350;108;Vilhelmina 977;7208869;567544;Vilhelmina;White;White;N9; ;Quartzite;tanged;Arrowhead;Point;Excavation;No;Granular;Fine-grained;Dull;None;None;Fine;No;Bands of quartz;15;37;6;4
+327;15350;114;Vilhelmina 977;7208869;567544;Vilhelmina;Light gray streaked with white;White;N9; ;Quartzite;triangular, straight base;Arrowhead;Point;Excavation;No;Granular;Fine-grained;Dull;None;None;Fine;No;White discoloration;14;35;4;3
+328;15350;107;Vilhelmina 977;7208869;567544;Vilhelmina;White;White;N9; ;Quartzite;;Arrowhead preform;Preform;Excavation;No;Granular;Fine-grained;Dull;None;None;Conchoidal;No;White discoloration;15;46;7;4
+329;15350;5;Vilhelmina 977;7208869;567544;Vilhelmina;Black;Dark;N2; ;Quartzite;;Arrowhead preform fragment;Preform;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;13;20;4;
+330;15350;157;Vilhelmina 977;7208869;567544;Vilhelmina;Black;Dark;N2; ;Quartzite;straight base;Arrowhead fragment;Point fragment;Excavation;No;Massive;Fine-grained;Bright vitreous;None;None;Conchoidal;Yes;;17;25;5;2
+331;15350;170;Vilhelmina 977;7208869;567544;Vilhelmina;Gray streaked with black;Dark;5Y; 4/1;Quartzite;lanceolate, straight base;Arrowhead;Point;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Conchoidal;No;Dark mineral inclusion;18;69;7;8
+332;15350;44;Vilhelmina 977;7208869;567544;Vilhelmina;Gray streaked with black;Dark;5Y; 4/1;Quartzite;;Arrowhead fragment;Point fragment;Excavation;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Dark mineral inclusion;12;37;6;3
+333;15350;191;Vilhelmina 977;7208869;567544;Vilhelmina;Black;Dark;N1; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;16;50;5;5
+334;15350;115;Vilhelmina 977;7208869;567544;Vilhelmina;White;White;N9; ;Quartzite;;Arrowhead preform fragment;Preform;Excavation;No;Granular;Fine-grained;Dull;None;None;Fine;No;White discoloration;19;29;4;3
+335;15350;182;Vilhelmina 977;7208869;567544;Vilhelmina;Black;Dark;N1; ;Quartzite;;Arrowhead preform fragment;Preform;Excavation;No;Granular;Fine-grained;Waxy;None;None;Fine;Yes;;14;18;5;2
+336;15350;181;Vilhelmina 977;7208869;567544;Vilhelmina;White;White;N9; ;Quartzite;straight base;Point fragment;Point fragment;Excavation;No;Granular;Fine-grained;Dull;None;None;Fine;Yes;;16;15;5;2
+337;15350;179;Vilhelmina 977;7208869;567544;Vilhelmina;Gray;Dark;N3; ;Quartzite;;Point fragment;Point fragment;Excavation;No;Massive;Fine-grained;Bright vitreous;None;None;Fine;Yes;;15;17;5;
+338;92417;1;Lycksele 578;7226847;652747;Lycksele;Gray;Dark;N2; ;Quartzite;;Point preform;Preform;Survey;Yes;Granular;Medium-grained;Bright vitreous;None;None;Fine;Yes;;43;106;9;49
+339;35480;2;Lycksele 335;7166887;677056;Lycksele;White;White;N9; ;Quartzite;;Point preform;Preform;Surveyed;No;Granular;Fine-grained;Bright vitreous;None;None;Irregular;Yes;;25;63;;
+340;92421;1;Lycksele 599;7227620;653185;Lycksele;Black;Dark;N1; ;Slate;;Point;Point;Survey;No;Massive;Fine-grained;Dull;None;Foliated;Smooth;Yes;;14;32;3;2
+341;35480;3;Lycksele 335;7166887;677056;Lycksele;Opaque;Light;2.5Y; 9/1;Quartzite;;Point preform;Preform;Surveyed;Yes;Granular;Fine-grained;Bright vitreous;None;Foliated;Conchoidal;Yes;;19;50;;
+342;32334;55;Lycksele 301;7168150;676423;Lycksele;Red;Dark;5YR; 2/2;Sandstone;triangular, straight base;Arrowhead;Point;Excavation;No;Granular;Fine-grained;Dull;None;None;Smooth;Yes;;18;44;;
+343;35456;;;7172386;663884;Lycksele;Black;Dark;N1; ;Quartzite;;Preform;Preform;Unknown;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;30;70;;
+344;3718;2;Dorotea 120;7166752;521538;Dorotea;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Surveyed;Yes;Massive;Fine-grained;Waxy;None;None;Conchoidal;Yes;;29;50;11;16
+345;19216;4;Dorotea 362;7136378;553170;Dorotea;Gray;Dark;5Y; 4/1;Quartzite;lanceolate, convex base;Arrowhead;Point;Surveyed;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;No;Dark mineral;17;45;7;6
+346;19221;;Dorotea 11;7138996;553157;Dorotea;Black;Dark;N2; ;Quartzite;;Point preform;Preform;Surveyed;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;28;83;20;36
+347;19229;1;Dorotea 632;7138562;556961;Dorotea;Light gray streaked with black;Light;5Y; 7/1;Quartzite;;Arrowhead fragment;Point fragment;Surveyed;No;Massive;Fine-grained;Dull;None;None;Fine;No;Bands of dark mineral;18;51;5;4
+348;32420;2;Dorotea 159:1;7144507;546226;Dorotea;Gray streaked with black;Dark;5Y; 3/1;Quartzite;;Point preform;Preform;Surveyed;Yes;Granular;Fine-grained;Dull;None;None;Conchoidal;No;Bands of dark mineral;30;58;;
+349;32420;2;Dorotea 159:1;7144507;546226;Dorotea;Gray streaked with black;Dark;7.5Y; 4/1;Quartzite;;Point preform;Preform;Surveyed;No;Granular;Fine-grained;Dull;None;None;Fine;No;Bands of dark mineral;30;41;;
+350;32420;2;Dorotea 159:1;7144507;546226;Dorotea;Gray streaked with black;Dark;N2; ;Quartzite;;Point preform;Preform;Surveyed;No;Granular;Fine-grained;Dull;None;None;Fine;No;Bands of dark mineral;25;69;;
+351;32420;2;Dorotea 159:1;7144507;546226;Dorotea;Gray streaked with black;Dark;N2; ;Quartzite;;Point preform;Preform;Surveyed;No;Granular;Fine-grained;Bright vitreous;None;Possible foliation;Fine;No;Bands of dark mineral;21;67;;
+352;32468;1;Dorotea 286:1;7179826;516823;Dorotea;Light gray;Light;7.5Y; 8/1;Quartzite;;Arrowhead preform;Preform;Surveyed;Yes;Massive;Medium-grained;Bright vitreous;None;None;Fine;No;Dark mineral;30,6;51,5;6;13,1
+353;35655;1;Dorotea 7;7140710;552022;Dorotea;White;Light;5Y; 7/2;Quartzite;;Point preform fragment;Preform;Surveyed;No;Massive;Fine-grained;Waxy;None;None;Smooth;Yes;;26;25;;
+354;31913;33;Tärna 6;7333681;491206;Tärna;Translucent;Colourless;; ;Brecciated quartzite;;Flake;Flake;Excavation;No;Massive;Fine-grained;Dull;None;None;Conchoidal;Yes;;8;10;;
+355;31913;33;Tärna 6;7333681;491206;Tärna;Light gray;Dark;5Y; 5/2;Flint;;Flake;Flake;Excavation;No;Granular;Fine-grained;Dull;Bedding;None;Conchoidal;Yes;;14;29;;
+356;31913;33;Dorotea 304;7174756;522069;Dorotea;Gray;Dark;N3; ;Flint;;Flake;Flake;Stray find;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Bands of quartz;34;33;11;12
+357;31913;33;Tärna 6;7333681;491206;Tärna;Light gray;Dark;5Y; 3/1;Brecciated quartzite;;Flake;Flake;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;10;12;;
+358;31914;11;Tärna 20;7323716;495553;Tärna;Gray;Dark;N3; ;Quartzite;straight base;Arrowhead fragment;Point fragment;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;15;41;6;4
+359;21602;64;Vilhelmina 444;7144672;586277;Vilhelmina;Black;Dark;N2; ;Quartzite;;Point preform;Preform;Excavation;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Bands of quartz;22;60;11;15
+360;35783;7;;7201665;548201;Vilhelmina;Black;Dark;N1; ;Quartzite;;Arrowhead fragment;Point fragment;Survey;No;Granular;Fine-grained;Waxy;None;None;Fine;No;Bands of quartz;15;39;;
+361;15265;3;;7285986;509493;Tärna;Black;Dark;N1; ;Quartzite;triangular, straight base;Arrowhead;Point;Survey;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;Yes;;35;78;16;36
+362;15265;2;;7285986;509493;Tärna;Gray;Dark;N3; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Survey;No;Granular;Fine-grained;Waxy;None;None;Fine;No;Bands of quartz;18;50;16;9
+363;15260;1;Tärna 33;7316850;502441;Tärna;Black;Dark;N1; ;Quartzite;;Arrowhead fragment;Point fragment;Survey;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;19;55;16;7
+364;31908;6;Tärna 550;7320161;503823;Tärna;White;White;N9; ;Quartzite;;Retouched flake;Flake;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;52;60;12;54
+365;31908;27;Tärna 550;7320161;503823;Tärna;Opaque;Light;2.5Y; 9/1;Brecciated quartz;;Flake;Flake;Excavation;No;Massive;Fine-grained;Bright vitreous;None;None;Smooth;Yes;;18;20;;
+366;31908;27;Tärna 550;7320161;503823;Tärna;Red;Dark;5YR; 3/6;Quartzite;;Flake;Flake;Excavation;Yes;Massive;Fine-grained;Dull;None;None;Smooth;Yes;;18;18;;
+367;31908;27;Tärna 550;7320161;503823;Tärna;Yellow;Light;5Y; 7/3;Slate;;Flake;Flake;Excavation;No;Granular;Fine-grained;Waxy;None;None;Smooth;Yes;;12;13;;
+368;31910;11;Tärna 547;7321296;504251;Tärna;Translucent;Dark;10YR; 5/3;Quartzite;;Flake;Flake;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Smooth;Yes;;21;26;;
+369;31910;11;Tärna 547;7321296;504251;Tärna;Translucent;Colourless;; ;Quartzite;;Flake;Flake;Excavation;No;Granular;Fine-grained;Dull;None;None;Smooth;Yes;;18;25;;
+370;31910;11;Tärna 547;7321296;504251;Tärna;Translucent;Colourless;; ;Quartzite;;Flake;Flake;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Smooth;Yes;;15;20;;
+371;31910;11;Tärna 547;7321296;504251;Tärna;White;White;N9; ;Quartzite;;Flake;Flake;Excavation;Yes;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;20;24;;
+372;31910;11;Tärna 547;7321296;504251;Tärna;White;White;N9; ;Quartzite;;Flake;Flake;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;16;22;;
+373;31910;11;Tärna 547;7321296;504251;Tärna;White;White;N9; ;Quartzite;;Flake;Flake;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Conchoidal;Yes;;15;19;;
+374;31910;11;Tärna 547;7321296;504251;Tärna;Translucent;Colourless;; ;Quartzite;;Flake;Flake;Excavation;Yes;Granular;Fine-grained;Waxy;None;None;Smooth;Yes;;19;18;;
+375;31910;11;Tärna 547;7321296;504251;Tärna;White;White;N9; ;Quartzite;;Flake;Flake;Excavation;Yes;Granular;Fine-grained;Waxy;None;None;Fine;Yes;;21;22;;
+376;31910;11;Tärna 547;7321296;504251;Tärna;Gray;Dark;10YR; 4/1;Quartzite;;Flake;Flake;Excavation;Yes;Granular;Fine-grained;Waxy;Possible bedding;None;Fine;Yes;;22;28;;
+377;2501;8;Vilhelmina 115;7204853;518271;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Stray find;Yes;Granular;Medium-grained;Bright vitreous;None;None;Smooth;Yes;;29;35;10;13
+378;21602;62;Vilhelmina 444;7144672;586277;Vilhelmina;Dark gray streaked with black;Dark;5Y; 3/1;Quartzite;;Point preform;Preform;Excavation;Yes;Massive;Medium-grained;Dull;Possible bedding;None;Smooth;No;;27;61;17;23
+379;31914;26;Tärna 20;7323716;495553;Tärna;White streaked with black;Light;5Y; 9/3;Quartzite;;Point preform fragment;Preform;Excavation;No;Massive;Fine-grained;Dull;None;None;Smooth;No;Bands of dark mineral;19;45;9;5
+380;31914;42;Tärna 20;7323716;495553;Tärna;Red;Dark;5YR; 5/6;Quartzite;;Point preform;Preform;Excavation;Yes;Granular;Medium-grained;Bright vitreous;None;None;Fine;Yes;;34;37;8;8
+381;31914;53;Tärna 20;7323716;495553;Tärna;Black and gray;Dark;N1; ;Slate;;Flake;Flake;Excavation;Yes;Granular;Fine-grained;Waxy;None;None;Smooth;No;;23;45;;
+382;31914;53;Tärna 20;7323716;495553;Tärna;Yellow;Light;5Y; 8/3;Slate?;;Flake;Flake;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Smooth;Yes;;32;35;;
+383;31932;7;Tärna 533;7263371;535796;Tärna;White;White;N9; ;Quartzite;;Scraper;Scraper;Survey;No;Granular;Massive;Bright vitreous;None;None;Irregular;Yes;;49;49;21;51
+384;21602;2;Vilhelmina 444;7144672;586277;Vilhelmina;Gray streaked with black;Dark;2.5Y; 3/3;Quartzite;;Point preform fragment;Preform;Excavation;No;Granular;Medium-grained;Dull;None;None;Fine;No;Bands of dark mineral;21;36;12;8
+385;21602;1;Vilhelmina 444;7144672;586277;Vilhelmina;Light gray;Dark;N3; ;Quartzite;;Point preform fragment;Preform;Excavation;Yes;Granular;Medium-grained;Bright vitreous;None;None;Fine;Yes;;25;31;9;6
+386;27053;8;Vilhelmina 439;7143695;585942;Vilhelmina;Dark gray streaked with black;Dark;N2; ;Quartzite;;Point fragment;Point fragment;Excavation;No;Granular;Medium-grained;Bright vitreous;Possible bedding;None;Fine;No;Bands of dark mineral;26;31;5;4
+387;21598;8;Vilhelmina 399;7159767;582529;Vilhelmina;White;White;N9; ;Quartzite;;Point fragment;Point fragment;Excavation;Yes;Massive;Fine-grained;Bright vitreous;None;None;Fine;Yes;;13;22;4;1
+388;21598;6;Vilhelmina 399;7159767;582529;Vilhelmina;Opaque;Light;2.5Y; 9/1;Quartzite;straight base;Point fragment;Point fragment;Excavation;Yes;Granular;Fine-grained;Waxy;None;None;Smooth;Yes;;19;27;6;4
+389;31924;;Lokal 83:41;7325478;482671;Tärna;Light brown;Light;7.5Y; 7/1;Quartzite;;Flake;Flake;Survey;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Dark mineral inclusion;114;160;;889
+390;2545;b;Vilhelmina 115;7204853;518271;Vilhelmina;Opaque;Light;7.5Y; 6/2;Quartzite;;Point preform fragment;Preform;Stray find;No;Massive;Fine-grained;Dull;None;None;Conchoidal;Yes;;23;34;7;10
+391;2545;a;Vilhelmina 115;7204853;518271;Vilhelmina;Black;Dark;N1; ;Quartzite;;Arrowhead fragment;Point fragment;Stray find;No;Granular;Fine-grained;Dull;None;None;Fine;Yes;;16;30;7;6
+392;2542;1;Vilhelmina 117;7204780;518625;Vilhelmina;Black;Dark;N1; ;Quartzite;;Arrowhead fragment;Point fragment;Stray find;No;Granular;Fine-grained;Waxy;None;None;Fine;Yes;;17;21;6;4
+393;2506;3;Vilhelmina 115;7204853;518271;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Stray find;No;Massive;Fine-grained;Dull;None;Foliated;Conchoidal;Yes;;35;47;13;22
+394;21598;5;Vilhelmina 399;7159767;582529;Vilhelmina;Light gray;Light;7.5Y; 8/1;Quartzite;triangular, straight base;Arrowhead;Point;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;20;37;5;2
+395;35777;8;;7201665;548201;Vilhelmina;Gray streaked with black;Dark;N1; ;Quartzite;;Arrowhead preform;Preform;Unknown;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Bands of dark mineral;18;41;;
+396;27068;2;Vilhelmina 458;7138860;592509;Vilhelmina;Light gray;Light;7.5Y; 7/2;Slate;triangular, concave base;Arrowhead;Point;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Smooth;Yes;;13;26;2;1
+397;27062;2;Vilhelmina 450;7141815;589644;Vilhelmina;Black;Dark;N1; ;Quartzite;;Arrowhead preform;Preform;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Smooth;No;Bands of quartz;22;28;6;4
+398;35783;4;;7201665;548201;Vilhelmina;Opaque;Light;7.5Y; 8/1;Quartz;;Point fragment;Point fragment;Unknown;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;No;Dark mineral grains;30;27;;
+399;35783;2;;7201665;548201;Vilhelmina;Gray;Dark;7.5Y; 5/1;Quartzite;straight base;Arrowhead fragment;Point fragment;Unknown;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;16;28;;
+400;2492;1;Vilhelmina 109;7205154;517514;Vilhelmina;Opaque;Light;2.5Y; 9/1;Quartzite;;Arrowhead preform;Preform;Stray find;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;28;54;12;16
+401;21602;55;Vilhelmina 444;7144672;586277;Vilhelmina;Gray;Dark;5Y; 4/1;Quartzite;;Point preform;Preform;Excavation;Yes;Granular;Fine-grained;Waxy;None;None;Smooth;Yes;;18;28;8;6
+402;21602;63;Vilhelmina 444;7144672;586277;Vilhelmina;Light gray;Light;N6; ;Quartzite;;Point preform;Preform;Excavation;Yes;Massive;Fine-grained;Bright vitreous;None;None;Conchoidal;Yes;;31;54;9;15
+403;27053;7;Vilhelmina 439;7143695;585942;Vilhelmina;Black;Dark;N1; ;Quartzite;lanceolate, straight base;Arrowhead fragment;Point fragment;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;14;34;4;2
+404;27062;1;Vilhelmina 450;7141815;589644;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Excavation;Yes;Massive;Medium-grained;Waxy;None;None;Conchoidal;Yes;;44;41;12;23
+405;32146;1;Vilhelmina 216;7173355;561753;Vilhelmina;Black;Dark;N4; ;Quartzite;;Point preform;Preform;Survey;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;23;54;26;19
+406;32152;1;Vilhelmina 245;7174307;567172;Vilhelmina;Gray streaked with black;Dark;5Y; 4/1;Quartzite;;Point preform;Preform;Survey;No;Granular;Medium-grained;Waxy;None;None;Fine;No;Bands of dark mineral;28;48;26;16,4
+407;32171;;Vilhelmina 411;7154659;584594;Vilhelmina;Opaque;Light;2.5Y; 9/1;Quartzite;triangular, straight base;Arrowhead;Point;Survey;No;Granular;Fine-grained;Waxy;None;None;Fine;No;Dark mineral grains;35,3;76,3;26;24
+408;32236;1;Vilhelmina 769;7161707;581627;Vilhelmina;Black;Dark;N1; ;Quartzite;;Arrowhead fragment;Point fragment;Survey;No;Granular;Fine-grained;Waxy;None;None;Fine;Yes;;8,9;32;26;1,8
+409;32244;1;Vilhelmina 791;7196177;576025;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point fragment;Point fragment;Survey;No;Massive;Medium-grained;Waxy;None;None;Fine;Yes;;18;41,3;26;7,9
+410;32274;1;Vilhelmina 1069;7218085;508318;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Survey;No;Granular;Medium-grained;Waxy;None;None;Fine;No;Bands of quartz;27,5;50,8;26;17
+411;32287;;Vilhelmina 1124;7213074;502865;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Survey;No;Granular;Medium-grained;Dull;None;None;Fine;Yes;;25,4;58;26;17,9
+412;32161;1;;;;;White;White;N9; ;Quartzite;;;;Unknown;No;Granular;Fine-grained;Dull;None;None;Fine;Yes;;22;65;;
+413;32213;1;Vilhelmina 637;7202213;540640;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Survey;No;Granular;Fine-grained;Waxy;None;None;Fine;Yes;;30,6;63,5;26;25,5
+414;32216;3;Vilhelmina 643;7196664;540871;Vilhelmina;Light gray streaked with black;Dark;N5; ;Quartzite;;Point preform;Preform;Survey;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;No;Bands of dark mineral;38;68;;
+415;32216;3;Vilhelmina 643;7196664;540871;Vilhelmina;Black;Dark;N3; ;Quartzite;;Point preform;Preform;Survey;Yes;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;34;74;;
+416;32216;3;Vilhelmina 643;7196664;540871;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Survey;Yes;Granular;Medium-grained;Waxy;None;None;Fine;Yes;;24;42;;
+417;32290;1;Vilhelmina 1127;7214358;499190;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Survey;No;Granular;Medium-grained;Dull;None;None;Conchoidal;Yes;;30,5;60;26;28,6
+418;35777;5;;7201665;548201;Vilhelmina;Black;Dark;N1; ;Quartzite;lanceolate;Arrowhead;Point fragment;Unknown;Yes;Granular;Fine-grained;Dull;None;None;Fine;No;Bands of quartz;19;60;;
+419;35761;7;;7201665;548201;Vilhelmina;Brown streaked with black;Dark;2.5Y; 4/4;Quartzite;;Point preform;Preform;Unknown;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Bands of dark mineral;22;58;;
+420;35777;6;;7201665;548201;Vilhelmina;Light gray streaked with black;Light;N8; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Unknown;No;Granular;Medium-grained;Waxy;None;None;Fine;No;Dark mineral inclusion;29;84;;
+421;35777;7;;7201665;548201;Vilhelmina;White;White;N9; ;Quartzite;straight base;Arrowhead fragment;Point fragment;Unknown;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;16;34;;
+422;35783;10;;7201665;548201;Vilhelmina;Opaque;Light;2.5Y; 8/1;Quartzite;lanceolate, straight base;Arrowhead;Point;Unknown;No;Granular;Fine-grained;Waxy;None;None;Fine;No;Dark mineral inclusion;17;47;;
+423;36080;;Åsele 273;7102728;629862;Åsele;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Survey;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Mineral grains;33;70;;
+424;36083;1;Åsele 182;7120412;600842;Åsele;Black;Dark;N1; ;Quartzite;lanceolate;Arrowhead fragment;Point fragment;Survey;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;No;Bands of quarz;21;59;;
+425;36083;2a;Åsele 182;7120412;600842;Åsele;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Survey;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;30;64;;
+426;36092;3b;Åsele 56;7118032;606258;Åsele;Gray streaked with black;Dark;5Y; 5/2;Quartzite;;Point preform;Preform;Survey;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Bands of dark mineral;24;62;;
+427;36092;3c;Åsele 56;7118032;606258;Åsele;Gray;Light;5Y; 6/1;Quartzite;;Point preform;Preform;Survey;No;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Bands of quartz;30;55;;
+428;36096;1;Åsele 188;7119941;601259;Åsele;Black;Dark;N1; ;Quartzite;lanceolate, concave base;Arrowhead;Point;Survey;Yes;Granular;Fine-grained;Waxy;None;None;Fine;No;Quartz;22;56;;
+429;27037;1;Vilhelmina 419;7149834;586655;Vilhelmina;Light gray;Light;5Y; 7/2;Quartzite;;Point preform;Preform;Excavation;No;Granular;Medium-grained;Waxy;None;None;Fine;No;Bands of quartz;36;101;10;40
+430;14111;4;Vilhelmina 335;7147441;586629;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point preform fragment;Preform;Survey;No;Massive;Fine-grained;Bright vitreous;None;Possible foliation;Conchoidal;Yes;;26;42;13;12
+431;2525;;Vilhelmina 112;7201159;511621;Vilhelmina;Opaque;Light;2.5Y; 9/1;Quartzite;;Point fragment;Point fragment;Stray find;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;No;Dark mineral grains;33;42;7;9
+432;21598;4;Vilhelmina 399;7159767;582529;Vilhelmina;Black;Dark;N1; ;Quartzite;;Point fragment;Point fragment;Excavation;No;Granular;Fine-grained;Waxy;None;None;Fine;Yes;;14;17;6;2
+433;32334;1;Lycksele 301;7168150;676423;Lycksele;Beige;Light;2.5Y; 6/6;Quartzite;;Flake;Flake;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Fine;No;Red/pinkish streaks;37;30;;
+434;32334;2;Lycksele 301;7168150;676423;Lycksele;Opaque;Light;2.5Y; 6/3;Quartzite;straight base;Point;Point;Excavation;Yes;Massive;Fine-grained;Dull;None;Foliated;Fine;Yes;;15,9;26,7;;2,9
+435;32334;3;Lycksele 301;7168150;676423;Lycksele;Black;Dark;N1; ;Quartzite;triangular, straight base;Arrowhead;Point;Excavation;Yes;Massive;Fine-grained;Bright vitreous;None;None;Fine;Yes;;15;29,3;;2,5
+436;32334;4;Lycksele 301;7168150;676423;Lycksele;Dark gray;Dark;N3; ;Quartzite;triangular, straight base;Arrowhead;Point;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;18,5;37,7;;4,1
+437;32334;5;Lycksele 301;7168150;676423;Lycksele;Brown;Dark;7.5YR; 2/2;Slate;;Point fragment;Point fragment;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;13;14;;
+438;32334;6;Lycksele 301;7168150;676423;Lycksele;Translucent;Colourless;; ;Quartz;;Flake;Flake;Excavation;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;13;30;;
+439;32334;7;Lycksele 301;7168150;676423;Lycksele;Gray;Dark;7.5Y; 3/1;Quartzite;lanceolate, straight base;Arrowhead;Point;Excavation;No;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;17;68;;9,9
+440;32334;8;Lycksele 301;7168150;676423;Lycksele;Gray;Dark;N2; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Excavation;Yes;Massive;Medium-grained;Dull;None;None;Fine;Yes;;18,3;47,1;;5,9
+441;32334;9;Lycksele 301;7168150;676423;Lycksele;Gray streaked with black;Dark;7.5Y; 2/1;Quartzite;straight base;Point fragment;Point fragment;Excavation;Yes;Granular;Medium-grained;Waxy;None;None;Fine;No;Bands of dark mineral;20,8;35;;5,1
+442;32334;10;Lycksele 301;7168150;676423;Lycksele;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Excavation;No;Massive;Fine-grained;Dull;None;None;Conchoidal;Yes;;16;63;;
+443;32334;11;Lycksele 301;7168150;676423;Lycksele;White;Light;5Y; 8/1;Quartzite;;Flake;Flake;Excavation;Yes;Massive;Fine-grained;Bright vitreous;None;None;Fine;Yes;;17;16;;
+444;32334;12;Lycksele 301;7168150;676423;Lycksele;Gray streaked with black;Dark;N2; ;Quartzite;triangular, straight base;Arrowhead;Point;Excavation;Yes;Massive;Fine-grained;Dull;None;Foliated;Fine;No;Bands of dark mineral;16,8;35,6;;3,4
+445;32334;13;Lycksele 301;7168150;676423;Lycksele;Black streaked with white;Dark;N3; ;Quartzite;straight base;Point fragment;Point fragment;Excavation;No;Massive;Fine-grained;Dull;None;None;Fine;No;;20,1;19,7;;2,1
+446;32334;14;Lycksele 301;7168150;676423;Lycksele;Opaque;Light;7.5Y; 7/2;Quartzite;triangular, concave base;Arrowhead;Point;Excavation;Yes;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;20,4;38,9;;5,6
+447;32334;15;Lycksele 301;7168150;676423;Lycksele;Dark gray;Dark;N3; ;Igneous rock?;;Raw material;Raw material;Excavation;Yes;Granular;Fine-grained;Waxy;None;None;Smooth;Yes;;29;39;;
+448;32334;16;Lycksele 301;7168150;676423;Lycksele;Black;Dark;N1; ;Igneous rock?;lanceolate, straight base;Arrowhead;Point;Excavation;Yes;Granular;Fine-grained;Waxy;None;None;Fine;Yes;;15;56;;
+449;32334;17;Lycksele 301;7168150;676423;Lycksele;Black;Dark;N1; ;Quartzite;;Flake;Flake;Excavation;Yes;Massive;Fine-grained;Waxy;None;None;Conchoidal;Yes;;26;59;;
+450;32334;18;Lycksele 301;7168150;676423;Lycksele;Dark gray streaked with black;Dark;N2; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Excavation;No;Massive;Fine-grained;Waxy;None;None;Fine;No;Bands of dark mineral;17,7;51,6;;5,2
+451;32334;19;Lycksele 301;7168150;676423;Lycksele;Dark gray;Dark;N1; ;Quartzite;straight base;Point fragment;Point fragment;Excavation;No;Massive;Fine-grained;Waxy;None;None;Fine;Yes;;17;30,8;;3,5
+452;32334;20;Lycksele 301;7168150;676423;Lycksele;Translucent;Light;2.5Y; 9/1;Quartzite;;Point fragment;Point fragment;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;No;Bands of quartz;14,2;19;;1,6
+453;32334;21;Lycksele 301;7168150;676423;Lycksele;Opaque;Light;2.5Y; 7/2;Quartz;straight base;Point fragment;Point fragment;Excavation;No;Granular;Fine-grained;Waxy;None;None;Fine;Yes;;20,2;35,9;;5,5
+454;32334;22;Lycksele 301;7168150;676423;Lycksele;Translucent;Colourless;; ;Quartz;;Flake;Flake;Excavation;No;Massive;Fine-grained;Bright vitreous;None;None;Fine;Yes;;13;17;;
+455;32334;23;Lycksele 301;7168150;676423;Lycksele;Opaque;Light;5Y; 8/2;Quartzite;;Point fragment;Point fragment;Excavation;Yes;Massive;Fine-grained;Bright vitreous;None;None;Fine;Yes;;15,4;28,4;;3,2
+456;32334;24;Lycksele 301;7168150;676423;Lycksele;Black;Dark;N1; ;Quartzite;;Knife?;Knife?;Excavation;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;29;71,8;;20,7
+457;32334;25;Lycksele 301;7168150;676423;Lycksele;White;Light;5Y; 7/2;Quartzite;straight base;Point fragment;Point fragment;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;20,5;32,5;;5,6
+458;32334;26;Lycksele 301;7168150;676423;Lycksele;Gray streaked with white;Dark;N3; ;Quartzite;lanceolate, convex base;Arrowhead;Point;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;No;;15,1;46,3;;4,4
+459;32334;27;Lycksele 301;7168150;676423;Lycksele;Black;Dark;N1; ;Quartzite;triangular, straight base;Arrowhead;Point;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Fine;No;;18,2;33;;3,7
+460;32334;28;Lycksele 301;7168150;676423;Lycksele;Black;Dark;N1; ;Quartzite;triangular, straight base;Arrowhead;Point;Excavation;Yes;Granular;Fine-grained;Bright vitreous;None;None;Fine;No;;16,3;31;;2,8
+461;32334;29;Lycksele 301;7168150;676423;Lycksele;White;White;N9; ;Quartzite;;Flake;Flake;Excavation;No;Massive;Fine-grained;Bright vitreous;None;None;Conchoidal;Yes;;16,6;29,3;;3,8
+462;32334;30;Lycksele 301;7168150;676423;Lycksele;Dark gray streaked with black;Dark;N2; ;Quartzite;triangular, straight base;Arrowhead;Point;Excavation;Yes;Massive;Medium-grained;Waxy;None;None;Fine;No;Bands of dark mineral;16,6;38,6;;3,6
+463;32334;31;Lycksele 301;7168150;676423;Lycksele;Opaque;White;N9; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Conchoidal;Yes;;15,8;45;;4,6
+464;32334;32;Lycksele 301;7168150;676423;Lycksele;Gray;Dark;N2; ;Quartzite;triangular, straight base;Arrowhead;Point;Excavation;No;Massive;Fine-grained;Waxy;None;None;Fine;No;Bands of dark mineral;20;30,3;;2,5
+465;32334;33;Lycksele 301;7168150;676423;Lycksele;Opaque;Light;N8; ;Quartzite;triangular, straight base;Arrowhead;Point;Excavation;Yes;Massive;Fine-grained;Bright vitreous;None;None;Fine;Yes;;20,6;45;;9,8
+466;32334;34;Lycksele 301;7168150;676423;Lycksele;Gray;Dark;N2; ;Quartzite;triangular, straight base;Arrowhead fragment;Point fragment;Excavation;No;Massive;Fine-grained;Waxy;None;None;Fine;Yes;;16,8;40;;4,9
+467;32334;35;Lycksele 301;7168150;676423;Lycksele;White;Light;N8; ;Quartzite;;Point fragment;Point fragment;Excavation;Yes;Granular;Fine-grained;Dull;None;None;Fine;Yes;;18;27;;
+468;32334;36;Lycksele 301;7168150;676423;Lycksele;Opaque;Light;2.5Y; 9/1;Quartzite;;Flake;Flake;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Irregular;Yes;;15;28;;
+469;32334;37;Lycksele 301;7168150;676423;Lycksele;Opaque;Colourless;; ;Quartz;triangular, straight base;Arrowhead;Point;Excavation;Yes;Massive;Fine-grained;Dull;None;None;Fine;Yes;Bands of quartz;15,2;25,4;;2,2
+470;32334;38;Lycksele 301;7168150;676423;Lycksele;White streaked with gray;White;N9; ;Quartzite;;Flake;Flake;Excavation;No;Granular;Fine-grained;Waxy;None;None;Smooth;No;Bands of dark mineral;23;40;;
+471;32334;39;Lycksele 301;7168150;676423;Lycksele;Gray;Dark;N4; ;Quartzite;;Point fragment;Point fragment;Excavation;Yes;Granular;Medium-grained;Bright vitreous;None;None;Fine;No;Bands of quartz;15,8;37,4;;4,9
+472;32334;40;Lycksele 301;7168150;676423;Lycksele;Black;Dark;N1; ;Slate;;Flake;Flake;Excavation;Yes;Massive;Fine-grained;Waxy;None;None;Smooth;Yes;;30;44;;
+473;32334;41;Lycksele 301;7168150;676423;Lycksele;Black;Dark;N1; ;Quartzite;;Flake;Flake;Excavation;Yes;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;38;70;;
+474;32334;42;Lycksele 301;7168150;676423;Lycksele;White;White;N9; ;Quartzite;;Flake;Flake;Excavation;Yes;Granular;Fine-grained;Waxy;None;None;Conchoidal;Yes;;23;49;;
+475;32334;43;Lycksele 301;7168150;676423;Lycksele;White;White;N9; ;Quartz;triangular, straight base;Arrowhead fragment;Point fragment;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;16;28;;
+476;32334;44;Lycksele 301;7168150;676423;Lycksele;Dark gray;Dark;N2; ;Quartzite;;Point fragment;Point fragment;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;14;35;;
+477;32334;45;Lycksele 301;7168150;676423;Lycksele;Gray;Dark;N3; ;Quartzite;straight base;Point fragment;Point fragment;Excavation;No;Granular;Fine-grained;Waxy;None;None;Fine;Yes;;17,5;39,9;;5,6
+478;32334;46;Lycksele 301;7168150;676423;Lycksele;Gray;Dark;N3; ;Quartzite;;Flake;Flake;Excavation;Yes;Granular;Fine-grained;Waxy;None;None;Fine;Yes;;18;18;;
+479;32334;47;Lycksele 301;7168150;676423;Lycksele;Light gray;Light;7.5Y; 7/1;Quartzite;;Point fragment;Point fragment;Excavation;Yes;Granular;Fine-grained;Dull;None;None;Fine;Yes;;17;21,8;;2,3
+480;32334;48;Lycksele 301;7168150;676423;Lycksele;Black;Dark;N1; ;Quartzite;straight base;Point fragment;Point fragment;Excavation;No;Massive;Fine-grained;Waxy;None;None;Fine;Yes;;20;24;;
+481;32334;49;Lycksele 301;7168150;676423;Lycksele;Black;Dark;N1; ;Quartzite;lanceolate, straight base;Arrowhead;Point;Excavation;No;Massive;Fine-grained;Waxy;None;None;Fine;Yes;;16,7;50,3;;5,3
+482;32334;50;Lycksele 301;7168150;676423;Lycksele;Black streaked with white;Dark;N1; ;Quartzite;;Point fragment;Point fragment;Excavation;Yes;Granular;Medium-grained;Bright vitreous;None;Possible foliation;Fine;No;;19,6;38,3;;3,9
+483;32334;51;Lycksele 301;7168150;676423;Lycksele;Translucent;Colourless;; ;Brecciated quartz;;Flake;Flake;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;No;Dark mineral grains;10;10;;
+491;;;Skellefteå socken 123;7196682;755062;Skellefteå;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Excavation;Yes;Granular;Medium-grained;Bright vitreous;None;Foliated;Conchoidal;Yes;;67;99;23;158
+492;;;Skellefteå socken 123;7196682;755062;Skellefteå;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Excavation;Yes;Granular;Medium-grained;Bright vitreous;None;Foliated;Conchoidal;Yes;;49;102;20;86
+493;;;Skellefteå socken 123;7196682;755062;Skellefteå;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Excavation;Yes;Massive;Medium-grained;Waxy;None;Foliated;Conchoidal;Yes;;74;122;27;192
+494;;;Skellefteå socken 123;7196682;755062;Skellefteå;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Excavation;Yes;Granular;Medium-grained;Waxy;None;Foliated;Conchoidal;Yes;;85;109;38;256
+495;;;Skellefteå socken 123;7196682;755062;Skellefteå;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Excavation;Yes;Massive;Medium-grained;Waxy;None;Foliated;Conchoidal;Yes;;59;68;24;84
+496;SM26769;1;Bureå 252:1;7180835;787001;Bureå;Opaque streaked with black;Light;5Y; 7/1;Quartz;straight base;Point fragment;Point;Excavation;No;Granular;Fine-grained;Waxy;None;Foliated;Fine;No;Dark mineral inclusion;14;21;8;
+497;SM26769;7;Bureå 252:1;7180835;787001;Bureå;Black;Dark;N1; ;Quartzite;;Point fragment;Point;Excavation;No;Granular;Medium-grained;Waxy;None;Foliated;Conchoidal;Yes;;26;53;11;
+498;SM26769;17;Bureå 252:1;7180835;787001;Bureå;Opaque;Light;2.5Y; 9/1;Quartz;triangular, straight base;Arrowhead;Point;Excavation;No;Massive;Fine-grained;Waxy;Possible bedding;Possible foliation;Fine;Yes;;16;31;6;
+499;SM26769;18;Bureå 252:1;7180835;787001;Bureå;Black;Dark;N1; ;Quartzite;;Point preform;Preform;Excavation;No;Massive;Medium-grained;Dull;None;None;Conchoidal;No;Dark mineral inclusion;29;60;12;
+500;SM26769;22;Bureå 252:1;7180835;787001;Bureå;Dark gray streaked with black;Dark;N1; ;Quartz;triangular, straight base;Arrowhead;Point;Excavation;No;Massive;Fine-grained;Dull;None;None;Fine;No;Either quartz bands in dark quartzite or dark inclusion in quartz;19;39;5;
+501;SM9588;4;Norsjö 99:2;7220374;705471;Norsjö;Opaque;White;N9; ;Felsitic porphyric quartz;lanceolate, straight base;Arrowhead;Point;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;No;Bands of quartz;18;48;11;
+502;SM9588;35;Norsjö 99:2;7220374;705471;Norsjö;Gray;Dark;N3; ;Felsitic porphyric quartz;;Arrowhead preform;Preform;Excavation;No;Massive;Fine-grained;Waxy;None;None;Fine;No;White streaks;16;55;7;
+503;SM9588;36;Norsjö 99:2;7220374;705471;Norsjö;Gray;Dark;N3; ;Felsitic porphyric quartz;;Arrowhead preform;Preform;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;17;34;5;
+504;SM9588;5;Norsjö 99:2;7220374;705471;Norsjö;Light gray;Light;7.5Y; 6/1;Felsitic porphyric quartz;;Point preform;Preform;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Conchoidal;Yes;;37;73;10;
+505;SM9588;141;Norsjö 99:2;7220374;705471;Norsjö;White;White;N9; ;Quartz;;Arrowhead fragment;Point fragment;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;15;25;6;
+506;SM27377;;Jörn 79:1;7252940;731314;Jörn;Black;Dark;N1;;Porphyric rock;;Keeled scraper;Scraper;Excavation;No;Granular;Fine-grained;Dull;None;None;Conchoidal;Yes;;26;50;26;
+507;SM9588;46;Norsjö 99:2;7220374;705471;Norsjö;Light gray;Dark;N7;;Felsitic porphyric quartz;;Point fragment;Point fragment;Excavation;No;Granular;Fine-grained;Bright vitreous;None;None;Conchoidal;Yes;quartz grains;41;77;11;
+508;SM20294;;Södra Mensträsk;;;;Black;Dark;N1;;Felsitic porphyric quartz;;Raw material;Raw material;;No;Granular;Fine-grained;Dull;None;None;Conchoidal;Yes;Larger dark mineral inclusions;105;115;76;946
+Calahan ref 1;;;;;;;Light gray;Light;7.5Y;;Quartzite;;;Reference;;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;Yes;;43;43;;
+Calahan ref 2;;;;;;;Light gray;Light;7.5Y;;Quartzite;;;Reference;;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;Yes;;27;30;;
+Calahan ref 3;;;;;;;Light gray;Light;7.5Y;;Quartzite;;;Reference;;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;Yes;;77;136;;
+Calahan ref 4;;;;;;;Black;Dark;N1;;Quartzite;;;Reference;;No;Granular;Fine-grained;Bright vitreous;None;None;Fine;Yes;;61;58;;
+Calahan ref 5;;;;;;;Black;Dark;N1;;Quartzite;;;Reference;;No;Granular;Medium-grained;Bright vitreous;Possible bedding;None;Fine;Yes;;50;62;;
+Calahan ref 6;;;;;;;Black;Dark;N1;;Quartzite;;;Reference;;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;Yes;;44;72;;
+Faagelberget_1;;;L1939:6460/L1936:1445;7185576;790441;Byske;Pink;Light;2.5YR; 7/3;Feldspar;;;Reference;;Yes;Massive;Massive;Bright vitreous;None;None;Smooth;Yes;;34;43;;
+Faagelberget_2;;;L1939:6460/L1936:1445;7185576;790441;Byske;White;Light;N8; ;Quartz;;;Reference;;Yes;Massive;Massive;Dull;None;None;Smooth;No;Feldspar inclusion;28;59;;
+Faagelberget_3;;;L1939:6460/L1936:1445;7185576;790441;Byske;Pinkish white;Light;2.5YR; 9/2;Quartz;;;Reference;;Yes;Granular;Massive;Waxy;None;None;Smooth;No;Likely feldspar inclusion;39;60;;
+Faagelberget_4;;;L1939:6460/L1936:1445;7185576;790441;Byske;White;White;N9; ;Quartz;;;Reference;;Yes;Granular;Massive;Waxy;None;None;Smooth;Yes;;30;48;;
+Faagelberget_5;;;L1939:6460/L1936:1445;7185576;790441;Byske;Pinkish white;White;N9; ;Quartz;;;Reference;;Yes;Granular;Massive;Waxy;None;None;Smooth;No;Likely feldspar inclusion;29;42;;
+Knutsson ref 1;;;;;;;White;White;N9; ;Quartz;;;Reference;;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;Yes;;55;63;;
+Knutsson ref 2;;;;;;;White;White;N9; ;Quartz;;;Reference;;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;Yes;;38;64;;
+Knutsson ref 3;;;;;;;White;White;N9; ;Quartz;;;Reference;;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;Yes;;22;58;;
+mineralbox A;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mineralbox B;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mineralbox C;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mineralbox D;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mineralbox E;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mineralbox F;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mineralbox G;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mineralbox H;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mineralbox I;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mineralbox J;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Obsidian reference, clear;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Obsidian reference, dull;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Stantors_1;;;L1936:1850;7131423;785482;Bygdeå;White;White;N9; ;Quartzite;;;Reference;;Yes;Massive;Medium-grained;Bright vitreous;None;None;Fine;Yes;;34;30;;
+Stantors_2;;;L1936:1850;7131423;785482;Bygdeå;White;White;N9; ;Quartzite;;;Reference;;Yes;Massive;Medium-grained;Dull;None;None;Fine;Yes;;27;35;;
+Stantors_3;;;L1936:1850;7131423;785482;Bygdeå;White;White;N9; ;Quartzite;;;Reference;;Yes;Massive;Medium-grained;Bright vitreous;None;None;Irregular;Yes;;43;65;;
+Stantors_4;;;L1936:1850;7131423;785482;Bygdeå;White;White;N9; ;Quartzite;;;Reference;;Yes;Massive;Medium-grained;Bright vitreous;None;None;Fine;Yes;;34;89;;
+Vilhelmina_ref_1;;;Vilhelmina 909;7208785;525415;Vilhelmina;Black;Dark;N2; ;Quartzite;;;Reference;Surveyed;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;Yes;;108;114;;
+Vilhelmina_ref_10;;;Vilhelmina 640/651;7212329;534287;Vilhelmina;Gray;Dark;N2; ;Quartzite;;;Reference;Surveyed;No;Granular;Medium-grained;Dull;None;None;Conchoidal;No;Bands of quartz;38;67;;
+Vilhelmina_ref_11;;;Vilhelmina 135:1;7198760;546144;Vilhelmina;Black;Dark;N1; ;Quartzite;;;Reference;Surveyed;No;Granular;Medium-grained;Waxy;None;None;Fine;No;;35;57;;
+Vilhelmina_ref_12;;;Vilhelmina 1024;7211818;524477;Vilhelmina;Gray;Light;2.5Y; 7/1;Quartzite;;;Reference;Surveyed;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Bands of dark mineral;38;55;;
+Vilhelmina_ref_13;;;Vilhelmina 1152:1;7202395;539976;Vilhelmina;Light gray;Light;2.5Y; 7/1;Quartzite;;;Reference;Surveyed;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;No;Larger quartz crystals;35;48;;
+Vilhelmina_ref_14;;;Vilhelmina 1152:1;7202395;539976;Vilhelmina;Black;Dark;N2; ;Quartzite;;;Reference;Surveyed;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;Yes;;30;58;;
+Vilhelmina_ref_15;;;Vilhelmina 1152:1;7202395;539976;Vilhelmina;Black;Dark;N3; ;Quartzite;;;Reference;Surveyed;No;Massive;Medium-grained;Bright vitreous;None;None;Fine;Yes;;26;32;;
+Vilhelmina_ref_16;;;Vilhelmina 1153:1;7202373;540309;Vilhelmina;Black;Dark;N3; ;Quartzite;;;Reference;Surveyed;No;Massive;Medium-grained;Bright vitreous;None;None;Fine;Yes;;32;67;;
+Vilhelmina_ref_17;;;Vilhelmina 1153:1;7202373;540309;Vilhelmina;Black;Dark;N3; ;Quartzite;;;Reference;Surveyed;No;Massive;Medium-grained;Bright vitreous;None;None;Fine;Yes;;35;27;;
+Vilhelmina_ref_2;;;Vilhelmina 1157:2;7202350;540325;Vilhelmina;Dark gray;Dark;N5; ;Quartzite;;;Reference;Surveyed;Yes;Granular;Medium-grained;Bright vitreous;None;None;Conchoidal;No;Both dark mineral veins and quartz veins;100;163;;
+Vilhelmina_ref_3;;;Vilhelmina 1157:2;7202350;540325;Vilhelmina;Dark gray;Dark;N5; ;Quartzite;;;Reference;Surveyed;No;Granular;Medium-grained;Waxy;None;None;Conchoidal;No;Dark mineral inclusion;89;89;;
+Vilhelmina_ref_4;;;Vilhelmina 909;7208785;525415;Vilhelmina;Black;Dark;N1; ;Quartzite;;;Reference;Surveyed;No;Massive;Medium-grained;Dull;None;None;Conchoidal;Yes;;34;86;;
+Vilhelmina_ref_5;;;Vilhelmina 909;7208785;525415;Vilhelmina;Gray;Dark;7.5Y; 3/1;Quartzite;;;Reference;Surveyed;No;Granular;Medium-grained;Waxy;None;None;Fine;Yes;;49;67;;
+Vilhelmina_ref_6;;;Vilhelmina 909;7208785;525415;Vilhelmina;Black;Dark;N1; ;Quartzite;;;Reference;Surveyed;No;Granular;Medium-grained;Bright vitreous;None;None;Fine;Yes;;33;54;;
+Vilhelmina_ref_7;;;"""Ayres Rock""";7211992;534055;Vilhelmina;Dark gray;Dark;N2; ;Quartzite;;;Reference;Surveyed;No;Granular;Fine-grained;Waxy;None;None;Smooth;Yes;;22;33;;
+Vilhelmina_ref_8;;;"""Ayres Rock""";7211992;534055;Vilhelmina;Black;Dark;N2; ;Quartzite;;;Reference;Surveyed;Yes;Granular;Fine-grained;Bright vitreous;None;None;Fine;No;Bands of quartz;20;36;;
+Vilhelmina_ref_9;;;"""Ayres Rock""";7211992;534055;Vilhelmina;Black;Dark;N2; ;Quartzite;;;Reference;Surveyed;Yes;Granular;Medium-grained;Bright vitreous;None;None;Fine;No;Bands of quartz;58;67;;
