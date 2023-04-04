@@ -1,3 +1,4 @@
+source("renv/activate.R")
 cat(crayon::bold('
 This project was set up by rrtools.
 '))
