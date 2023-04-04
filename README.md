@@ -7,22 +7,26 @@
 
 This repository contains the data and code for our paper:
 
-> Authors, (YYYY). *Title of your paper goes here*. Name of journal/book
-> <https://doi.org/xxx/xxx>
+> Sjölander M., Linderholm, J., Geladi P (2023). *Quartzite
+> Complexities: Non-destructive analysis of bifacial points from
+> Västerbotten, Sweden*. Journal of Archaeological and Anthropological
+> Sciences <https://doi.org/xxx/xxx>
 
 Our pre-print is online here:
 
-> Authors, (YYYY). *Title of your paper goes here*. Name of
-> journal/book, Accessed 04 apr 2023. Online at
-> <https://doi.org/xxx/xxx>
+> Sjölander M., Linderholm, J., Geladi P (2023). *Quartzite
+> Complexities: Non-destructive analysis of bifacial points from
+> Västerbotten, Sweden*. Journal of Archaeological and Anthropological
+> Sciences 04 apr 2023. Online at <https://doi.org/xxx/xxx>
 
 ### How to cite
 
 Please cite this compendium as:
 
-> Authors, (2023). *Compendium of R code and data for Title of your
-> paper goes here*. Accessed 04 apr 2023. Online at
-> <https://doi.org/xxx/xxx>
+> Sjölander M., Linderholm, J., Geladi P (2023). (2023). *Compendium of
+> R code and data for Quartzite Complexities: Non-destructive analysis
+> of bifacial points from Västerbotten, Sweden*. Accessed 04 apr 2023.
+> Online at <https://doi.org/xxx/xxx>
 
 ## Contents
 
