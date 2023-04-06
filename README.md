@@ -9,15 +9,14 @@ This repository contains the data and code for our paper:
 
 > Sjölander M., Linderholm, J., Geladi P (2023). *Quartzite
 > Complexities: Non-destructive analysis of bifacial points from
-> Västerbotten, Sweden*. Journal of Archaeological and Anthropological
-> Sciences <https://doi.org/xxx/xxx>
+> Västerbotten, Sweden*. (Journal name) <https://doi.org/xxx/xxx>
 
 Our pre-print is online here:
 
 > Sjölander M., Linderholm, J., Geladi P (2023). *Quartzite
 > Complexities: Non-destructive analysis of bifacial points from
-> Västerbotten, Sweden*. Journal of Archaeological and Anthropological
-> Sciences 04 apr 2023. Online at <https://doi.org/xxx/xxx>
+> Västerbotten, Sweden*. (Journal name) 06 apr 2023. Online at
+> <https://doi.org/xxx/xxx>
 
 ### How to cite
 
@@ -25,7 +24,7 @@ Please cite this compendium as:
 
 > Sjölander M., Linderholm, J., Geladi P (2023). (2023). *Compendium of
 > R code and data for Quartzite Complexities: Non-destructive analysis
-> of bifacial points from Västerbotten, Sweden*. Accessed 04 apr 2023.
+> of bifacial points from Västerbotten, Sweden*. Accessed 06 apr 2023.
 > Online at <https://doi.org/xxx/xxx>
 
 ## Contents

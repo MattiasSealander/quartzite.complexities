@@ -20,11 +20,11 @@ Title <- "Quartzite Complexities: Non-destructive analysis of bifacial points fr
 
 This repository contains the data and code for our paper:
 
-> Sjölander M., Linderholm, J., Geladi P (2023). _`r Title`_. Journal of Archaeological and Anthropological Sciences <https://doi.org/xxx/xxx>
+> Sjölander M., Linderholm, J., Geladi P (2023). _`r Title`_. (Journal name) <https://doi.org/xxx/xxx>
 
 Our pre-print is online here:
 
-> Sjölander M., Linderholm, J., Geladi P (2023). _`r Title`_. Journal of Archaeological and Anthropological Sciences `r format(Sys.Date(), "%d %b %Y")`. Online at <https://doi.org/xxx/xxx>
+> Sjölander M., Linderholm, J., Geladi P (2023). _`r Title`_. (Journal name) `r format(Sys.Date(), "%d %b %Y")`. Online at <https://doi.org/xxx/xxx>
 
 
 ### How to cite
