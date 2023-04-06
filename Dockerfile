@@ -6,9 +6,6 @@ MAINTAINER Your Name <your_email@somewhere.com>
 
 COPY . /quartzite.complexities
 
-RUN Rscript -e 'install.packages("here", repos="https://cloud.r-project.org")'
-RUN Rscript -e 'install.packages("ggpubfigs", repos="https://cloud.r-project.org")'
-
 # go into the repo directory
 RUN . /etc/environment \
   # Install linux depedendencies here
