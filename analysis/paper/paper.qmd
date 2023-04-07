@@ -19,7 +19,11 @@ institute:
 title-block-published: "Last updated"  
 date: now
 date-format: long
-format: 
+crossref: 
+  fig-title: '**Fig.**'
+  fig-labels: '**arabic**'
+  fig-prefix: Fig.
+format:
   docx:
     reference-doc: "../templates/template.docx" # Insert path for the DOCX file
 execute:
@@ -28,7 +32,7 @@ execute:
   message: false
   comment: "#>"
   fig-path: "../figures/"
-  fig-dpi: 600
+  fig-dpi: 300
 filters:
   - ../templates/scholarly-metadata.lua
   - ../templates/author-info-blocks.lua
@@ -80,22 +84,12 @@ suppressPackageStartupMessages(library(tidyverse))
 
 #Import descriptive metadata
 metadata.csv <-
-  read.csv2(here::here("analysis", "data", "raw_data", "metadata.csv"), sep = ";", header = TRUE, na = c("", "NA", "NULL"), encoding = "UTF-8")
+  read.csv2(here::here("analysis", "data", "raw_data", "metadata.csv"), sep = ";", dec = ".", colClasses=c("sample_id"="character"), header = TRUE, na = c("", "NA", "NULL"), encoding = "UTF-8")
 
 #Filter the sample data to exclude reference samples
 tot_samples <- 
   metadata.csv %>% 
-  dplyr::filter(site_id == "Vilhelmina 1069" | site_id == "Vilhelmina 109" | site_id == "Vilhelmina 112" | site_id == "Vilhelmina 1124" | site_id == "Vilhelmina 1127" | 
-                site_id == "Vilhelmina 114" | site_id == "Vilhelmina 115" | site_id == "Vilhelmina 117" | site_id == "Vilhelmina 118" | site_id == "Vilhelmina 1254" | 
-                site_id == "Vilhelmina 216" | site_id == "Vilhelmina 235" | site_id == "Vilhelmina 240" | site_id == "Vilhelmina 245" | site_id == "Vilhelmina 252" | 
-                site_id == "Vilhelmina 263" | site_id == "Vilhelmina 335" | site_id == "Vilhelmina 356" | site_id == "Vilhelmina 399" | site_id == "Vilhelmina 411" | 
-                site_id == "Vilhelmina 419" | site_id == "Vilhelmina 439" | site_id == "Vilhelmina 444" | site_id == "Vilhelmina 450" | site_id == "Vilhelmina 458" | 
-                site_id == "Vilhelmina 539" | site_id == "Vilhelmina 542" | site_id == "Vilhelmina 611" | site_id == "Vilhelmina 619" | site_id == "Vilhelmina 636" | 
-                site_id == "Vilhelmina 637" | site_id == "Vilhelmina 643" | site_id == "Vilhelmina 769" | site_id == "Vilhelmina 949" | site_id == "Vilhelmina 95" | 
-                site_id == "Åsele 101" | site_id == "Åsele 107" | site_id == "Åsele 115" | site_id == "Åsele 117" | site_id == "Åsele 119" | site_id == "Åsele 129" | 
-                site_id == "Åsele 182" | site_id == "Åsele 188" | site_id == "Åsele 393" | site_id == "Åsele 56" | site_id == "Åsele 91" | site_id == "Åsele 92" | 
-                site_id == "Åsele 99", 
-         type == "Point" | type == "Point fragment" | type == "Preform", 
+  dplyr::filter( type == "Point" | type == "Point fragment" | type == "Preform", 
          material == "Brecciated quartz" | material == "Quartz" | material == "Quartzite")
 
 #Create a vector containing all unique sample ID
@@ -149,8 +143,7 @@ A number of these points have, according to prior classifications, been worked u
 #| cache: false
 #| cache-lazy: false
 #| fig-cap: "Geographical distribution of the sampled sites along the river of Ångermanälven, Västerbotten, Sweden.The glacial disturbance is visible in the widely distributd moraine. Tectonic symbology after [@gee_stephens20]. Made with © Sveriges Geologiska Undersökning, Lantmäteriet (CC0), Natural Earth, and Riksantikvarieämbetet."
-#| fig-height: 15
-#| fig-fullwidth: true
+
 
 knitr::include_graphics(here::here("analysis", "figures", "site_distribution_v1.jpg"), error = FALSE)
 ```
@@ -185,17 +178,19 @@ Each artefact was sampled twice, on different sides, with additional measurement
 
 The artefacts features a mainly black or gray hue, as well as a subset of semi-translucent material with a beige tint, with some being almost fully translucent. While the colour of the material has been classified according to the Munsell system, for visualization purposes they have also been sorted into general hues: *dark* (~ N1-N4), *light* (~ N5-N8), *white* (~ N9), and *colourless* (lack of colour, opaque to translucent). In the case of heterogeneous objects the Munsell colour and general hue describes the surrounding matrix. 
 
-(ref:artefact) 
-
  \linebreak
 
 ```{r}
 #| label: fig-artefact-size
 #| cache: true
+#| fig-width: 7.87
+#| fig-asp: 0.618
+#| fig-align: center
 #| fig-cap: "Scatter plot of length and width measurements, given in millimeters, for the sampled artefacts. 8 objects have no recorded thickness, which ranges between 3-76 mm. Note that the term *point* does not differentiate between spearheads or arrowheads."
-
 quietly(source(here::here("analysis", "paper", "001-artefact-size.R"), encoding = "UTF-8"))
-knitr::include_graphics(here::here("analysis", "figures", "001-artefact-size.jpeg"), error = FALSE)
+#knitr::include_graphics(here::here("analysis", "figures", "001-artefact-size.jpeg"), error = FALSE)
+
+fig
 ```
 
  \linebreak
@@ -249,17 +244,7 @@ PCA analysis was performed using the base R *prcomp()* function [@Rteam21a; @Rte
 #Select all dark samples
 points.d.tot <-
   metadata.csv %>%
-  filter(site_id == "Vilhelmina 1069" | site_id == "Vilhelmina 109" | site_id == "Vilhelmina 112" | site_id == "Vilhelmina 1124" | site_id == "Vilhelmina 1127" | 
-           site_id == "Vilhelmina 114" | site_id == "Vilhelmina 115" | site_id == "Vilhelmina 117" | site_id == "Vilhelmina 118" | site_id == "Vilhelmina 1254" | 
-           site_id == "Vilhelmina 216" | site_id == "Vilhelmina 235" | site_id == "Vilhelmina 240" | site_id == "Vilhelmina 245" | site_id == "Vilhelmina 252" | 
-           site_id == "Vilhelmina 263" | site_id == "Vilhelmina 335" | site_id == "Vilhelmina 356" | site_id == "Vilhelmina 399" | site_id == "Vilhelmina 411" | 
-           site_id == "Vilhelmina 419" | site_id == "Vilhelmina 439" | site_id == "Vilhelmina 444" | site_id == "Vilhelmina 450" | site_id == "Vilhelmina 458" | 
-           site_id == "Vilhelmina 539" | site_id == "Vilhelmina 542" | site_id == "Vilhelmina 611" | site_id == "Vilhelmina 619" | site_id == "Vilhelmina 636" | 
-           site_id == "Vilhelmina 637" | site_id == "Vilhelmina 643" | site_id == "Vilhelmina 769" | site_id == "Vilhelmina 949" | site_id == "Vilhelmina 95" | 
-           site_id == "Åsele 101" | site_id == "Åsele 107" | site_id == "Åsele 115" | site_id == "Åsele 117" | site_id == "Åsele 119" | site_id == "Åsele 129" | 
-           site_id == "Åsele 182" | site_id == "Åsele 188" | site_id == "Åsele 393" | site_id == "Åsele 56" | site_id == "Åsele 91" | site_id == "Åsele 92" | 
-           site_id == "Åsele 99", 
-         type == "Point" | type == "Point fragment" | type == "Preform", 
+  filter( type == "Point" | type == "Point fragment" | type == "Preform", 
          material == "Brecciated quartz" | material == "Quartz" | material == "Quartzite") %>% 
   filter(hue == "Dark")
 
@@ -285,24 +270,36 @@ The spectra were evaluated using using Savitzky-Golay (SG) filtering, a smoothin
 
  \linebreak
 
-```{r}
+```{r fig.width=12, fig.height = 5}
 #| label: fig-nir-spectra-summary
 #| cache: true
+#| fig-width: 7.87
+#| fig-asp: 0.8
+#| out-width: "70%"
+#| fig-align: center
 #| fig-cap: "Summary of the raw spectra for each colour group. Note the differences in absorbance between the groups, with the dark group featuring a larger range of absorbance values as well as less distinct peaks."
 
 quietly(source(here::here("analysis", "paper", "001-nir-spectra-summary.R"), encoding = "UTF-8"))
-knitr::include_graphics(here::here("analysis", "figures", "001-nir-spectra-summary.jpeg"), error = FALSE)
+#knitr::include_graphics(here::here("analysis", "figures", "001-nir-spectra-summary.jpeg"), error = FALSE)
+
+fig
 ```
 
  \linebreak
 
-```{r}
+```{r fig.width=12, fig.height = 5}
 #| label: fig-nir-savitzky-transform
 #| cache: true
+#| fig-width: 7.87
+#| fig-asp: 0.8
+#| out-width: "70%"
+#| fig-align: center
 #| fig-cap: "Comparison of NIR spectra between two samples from the dark group. a) the non-processed spectra for sample 258 and 411, b) sample 258 spectra with 2^nd^ derivative Savitzky-Golay filtering, c) sample 411 spectra with 2^nd^ derivative Savitzky-Golay filtering."
 
 quietly(source(here::here("analysis", "paper", "003-nir-savitzky-transform.R"), encoding = "UTF-8"))
-knitr::include_graphics(here::here("analysis", "figures", "003-nir-savitzky-transform.jpeg"), error = FALSE)
+#knitr::include_graphics(here::here("analysis", "figures", "003-nir-savitzky-transform.jpeg"), error = FALSE)
+
+fig
 ```
 
  \linebreak
@@ -318,25 +315,38 @@ Two smaller features appear at around 1 065 nm and 1 300 nm (@fig-nir-savitzky-t
 ```{r}
 #| label: fig-nir-savitzky-transform-alt
 #| cache: true
+#| fig-width: 7.87
+#| fig-asp: 0.6
+#| out-width: "70%"
+#| fig-align: center
 #| fig-cap: "Savitzky-Golay transformed spectra contrasting the results between the spectra in the dark (black) and light (orange) groups."
 
 quietly(source(here::here("analysis", "paper", "003-nir-savitzky-transform-alt.R"), encoding = "UTF-8"))
-knitr::include_graphics(here::here("analysis", "figures", "003-nir-savitzky-transform-alt.jpeg"), error = FALSE)
+#knitr::include_graphics(here::here("analysis", "figures", "003-nir-savitzky-transform-alt.jpeg"), error = FALSE)
+
+fig
 ```
 
 
 ```{r}
 #| label: fig-nir-peak-summary
 #| cache: true
+#| fig-width: 7.87
+#| fig-asp: 1
+#| out-width: "70%"
+#| fig-align: center
 #| fig-cap: "The main features in the NIR spectra can be related to overtones and vibration combinations of OH groups. The 1 400 nm and 1 900 nm peaks are indicative of molecular water, and common in quartz-based materials. The 2 200 nm and 2 350 nm bands indicate metal-OH combinations, where a more intense 2 200 nm band has typically been related to the presence of AlOH, and a more intense 2 350 nm band MgOH. Although difficult to detect in the non-processed spectra, weaker features also appear at 1 065 nm and 1 300 nm, that may be the result of ferrous iron (Fe^2+^)"
 
 quietly(source(here::here("analysis", "paper", "002-nir-peak-summary.R"), encoding = "UTF-8"))
-knitr::include_graphics(here::here("analysis", "figures", "002-nir-peak-summary.jpeg"), error = FALSE)
+#knitr::include_graphics(here::here("analysis", "figures", "002-nir-peak-summary.jpeg"), error = FALSE)
+
+fig
 ```
 
  \linebreak
 
 ```{r}
+#| label: pca-var
 #| cache: true
 
 quietly(source(here::here("analysis", "paper","004-nir-pca.R"), encoding = "UTF-8"))
@@ -348,26 +358,31 @@ nir.pc3var <- nir.pc3var
 
  \linebreak
 
-The loading lines for the PCA can be seen in [Appendix A](#appendix-A). The first principal component (PC) shows a strong trend (`r nir.pc1var` %) that seems to largely correlate with the absorbance of the material (@fig-nir-pca). This can be seen in the trend of darker material clustering towards the positive side of PC 1, with lighter towards the negative. A slight difference in the clustering of material with a light hue can also be seen along PC 2 (`r nir.pc2var` %). Objects with a  white or light grey hue gravitate towards the bottom left of the score plot, while material that showcases some translucence cluster towards the top left. There are objects that break this trend, however, such as sample 255 in the bottom right of @fig-nir-pca:A. 
+The loading lines for the PCA can be seen in [Appendix A](#appendix-A). The first principal component (PC) shows a strong trend (`r nir.pc1var` %) that seems to largely correlate with the absorbance of the material (@fig-nir-pca). This can be seen in the trend of darker material clustering towards the positive side of PC 1, with lighter towards the negative. A slight difference in the clustering of material with a light hue can also be seen along PC 2 (`r nir.pc2var` %). Objects with a  white or light grey hue gravitate towards the bottom left of the score plot, while material that showcases some translucence cluster towards the top left. There are objects that break this trend, however, such as sample 255 in the bottom right of @fig-nir-pca :A. 
 
-While the explained variance of PC 3 is low, (`r nir.pc3var` %), it still contains a number of the aforementioned features visible in the spectra (inverse to PC 1) ([Appendix A](#appendix-a)). Adding PC 3 to a score plot (@fig-nir-pca:B), however, there seems to be little new information gained apart from a couple of samples, mainly from the light group, that break away from the remaining samples. 
+While the explained variance of PC 3 is low, (`r nir.pc3var` %), it still contains a number of the aforementioned features visible in the spectra (inverse to PC 1) ([Appendix A](#appendix-a)). Adding PC 3 to a score plot (@fig-nir-pca :B), however, there seems to be little new information gained apart from a couple of samples, mainly from the light group, that break away from the remaining samples. 
 
  \linebreak
 
 ```{r}
 #| label: fig-nir-pca
 #| cache: true
-#| fig-fullwidth: true
-#| fig-height: 20
+#| fig-width: 7.87
+#| fig-asp: 1
+#| out-width: "70%"
+#| fig-align: center
 #| fig-cap: "NIR PCA score plot for PC 1-3: a) dark and light material is separated out along PC 1, due to absorbance, with white and colourless material separating along PC 2, b) PC 3 adds little new information, mainly separate three of the light samples."
+#| 
+quietly(source(here::here("analysis", "paper","004-nir-pca.R"), encoding = "UTF-8"))
+#knitr::include_graphics(here::here("analysis", "figures", "004-nir-pca-with-photos.jpg"), error = FALSE)
 
-knitr::include_graphics(here::here("analysis", "figures", "004-nir-pca-with-photos.jpg"), error = FALSE)
+fig
 ```
 
  \linebreak
 
 ## Raman {-}
-There are two distinguishing features present in the Raman data (fig. \@ref(fig:raman-spectra-summary) & fig. \@ref(fig:raman-peak-ident)), one which can be related to quartz and another that may indicate the presence of carbon (C) structures. The three initial bands at ~ 128 cm^-1^, ~ 200 cm^-1^ and ~ 460 cm^-1^, are some of the more intense quartz bands [@zhong_etal21], with the strongest peak occurring at 460 cm^-1^ [@gillet_etal90]. 
+There are two distinguishing features present in the Raman data (@fig-raman-spectra-summary) & @fig-raman-peak-ident)), one which can be related to quartz and another that may indicate the presence of carbon (C) structures. The three initial bands at ~ 128 cm^-1^, ~ 200 cm^-1^ and ~ 460 cm^-1^, are some of the more intense quartz bands [@zhong_etal21], with the strongest peak occurring at 460 cm^-1^ [@gillet_etal90]. 
 
 The second feature shows up as two peaks occurring at around 1 287 cm^-1^ and 1 598 cm^-1^, and dominate the spectra in terms of intensity for the darker samples. These peak positions fall within what is referred to as the *D* and *G* band respectively, and have been observed in spectroscopic studies of graphite [@cesare_maineri99]. The D band occurs as a result of disordered carbon (C) structures whilst the G band is indicative of sp^2^ carbon networks and caused by stretching in the carbon bonds, which is common in graphite-based materials [@cohen-ofri_etal06; @vollebregt_etal12; @lee_etal21]. Whereas the 2^nd^ peak falls within the expected position of the G band, the position of the D band is commonly identified as being in the 1 330 - 1 350 cm^-1^ region. It has, however, been documented that the dispersive behavior of the D band can cause a frequency change as a result of the energy of the incident laser [@pimenta_etal07: 1280]. This could thus explain the discrepancy between the observed peak in the dataset and the literature.
 
@@ -378,26 +393,49 @@ Aside from the above more intense features a couple of weaker peaks can also be 
 ```{r}
 #| label: fig-raman-spectra-summary
 #| cache: true
-#| fig-cap: "The non-processed Raman spectra visualised by colour group. Note that the dark material in general features more intense peaks at wavenumber ~ 1 300 - 1 600 (cm^-1^)."
+#| fig-width: 7.87
+#| fig-asp: 0.8
+#| out-width: "70%"
+#| fig-align: center
+#| fig-cap: "The non-processed Raman spectra visualised by colour group. Note that the dark material in general features more intense peaks at wavenumber ~ 1 300 - 1 600 (cm^-1^)"
 
 quietly(source(here::here("analysis", "paper", "005-raman-spectra-summary.R"), encoding = "UTF-8"))
-knitr::include_graphics(here::here("analysis", "figures", "005-raman-spectra-summary.jpeg"), error = FALSE)
+#knitr::include_graphics(here::here("analysis", "figures", "005-raman-spectra-summary.jpeg"), error = FALSE)
+
+fig
 ```
 
  \linebreak
+
+```{r}
+#| label: raman-baseline
+#| cache: true
+
+#baseline correct raman data
+quietly(source(here::here("analysis", "paper", "006-raman-baseline.R"), encoding = "UTF-8"))
+```
+
 
 ```{r}
 #| label: fig-raman-peak-ident
 #| cache: true
-#| fig-cap: "The features in the Raman spectra can be related to quartz and carbon structures in the material. The initial three peaks in the 100 - 500 cm^-1^ range correspond to some of the more well-known vibration modes of quartz. The 1 287 cm-^-1^ and 1 598 cm-^-1^ peaks fall within what is referred to as the D and G band respectively, indicating the presence of carbon structures."
+#| fig-width: 7.87
+#| fig-asp: 0.8
+#| out-width: "70%"
+#| fig-align: center
+#| fig-cap: "The features in the Raman spectra can be related to quartz and carbon structures in the material. The initial three peaks in the 100 - 500 cm^-1^ range correspond to some of the more well-known vibration modes of quartz. The 1 287 cm^-1^ and 1 598 cm^-1^ peaks fall within what is referred to as the D and G band respectively, indicating the presence of carbon structures"
 
+#generate figure
 quietly(source(here::here("analysis", "paper", "006-raman-peak-identification.R"), encoding = "UTF-8"))
-knitr::include_graphics(here::here("analysis", "figures", "006-raman-peak-identification.jpeg"), error = FALSE)
+#knitr::include_graphics(here::here("analysis", "figures", "006-raman-peak-identification.jpeg"), error = FALSE)
+
+fig
 ```
 
  \linebreak
 
 ```{r}
+#| label: raman-var
 #| cache: true
 
 quietly(eval(parse(here::here("analysis", "paper", "007-raman-pca.R"), encoding = "UTF-8")))
@@ -406,19 +444,24 @@ raman.pc2var <- raman.pc2var
 raman.pc3var <- raman.pc3var
 ```
 
+
+The loading lines for the PCA can be seen in [Appendix A](#appendix-A). The PCA model (@fig-raman-pca) shows a clear trend along PC 1 (`r raman.pc1var` %) related to the quartz and D/G peaks. Samples where the D/G peaks dominate in terms of intensity cluster towards the positive side of PC 1, with those that completely lack or have weaker D/G bands on the opposite side. Similarly, along PC 2 (`r raman.pc2var` %) the samples that have higher intensity D/G peaks gravitate towards the top of the score plot. Worth noting are two dark samples that completely lack D/G peaks, placing them among the light material in the left side of the plot. One of these is a brecciated quartz sample with a dark yellow tint, and thus more a sign of the difficulties with assigning a generic hue to the material. The second sample, however, stands out from the rest of the material. It is a point preform made from a grey material with a rough texture, and possible layering, with larger quartz crystals. It does not fit with the "expected" image of a quartzite and may be a case of erroneous classification. The addition of PC 3 (`r raman.pc3var` %) provides no new information, but rather separates out those samples with a higher level of noise.      
+
  \linebreak
 
-The loading lines for the PCA can be seen in [Appendix A](#appendix-A). The PCA model (@fig-raman-pca) shows a clear trend along PC 1 (`r raman.pc1var` %) related to the quartz and D/G peaks. Samples where the D/G peaks dominate in terms of intensity cluster towards the positive side of PC 1, with those that completely lack or have weaker D/G bands on the opposite side. Similarly, along PC 2 (`r raman.pc2var` %) the samples that have higher intensity D/G peaks gravitate towards the top of the score plot. Worth noting are two dark samples that completely lack D/G peaks, placing them among the light material in the left side of the plot. One of these is a brecciated quartz sample with a dark yellow tint, and thus more a sign of the difficulties with assigning a generic hue to the material. The second sample, however, stands out from the rest of the material. It is a point preform made from a grey material with a rough texture, and possible layering, with larger quartz crystals. It does not fit with the "expected" image of a quartzite, and may be a case of mischaraterization. The addition of PC 3 (`r raman.pc3var` %) provides no new information, but rather separates out those samples with a higher level of noise.      
-
- \linebreak
-
-```{r raman-pca, fig.cap= "PCA score plot for Raman data. Objects that feature only quartz peaks are clustered towards the top left of the plot, whilst the darker material that feature dominant D/G peaks are distributed towards the right of the plot. In the middle cluster the samples feature both quartz and D/G peaks, with those that have higher intensity D/G peaks in the bottom of the cluster.", cache=TRUE, cache.extra=tools::md5sum(here::here("analysis", "paper", "007-raman-pca.R")), echo = FALSE}
+```{r}
 #| label: fig-raman-pca
-#| cache: true
-#| fig-cap: "The features in the Raman spectra can be related to quartz and carbon structures in the material. The initial three peaks in the 100 - 500 cm^-1^ range correspond to some of the more well-known vibration modes of quartz. The 1 287 cm-^-1^ and 1 598 cm-^-1^ peaks fall within what is referred to as the D and G band respectively, indicating the presence of carbon structures."
+#| cache: false
+#| cache-lazy: false
+#| fig-cap: "PCA score plot for Raman data. Objects that feature only quartz peaks are clustered towards the top left of the plot, whilst the darker material that feature dominant D/G peaks are distributed towards the right of the plot. In the middle cluster the samples feature both quartz and D/G peaks, with those that have higher intensity D/G peaks in the bottom of the cluster"
 
+#quietly(source(here::here("analysis", "paper", "007-raman-pca.R"), encoding = "UTF-8"))
 knitr::include_graphics(here::here("analysis", "figures", "007-raman-pca-with-photos.jpg"), error = FALSE)
 ```
+
+ \linebreak
+
+## XRF {-}
 
 ```{r}
 quietly(source(here::here("analysis", "paper", "008-xrf-violin-plot.R"), encoding = "UTF-8"))
@@ -433,6 +476,7 @@ Si_90 <- Points.xrf %>%
 si_90 <- length(unique(Si_90$sample_id))
 ```
 
+
 ```{r}
 #| label: xrf-pca-var
 #| cache: true
@@ -444,33 +488,36 @@ xrf_var <- xrf.pc1var + xrf.pc2var
 xrf_var_low <- xrf.pc1var.low + xrf.pc2var.low + xrf.pc3var.low + xrf.pc4var.low
 ```
 
-## XRF {-}
-
 The XRF spectrometer is not capable of detecting all of the common elements, and the software therefore calculates a balance (BAL) that represents the remaining unquantifiable elements in a sample. The elements represented in this group are all those with an atomic number lower than ~12~Mg [@thermo18]. The analysis shows that ~14~Si makes up the main main bulk of the material, with ~13~Al recorded up to ~ 5% for some samples (@fig-xrf-violin-plot). Interestingly, the majority of the readings resulted in a ~14~Si content of less than 50%, as well as a BAL between 40 – 70%, meaning that a significant portion of the material remains unknown. While this could be due to the limitations of the instrumentation, it is perhaps more likely a result of the sampling. As quartzite is a metamorph rock where the distribution of quartz is not necessarily uniform in the material, the sample point can have a considerable influence on the measurement. Out of a total of `r length(tot_uniq_samples)` samples `r si_90` measured a ~14~Si content higher than 90%. ~12~Mg, ~23~V, ~25~Mn, ~39~Y and ~30~Zn recorded a high number of values below the LOD ("missing values"), although in the case of ~12~Mg and ~25~Mn the recorded values reached up to 0.3% and 3% respectively. 
-
-Initial analysis used clr transformed data, but encountered issues related to the structure of the ~14~Si values. log10-transformation was used instead, producing a similar model, but that managed the loading for ~14~Si better. The PCA was run twice, firstly with the > 90% 14Si samples included and secondly excluded. The loadings can be seen in [Appendix A](#appendix-A). The initial PCA (model A), with the full dataset included, resulted in 3 PCs with an eigenvalue above 1, and a cumulative explained variance of `r xrf_var`%. K-means cluster analysis was performed on the PCA data in order identify potential groups with similar elemental composition. Using the elbow graph method 3 clusters were deemed suitable for the analysis. 
-
-As can be seen in the score plot (@fig-xrf-pca:A), the three K-means clusters remain separated. As expected, cluster 1 is made up of those samples that feature a high ~14~Si content (> 90%). There is no real pattern to this cluster aside from higher ~14~Si values with lower ~26~Fe and ~40~Zr values. Loadings for elements that you would expect to follow changes in ~14~Si content also end up near cluster 1 (e.g. Al, Ca). Interestingly one of the "quartz" labelled samples ends up in cluster 3 rather than 1, and upon examining the sample visually it does not showcase any typical quartz characteristics. 
-
-Cluster 2 is marked by a higher ~22~Ti, ~26~Fe and ~40~Zr content on average. It mainly features samples with a dark hue, with the few samples from the light group being grey in color and arguably somewhere in between what might be considered a "dark" or "light" hue. ~13~Al and ~19~K is similarly higher in cluster 2 than compared to cluster 3, which is marked by its, on average, lower elemental content than the other two clusters. As ~13~Al and ~19~K signifies a sedimentary depositional context that has been subjected to metamorphism, this may be a possible explanation.  That said, cluster 3 does features a more limited range of values between the samples. The material in cluster 3 also includes all of the *brecciated quartz* samples as well as other light - colourless objects.  
-
-In the second PCA model (model B), with the high ~14~Si samples excluded, four PCs feature an eigenvalue above 1 with a cumulative explained variance of `r xrf_var_low`%. Again, 3 clusters were deemed suitable for the K-means analysis (@fig-xrf-kmeans-boxplot). Cluster 3 stands out by having a smaller range of values in most elements, as well as overall lower values (@fig-xrf-pca:B), than compared to the other clusters. The *brecciated quartz* samples all remain in cluster 3, along with mainly light-to-colourless samples. Cluster 2, on the other hand, feature the main bulk of darker samples with higher ~22~Ti, ~26~Fe and ~40~Zr values. Cluster 1 likewise feature a large portion of the darker materials, with comparable ~22~Ti, ~26~Fe and ~40~Zr values. It also has higher values of ~12~Mg, ~13~Al, ~16~S, ~19~K, and ~20~Ca. 
-
-~38~Sr was detected at trace amounts. It is a lithophile element that can substitute for ~20~Ca in sulphates, feldspars, mica and clays [@ahijado_etal05;@banner95], which might be one explanation for its presence in cluster 1 in model B. Interestingly, nearly all samples with ~38~Sr are located in cluster 2 in model A.  
 
  \linebreak
 
 ```{r}
 #| label: fig-xrf-violin-plot
 #| cache: true
+#| fig-width: 7.87
+#| fig-asp: 1
+#| out-width: "70%"
+#| fig-align: center
 #| fig-cap: "Violin plot of the XRF values per element. Median and interquartile range represented with a boxplot, with the half-violin showing kernel density estimation. Values above LOD is noted by *n*. Of particular note is the bimodal distribution of Si values. Y and Zn were left out as they had less than 30 values above LOD."
 
-
 quietly(source(here::here("analysis", "paper", "008-xrf-violin-plot.R"), encoding = "UTF-8"))
-knitr::include_graphics(here::here("analysis", "figures", "008-xrf-violin-plot.jpeg"), error = FALSE)
+
+fig
 ```
 
  \linebreak
+
+Initial analysis used clr transformed data, but encountered issues related to the structure of the ~14~Si values. log10-transformation was used instead, producing a similar model, but that managed the loading for ~14~Si better. The PCA was run twice, firstly with the > 90% 14Si samples included and secondly excluded. The loadings can be seen in [Appendix A](#appendix-A). The initial PCA (model A), with the full dataset included, resulted in 3 PCs with an eigenvalue above 1, and a cumulative explained variance of `r xrf_var`%. K-means cluster analysis was performed on the PCA data in order identify potential groups with similar elemental composition. Using the elbow graph method 3 clusters were deemed suitable for the analysis. 
+
+As can be seen in the score plot (@fig-xrf-pca :A), the three K-means clusters remain separated. As expected, cluster 1 is made up of those samples that feature a high ~14~Si content (> 90%). There is no real pattern to this cluster aside from higher ~14~Si values with lower ~26~Fe and ~40~Zr values. Loadings for elements that you would expect to follow changes in ~14~Si content also end up near cluster 1 (e.g. Al, Ca). Interestingly one of the "quartz" labelled samples ends up in cluster 3 rather than 1, and upon examining the sample visually it does not showcase any typical quartz characteristics. 
+
+Cluster 2 is marked by a higher ~22~Ti, ~26~Fe and ~40~Zr content on average. It mainly features samples with a dark hue, with the few samples from the light group being grey in color and arguably somewhere in between what might be considered a "dark" or "light" hue. ~13~Al and ~19~K is similarly higher in cluster 2 than compared to cluster 3, which is marked by its, on average, lower elemental content than the other two clusters. As ~13~Al and ~19~K signifies a sedimentary depositional context that has been subjected to metamorphism, this may be a possible explanation.  That said, cluster 3 does features a more limited range of values between the samples. The material in cluster 3 also includes all of the *brecciated quartz* samples as well as other light - colourless objects.  
+
+In the second PCA model (model B), with the high ~14~Si samples excluded, four PCs feature an eigenvalue above 1 with a cumulative explained variance of `r xrf_var_low`%. Again, 3 clusters were deemed suitable for the K-means analysis (@fig-xrf-kmeans-boxplot). Cluster 3 stands out by having a smaller range of values in most elements, as well as overall lower values (@fig-xrf-pca :B), than compared to the other clusters. The *brecciated quartz* samples all remain in cluster 3, along with mainly light-to-colourless samples. Cluster 2, on the other hand, feature the main bulk of darker samples with higher ~22~Ti, ~26~Fe and ~40~Zr values. Cluster 1 likewise feature a large portion of the darker materials, with comparable ~22~Ti, ~26~Fe and ~40~Zr values. It also has higher values of ~12~Mg, ~13~Al, ~16~S, ~19~K, and ~20~Ca. 
+
+~38~Sr was detected at trace amounts. It is a lithophile element that can substitute for ~20~Ca in sulphates, feldspars, mica and clays [@ahijado_etal05;@banner95], which might be one explanation for its presence in cluster 1 in model B. Interestingly, nearly all samples with ~38~Sr are located in cluster 2 in model A.  
+
 
 ```{r}
 #| label: fig-xrf-pca
@@ -485,9 +532,17 @@ knitr::include_graphics(here::here("analysis", "figures", "009-xrf-pca-with-phot
 ```{r}
 #| label: fig-xrf-kmeans-boxplot
 #| cache: true
+#| fig-width: 7.87
+#| fig-asp: 1
+#| out-width: "100%"
 #| fig-cap: "Boxplot of XRF values (%) for model B, grouped by K-means cluster. Cluster 1 is made up of samples with lower values of Si, but higher values for those elements that are typically associated with the same (e.g. Al, Ca). Cluster 2 includes the samples with higher Fe/Ti/Zr content, whilst cluster 3 is mainly distinguished by a higher Si content and low Fe/Ti/Zr content."
 
-knitr::include_graphics(here::here("analysis", "figures", "009-xrf-kmeans-boxplot.jpeg"), error = FALSE)
+#Since knitr commands for adjusting knitr imported figures don't work in quarto, and the xrf script generates multiple figures, the easiest way to manage this is saving the boxplot
+#as an object to derived_data when running xrf-pca-var above and then loading it here and outputting it in manuscript
+fig <- 
+  readRDS(file = here::here("analysis", "data", "derived_data", "009-kmeans-box-modelb.rds"))
+
+fig
 ```
 
  \linebreak
@@ -499,21 +554,28 @@ The variation that occurs within the general colour groups can be further exempl
 ```{r}
 #| label: fig-nir-xrf-kmeans
 #| cache: true
+#| fig-width: 10
+#| fig-asp: 0.687
+#| out-width: "70%"
 #| fig-cap: "NIR PCA score plot for PC 1-2, with the K-means cluster from XRF PCA model B visualised in the colour of the points. Red points are samples that were excluded in the XRF PCA. The trend separating dark-light samples in the NIR PCA mostly keeps cluster 2-3 separated, showing some overlap in the results, but cluster 1 is fairly evenly distributed in the score plot. This means that whatever differences can be discerned in the compositional data does not seem to be detectable using the ASD."
 
-knitr::include_graphics(here::here("analysis", "figures", "009-nir-pca-xrf-kmeans.jpeg"), error = FALSE)
+#Since knitr commands for adjusting knitr imported figures don't work in quarto, and the xrf script generates multiple figures, the easiest way to manage this is saving the boxplot
+#as an object to derived_data when running xrf-pca-var above and then loading it here and outputting it in manuscript
+fig <- 
+  readRDS(file = here::here("analysis", "data", "derived_data", "009-kmeans-nir-pca.rds"))
+
+fig
 ```
 
  \linebreak
 
 ```{r}
-#| label: fig-nir-sample-comparison
 #| cache: true
-#| tbl-cap: "Comparison of three dark samples from separate K-cluster groups (model B). Sample 391 from cluster 3 stands out the most with visible differences in both the NIR and Raman spectra, when compared to the other samples."
 
 quietly(source(here::here("analysis", "paper", "010-nir-sample-comparison.R"), encoding = "UTF-8"))
-knitr::include_graphics(here::here("analysis", "figures", "010-nir-sample-comparison.jpeg"), error = FALSE)
 ```
+
+![Comparison of three dark samples from separate K-cluster groups (model B). Sample 391 from cluster 3 stands out the most with visible differences in both the NIR and Raman spectra, when compared to the other samples](../figures/010-nir-sample-comparison.jpeg){#fig-nir-sample-comparison width=7.87in, height=7.87in}
 
  \linebreak
 
@@ -524,7 +586,7 @@ knitr::include_graphics(here::here("analysis", "figures", "010-nir-sample-compar
 
 The exploratory evaluation of spectroscopic data generated on quartz/quartzite points and preforms demonstrates that valuable information on the composition and structural properties of the material can be gained via non-destructive analysis. As the identified features are related to the diagenetic/paragenetic environment they should be useful in future survey efforts aimed at locating possible geological sources. This does not, however, address the issues related to the resource procurement strategies employed by people within the region during the 4 000 - 2 000 BP period, as the material may have been sourced from other glacial and postglacial landforms, into which the material may have been incorporated. One way of addressing this issue would be to construct a predictive model based solely on the spectroscopic fingerprints of the large unknown dataset, which could form the basis of spatial analysis and hypothesis testing.
 
-One benefit of non-destructive screening is the relative ease with which large datasets can be generated. Although the resolution may be affected to some degree, it lends itself quite well to the exploratory approach and hypothesis generation. A non-destructive approach is quite effective in regions such as Northern Sweden, where little development has been made in regards to the chemical characterization of quartzite and there are many unknowns. There is now a better understanding of the chemical and structural variation that exists under the umbrella of what archaeologists refer to as *quartzite*, at least within the Västerbotten area. Visually the material varies greatly, both in terms of texture as well as color. The initial classification of the material is primarily based on the archaeological documentation from the surveys and excavations, but as was highlighted in the results, there seems to be some instances of possible mischaracterization due to this. It is an important reminder to be mindful when aggregating data where the analyst is not the primary producer. 
+One benefit of non-destructive screening is the relative ease with which large datasets can be generated. Although the resolution may be affected to some degree, it lends itself quite well to the exploratory approach and hypothesis generation. A non-destructive approach is quite effective in regions such as Northern Sweden, where little development has been made in regards to the chemical characterization of quartzite and there are many unknowns. There is now a better understanding of the chemical and structural variation that exists under the umbrella of what archaeologists refer to as *quartzite*, at least within the Västerbotten area. Visually the material varies greatly, both in terms of texture as well as color. The initial classification of the material is primarily based on the archaeological documentation from the surveys and excavations, but as was highlighted in the results, some may have been wrongly classified due to this. It is an important reminder to be mindful when aggregating data where the analyst is not the primary producer. 
 
 As quartzite is a metamorphic rock there are two factors to consider that will affect its chemical and structural properties; the make-up of the original depositional context, and the grade of metamorphism (in the case of sedimentary orthoquartzite it is mainly the former). The "graphite peaks" are a good indicator of such information, which could point towards the material forming in carbon-rich formations, thus delimiting possible geological source areas. Usage of the term "graphitic quartzite" can be found in an early 20th century description of an excursion to Storfjället, Tärna parish, by the Geological Society [@geologiska25], but otherwise does not seem to be a frequently used term in modern day Sweden. Metamorphic rocks containing graphite, including schist and quartzite, are a common enough occurrence in other regions [e.g. @gaweda_cebulak99; @ukar_cloos16]. Considering the presence of Alum shale and similar carbon-rich tectonic strata within the Scandian mountain chain [@stephens_bergmanweihed20: 482-599], it would not be strange to encounter carbon structures in quartzite or quartzite-like material. 
 
@@ -543,34 +605,31 @@ The results demonstrate clearly that non-destructive application of all three in
 
  \linebreak
 
-# CRediT authorship contribution statement {-}
+# Author Contributions {-}
 Mattias Sjölander: Conceptualization, Data curation, Formal analysis, Methodology, Project administration, Resources, Software, Visualization, Validation, Writing - original draft. 
 
 Johan Linderholm: Conceptualization, Methodology, Supervision
 
 Paul Geladi: Formal analysis, Methodology
 
-
  \linebreak
 
 # Statements and Declarations
 
 **Competing interests**
+
 The authors declare no competing interests.
 
+ \linebreak
 
 # Funding source {-}
 This work was supported by PhD funding and facilities at the Environmental Archaeology Laboratory at Umeå University. 
 
  \linebreak
 
-
 # Acknowledgements {-}
 
 We would like to thank Västerbottens museum (www.vbm.se) for access to their collections, and Susanne Sundström in particular for her assistance with preparing the artefacts. We would also like to acknowledge good cooperation with the division of Biomass Technology and Chemistry at the Swedish University of Agricultural Sciences.
-
- \linebreak
- \linebreak
 
 <!-- The following line inserts a page break  -->
 
@@ -585,12 +644,7 @@ We would like to thank Västerbottens museum (www.vbm.se) for access to their co
 
 \newpage
 
-# Appendices{-}
-
- \linebreak
- \linebreak
-
-## Appendix A {#appendix-a}
+# Appendix A {#appendix-a}
 
 Collection of loadings for each single instrumentation PCA.
 
@@ -600,13 +654,16 @@ Collection of loadings for each single instrumentation PCA.
 
 ```{r}
 #| label: fig-nir-pca-loadings
-#| fig-width: 20
-#| fig-height: 20
 #| cache: true
+#| fig-width: 7.87
+#| fig-asp: 0.8
+#| out-width: "70%"
 #| fig-cap: "PCA loadings for the first 3 principal components for the NIR model."
 
 quietly(source(here::here("analysis", "paper", "004-nir-pca-loadings.R"), encoding = "UTF-8"))
-knitr::include_graphics(here::here("analysis", "figures", "004-nir-pca-loadings.jpeg"), error = FALSE)
+#knitr::include_graphics(here::here("analysis", "figures", "004-nir-pca-loadings.jpeg"), error = FALSE)
+
+fig
 ```
 
  \linebreak
@@ -614,13 +671,16 @@ knitr::include_graphics(here::here("analysis", "figures", "004-nir-pca-loadings.
 
 ```{r}
 #| label: fig-raman-pca-loadings
-#| fig-width: 20
-#| fig-height: 20
 #| cache: true
+#| fig-width: 7.87
+#| fig-asp: 0.8
+#| out-width: "70%"
 #| fig-cap: "PCA loadings for the first 3 principal components for the Raman model."
 
 quietly(source(here::here("analysis", "paper", "007-raman-pca-loadings.R"), encoding = "UTF-8"))
-knitr::include_graphics(here::here("analysis", "figures", "007-raman-pca-loadings.jpeg"), error = FALSE)
+#knitr::include_graphics(here::here("analysis", "figures", "007-raman-pca-loadings.jpeg"), error = FALSE)
+
+fig
 ```
 
  \linebreak
@@ -628,17 +688,25 @@ knitr::include_graphics(here::here("analysis", "figures", "007-raman-pca-loading
 
 ```{r}
 #| label: fig-xrf-pca-loadings-scree
-#| fig-fullwidth: true
-#| fig-fullheight: true
 #| cache: true
+#| fig-width: 7.87
+#| fig-asp: 0.8
+#| out-width: "70%"
 #| fig-cap: "PCA Loadings and eigenvalues for the XRF data. a) eigenvalues and loadings for the full dataset (model A), b) eigenvalues and loadings with samples measuring > 90% ~14~Si excluded (model B)."
 
-knitr::include_graphics(here::here("analysis", "figures", "009-xrf-pca-load-scree.jpeg"), error = FALSE)
+fig <- 
+  readRDS(file = here::here("analysis", "data", "derived_data", "009-xrf-loadings.rds"))
+
+fig
 ```
 
 \endsupplement
 
 \newpage 
+
+#Data availability
+
+The data and code used in the analysis is available at DOI XXX. 
 
 ### Colophon
 
