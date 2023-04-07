@@ -7,31 +7,23 @@ xrf.csv <-
 
 #Import descriptive metadata
 metadata.csv <-
-  read.csv2(here::here("analysis", "data", "raw_data", "metadata.csv"), sep = ";", header = TRUE, na = c("", "NA", "NULL"), encoding = "UTF-8")
+  read.csv2(here::here("analysis", "data", "raw_data", "metadata.csv"), colClasses=c("sample_id"="character"), dec = ".", sep = ";", header = TRUE, na = c("", "NA", "NULL"), encoding = "UTF-8")
 
 #merge XRF data with metadata
-xrf.merged <- 
+xrf.merged <-
   as.data.frame(merge(metadata.csv, xrf.csv, by='sample_id'))
 
-#Filter xrf data to focus on points and preforms made from quartz/quartzite material 
+#Filter xrf data to focus on points and preforms made from quartz/quartzite material
 Points.xrf <-
   xrf.merged %>%
-  filter(site_id == "Vilhelmina 1069" | site_id == "Vilhelmina 109" | site_id == "Vilhelmina 112" | site_id == "Vilhelmina 1124" | site_id == "Vilhelmina 1127" | site_id == "Vilhelmina 114" |
-           site_id == "Vilhelmina 115" | site_id == "Vilhelmina 117" | site_id == "Vilhelmina 118" | site_id == "Vilhelmina 1254" | site_id == "Vilhelmina 216" | site_id == "Vilhelmina 235" |
-           site_id == "Vilhelmina 240" | site_id == "Vilhelmina 245" | site_id == "Vilhelmina 252" | site_id == "Vilhelmina 263" | site_id == "Vilhelmina 335" | site_id == "Vilhelmina 356" |
-           site_id == "Vilhelmina 399" | site_id == "Vilhelmina 411" | site_id == "Vilhelmina 419" | site_id == "Vilhelmina 439" | site_id == "Vilhelmina 444" | site_id == "Vilhelmina 450" |
-           site_id == "Vilhelmina 458" | site_id == "Vilhelmina 539" | site_id == "Vilhelmina 542" | site_id == "Vilhelmina 611" | site_id == "Vilhelmina 619" | site_id == "Vilhelmina 636" | 
-           site_id == "Vilhelmina 637" | site_id == "Vilhelmina 643" | site_id == "Vilhelmina 769" | site_id == "Vilhelmina 949" | site_id == "Vilhelmina 95" | site_id == "Åsele 101" | 
-           site_id == "Åsele 107" | site_id == "Åsele 115" | site_id == "Åsele 117" | site_id == "Åsele 119" | site_id == "Åsele 129" | site_id == "Åsele 182" | site_id == "Åsele 188" |
-           site_id == "Åsele 393" | site_id == "Åsele 56" | site_id == "Åsele 91" | site_id == "Åsele 92" | site_id == "Åsele 99", 
-         type == "Point" | type == "Point fragment" | type == "Preform", 
-         material == "Brecciated quartz" | material == "Quartz" | material == "Quartzite") %>% 
+  filter(type == "Point" | type == "Point fragment" | type == "Preform",
+         material == "Brecciated quartz" | material == "Quartz" | material == "Quartzite") %>%
   replace_na(list(munsell_hue = "Colourless"))
 
-#Prepare XRF data in long format for violin plots, exclude samples with a dimension smaller than 10 mm 
+#Prepare XRF data in long format for violin plots, exclude samples with a dimension smaller than 10 mm
 Points_long <-
   drop_na(Points.xrf %>%
-            filter(max_length_mm >= 10 | max_width_mm >= 10) %>% 
+            filter(max_length_mm >= 10 | max_width_mm >= 10) %>%
             #leave out Zn and Y as these have less than 30 values above LOD
             dplyr::select(`Mg`,`Al`, `Si`, `P`, `S`, `K`, `Ca`, `V`, `Mn`, `Fe`, `Sr`, `Zr`, `Ba`, `Ti`) %>%
             gather(key = "Element", value = "Value"))
@@ -56,12 +48,12 @@ Points_long <-
     endsWith(Element, "Ti") ~ "Chalcophile",
   ))
 
-#Calculate and add value equal to 90% of the value range for each element, this is in preparation for 
+#Calculate and add value equal to 90% of the value range for each element, this is in preparation for
 #text annotations in final plot where a text will be positioned at this values height in each plot
-Points_long <- 
-  Points_long %>% 
-  group_by(Element) %>% 
-  dplyr::mutate(ypos = max(Value) * 0.95)  
+Points_long <-
+  Points_long %>%
+  group_by(Element) %>%
+  dplyr::mutate(ypos = max(Value) * 0.95)
 
 #Lookup for element labeller
 Elements <- c(
@@ -82,12 +74,12 @@ Elements <- c(
 )
 
 #Prepare data frame with elements for annotating facets in final plot
-na_values <- 
+na_values <-
   data.frame("Element" = unique(Points_long$Element))
 
-#Calculate and add number of missing values for each element             
-na_values <- 
-  na_values %>% 
+#Calculate and add number of missing values for each element
+na_values <-
+  na_values %>%
   mutate(na_values = c(
     paste("n = ", length(which(!is.na(Points.xrf$`Mg`)))),
     paste("n = ", length(which(!is.na(Points.xrf$`Al`)))),
@@ -107,13 +99,13 @@ na_values <-
 
 #Merge na_values and Points_long data frames in order to get the y position that the text annotation should be displayed
 #in for each element facet in final plot
-na_values <- 
+na_values <-
   merge(na_values, unique(Points_long[,c("Element", "ypos")]), by = "Element", all.x = TRUE)
 
 
 #Prepare ylimits for each group in order to exclude extreme outliers in the violin plot graphic
 ylims <- Points_long %>%
-  group_by(Element) %>% 
+  group_by(Element) %>%
   mutate(height = max(Value) + .3 * sd(Value))
 
 #Prepare a list with formula for setting new ylimits for each group in ggh4x package "facetted_pos_scales() which makes it possible to work with facet_wrap()
@@ -135,7 +127,7 @@ scales <- c(
 )
 
 #Violin plot of elemental content, trimmed, with fill based on elemental groups and number of values above LOD as text annotation
-fig <- 
+fig <-
   Points_long %>%
     ggplot(aes(x=Element, y=Value, fill = Group)) +
     see::geom_violinhalf(trim = TRUE) +
@@ -144,7 +136,7 @@ fig <-
     scale_fill_manual(name = "Group",
                       values = c("#E69F00", "#56B4E9", "#CC79A7")) +
     theme_bw() +
-    geom_text(data=na_values, aes(x=0.25, y=ypos, label=na_values, fontface = "bold"), nudge_x = 0.4, inherit.aes = FALSE, size = 4) +
+    geom_text(data=na_values, aes(x=0.28, y=ypos, label=na_values, fontface = "bold"), nudge_x = 0.4, inherit.aes = FALSE, size = 3) +
     theme(
       legend.title = element_text(size = 12, face = "bold", colour = "black"),
       strip.text.x = element_text(size = 12, face = "bold", colour = "black"),
@@ -158,7 +150,7 @@ ggsave("008-xrf-violin-plot.jpeg",
        fig,
        device = "jpeg",
        here::here("analysis", "figures"),
-       width=25, 
+       width=20,
        height=20,
        units = "cm",
        dpi = 300)
