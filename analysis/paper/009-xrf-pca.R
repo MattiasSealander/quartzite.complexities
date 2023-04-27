@@ -643,10 +643,10 @@ fig4 <-
   ggnewscale::new_scale_color() +
   geom_point(data=subset(nir, is.na(variables)),
              aes(x=x, y=y, col="#D62728FF")) +
-  scale_color_manual(name="Missing XRF data",
+  scale_color_manual(name="Objects missing XRF data",
                      labels="NA",
                      values="#D62728FF") +
-  guides(color = guide_legend(override.aes = list(shape = 22,
+  guides(color = guide_legend(override.aes = list(shape = 21,
                                                  fill = "#D62728FF",
                                                  ncol = 1,
                                                  color = "black",
