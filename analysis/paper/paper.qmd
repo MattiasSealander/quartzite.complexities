@@ -18,7 +18,7 @@ author:
       institute: [UmU]
       correspondence: false
 institute:
-  - UmU: Department of Historical, Philosophical and Religious studies, Umeå University, Umeå, Sweden
+  - UmU: Environmental Archaeology Lab, Department of Historical, Philosophical and Religious studies, Umeå University, Umeå, Sweden
   - SLU: Department of Forest Biomaterials and Technology, Swedish University of Agricultural Sciences, Umeå, Sweden 
 title-block-published: "Last updated"  
 date: now
@@ -54,12 +54,6 @@ keywords: |
 <!-- With the following code you can access and display values from the yml header above. -->
 
 Keywords: `r rmarkdown::metadata$keywords`
-
-Highlights: 
-
-* Non-destructive analysis of prehistoric bifacial points made in quartzite using near-infrared spectroscopy, Raman scattering and X-Ray Fluourescence. 
-* Each method detects differences in the structural and chemical characteristics in the material, but on their own the resolution is too low for predictive modelling. 
-* Data fusion techniques are recommended for predictive modelling using non-destructive spectroscopy on quartzite material. 
 
 <!-- The following code chunk defines some general settings how code chunks should behave. -->
 ```{r setup, echo = FALSE}
