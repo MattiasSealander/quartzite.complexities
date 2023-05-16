@@ -20,18 +20,18 @@ Title <- "Quartzite Complexities: Non-destructive analysis of bifacial points fr
 
 This repository contains the data and code for our paper:
 
-> Sjölander M., Linderholm, J., Geladi P (2023). _`r Title`_. (Journal name) <https://doi.org/xxx/xxx>
+> Sjölander M., Linderholm, J., Geladi P., Buckland, P. I. (2023). _`r Title`_. (Journal name) <https://doi.org/xxx/xxx>
 
 Our pre-print is online here:
 
-> Sjölander M., Linderholm, J., Geladi P (2023). _`r Title`_. (Journal name) `r format(Sys.Date(), "%d %b %Y")`. Online at <https://doi.org/xxx/xxx>
+> Sjölander M., Linderholm, J., Geladi P., Buckland, P. I. (2023). _`r Title`_. (Journal name) `r format(Sys.Date(), "%d %b %Y")`. Online at <https://doi.org/xxx/xxx>
 
 
 ### How to cite
 
 Please cite this compendium as:
 
-> Sjölander M., Linderholm, J., Geladi P (2023). (`r format(Sys.Date(), "%Y")`). _Compendium of R code and data for `r Title`_. Accessed `r format(Sys.Date(), "%d %b %Y")`. Online at <https://doi.org/xxx/xxx>
+> Sjölander M., Linderholm, J., Geladi P., Buckland, P. I. (2023). (`r format(Sys.Date(), "%Y")`). _Compendium of R code and data for `r Title`_. Accessed `r format(Sys.Date(), "%d %b %Y")`. Online at <https://doi.org/xxx/xxx>
 
 ## Contents
 
