@@ -280,61 +280,9 @@ Significant peaks were identified at 1 400 nm, 1 900 nm, 2 200 nm, and 2 350 nm.
 
 The 2 200 nm and 2 350 nm absorption bands can be found in mica, such as muscovite and biotite, which can be found in quartzite [@clark_etal90: 12; @hunt77: 510; @ramanaidou_etal15: 207]. Although muscovite and biotite share some band positions, the altered Al content as a response to metamorphism has been documented to shift some positions and increase others, such as the 2 250 nm band for biotite [@duke94]. As can be seen in the average spectra in @fig-nir-spectra-summary, the dark material exhibits an additional peak at ~2 250 nm, which may indicate the presence of biotite and a different metamorphic grade.
 
-Two smaller features were recorded, albeit vague and difficult to make out in the non-processed spectra, at 1 065 nm and 1 300 nm (@fig-nir-spectra-summary). These could be caused by ferrous iron (Fe^2+^) [@hunt77: 503-504], which has been demonstrated to produce a response in the NIR in a number of minerals. In studies of olivine the absorption region has been determined to be broad and centred around 1 000 nm, but with three features at 900 nm, 1 100 nm and 1 300 nm [@trang_etal13]. Alternatively, weak water features have also been noted in the 950 nm and 1 150 nm bands, particularly among clays with adsorped water. However, these overlap with the Fe^2+^ bands in, for example, biotite [@adams75: 104-106]. It is possible that the features at 1 065 nm and 1 300 nm can be linked to the presence of ferrous iron, but it is difficult to say what the contributing mineral is at this stage.
+Two smaller features were recorded, albeit vague and difficult to make out in the non-processed spectra, at 1 065 nm and 1 300 nm (@fig-nir-spectra-summary). These could be caused by ferrous iron (Fe^2+^) [@hunt77: 503-504], which has been demonstrated to produce a response in the NIR in a number of minerals. In studies of olivine the absorption region has been determined to be broad and centred around 1 000 nm, but with three features at 900 nm, 1 100 nm and 1 300 nm [@trang_etal13]. Alternatively, weak absorption features (OH) have also been noted in the 950 nm and 1 150 nm bands, particularly among clays. However, these overlap with the Fe^2+^ bands in, for example, biotite [@adams75: 104-106]. It is possible that the features at 1 065 nm and 1 300 nm can be linked to the presence of ferrous iron, but it is difficult to say what the contributing mineral is at this stage.
 
  \linebreak
-<!--
-```{r fig.width=12, fig.height = 5}
-#| label: fig-nir-spectra-summary
-#| cache: true
-#| fig-width: 7.87
-#| fig-asp: 0.8
-#| out-width: "70%"
-#| fig-align: center
-#| fig-cap: "Summary of the raw spectra for each colour group. Note the differences in absorbance between the groups, with the dark group featuring a larger range of absorbance values as well as less distinct peaks."
-
-quietly(source(here::here("analysis", "paper", "001-nir-spectra-summary.R"), encoding = "UTF-8"))
-#knitr::include_graphics(here::here("analysis", "figures", "001-nir-spectra-summary.jpeg"), error = FALSE)
-
-fig
-```
-
- \linebreak
-
-```{r fig.width=12, fig.height = 5}
-#| label: fig-nir-savitzky-transform
-#| cache: true
-#| fig-width: 7.87
-#| fig-asp: 0.8
-#| out-width: "70%"
-#| fig-align: center
-#| fig-cap: "Comparison of NIR spectra between two samples from the dark group. a) the non-processed spectra for sample 258 and 411, b) sample 258 spectra with 2^nd^ derivative Savitzky-Golay filtering, c) sample 411 spectra with 2^nd^ derivative Savitzky-Golay filtering."
-
-quietly(source(here::here("analysis", "paper", "003-nir-savitzky-transform.R"), encoding = "UTF-8"))
-#knitr::include_graphics(here::here("analysis", "figures", "003-nir-savitzky-transform.jpeg"), error = FALSE)
-
-fig
-```
-
-
- \linebreak
-
-
-```{r}
-#| label: fig-nir-savitzky-transform-alt
-#| cache: true
-#| fig-width: 7.87
-#| fig-asp: 0.6
-#| out-width: "70%"
-#| fig-align: center
-#| fig-cap: "Savitzky-Golay transformed spectra contrasting the results between the spectra in the dark (black) and light (orange) groups."
-
-quietly(source(here::here("analysis", "paper", "003-nir-savitzky-transform-alt.R"), encoding = "UTF-8"))
-#knitr::include_graphics(here::here("analysis", "figures", "003-nir-savitzky-transform-alt.jpeg"), error = FALSE)
-
-fig
-```
--->
 
 ```{r}
 #| label: fig-nir-peak-summary
@@ -592,7 +540,7 @@ quietly(source(here::here("analysis", "paper", "010-nir-sample-comparison.R"), e
  \linebreak
  \linebreak
 
-The high representation of quartz and quartzite in the Mesolithic - Bronze Age lithic assemblages of Northern Sweden necessitates the development of methods for the characterization of these materials. They represent a primary lithic resource, and thus hold a critical position for understanding resource procurement, trade and exchange, and human mobility within the region (as well as other regions [e.g. @prieto_etal19]). Previous archaeological studies in Northern Sweden have primarily relied on visual characterization, following a system that was devised for managing the large quantities of data generated following the large-scale development of hydroelectric power in the 1940s - 1980s [@biornstad06; @kaeck09: 53-55]. The division of a heterogeneous material into larger simplified colour groups might, however, give a mistaken impression of homogeneity. For example, light grey points with streaks of black mineral running through them might be classified as either light or dark quartzite on different occasions and by different archaeologists. The necessity for adopting such classifications in the past is understandable; a certain level of abstraction is necessary in higher level modelling (Sjölander 2022). Although this work provided plenty of new insights [e.g. @forsberg85; @holm91; @lundberg97], spectroscopic screening provides a more quantitative and empirical approach [@ramacciotti_etal22; @sciuto18].
+The high representation of quartz and quartzite in the Mesolithic - Bronze Age lithic assemblages of Northern Sweden necessitate the development of methods for the characterization of these materials. They represent a primary lithic resource, and thus hold a critical position for understanding resource procurement, trade and exchange, and human mobility within the region (as well as other regions [e.g. @prieto_etal19]). Previous archaeological studies in Northern Sweden have primarily relied on visual characterization, following a system that was devised for managing the large quantities of data generated following the large-scale development of hydroelectric power in the 1940s - 1980s [@biornstad06; @kaeck09: 53-55]. The division of a heterogeneous material into larger simplified colour groups might, however, give a mistaken impression of homogeneity. For example, light grey points with streaks of black mineral running through them might be classified as either light or dark quartzite on different occasions and by different archaeologists. The necessity for adopting such classifications in the past is understandable; a certain level of abstraction is necessary in higher level modelling (Sjölander 2022). Although this work provided plenty of new insights [e.g. @forsberg85; @holm91; @lundberg97], spectroscopic screening provides a more quantitative and empirical approach [@ramacciotti_etal22; @sciuto18].
 
 A benefit of non-destructive screening is the relative ease with which large datasets can be generated. Although there are destructive alternatives that provide a higher resolution view of the material’s chemical characteristic,  non-destructive screening lends itself well to exploratory data analysis and hypothesis generation. The current study demonstrates the potential of new scientific analysis methods for re-assessing and complementing previous research, and thus increasing our understanding of human resource management of locally available lithic material.
 
