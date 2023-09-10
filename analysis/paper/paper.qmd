@@ -95,7 +95,7 @@ metadata.csv <-
 tot_samples <- 
   metadata.csv %>% 
   dplyr::filter( type == "Point" | type == "Point fragment" | type == "Preform", 
-         material == "Brecciated quartz" | material == "Quartz" | material == "Quartzite")
+         material == "Brecciated quartz" | material == "Quartzite")
 
 #Create a vector containing all unique sample ID
 tot_uniq_samples <- 
@@ -196,6 +196,8 @@ FitFlextableToPage <- function(ft, pgwidth = 6){
 
 metadata.csv <- 
   metadata.csv %>% 
+  dplyr::filter( type == "Point" | type == "Point fragment" | type == "Preform", 
+                 material == "Brecciated quartz" | material == "Quartzite") %>% 
   arrange(site_id)
 
 #set table functions
@@ -293,7 +295,7 @@ XRF measurements were collected using a Thermo Scientific Niton XL5 Analyzer (sp
 
 As the variables in XRF analysis are given as proportions of a constant sum (e.g. percentage, parts per million (ppm)), this creates something referred to as the closed sum effect [@pawlowsky-glahn_egozcue06]. This means that if one element was to change in value, others would follow to maintain the constant [@grunsky_caritat20]. This has implications for classical statistical methods and is managed by transforming the data using log-ratio transformation [@aitchison99]. Currently there are three main methods; additive log-ratio (alr), centered log-ratio (clr) and isometric log-ratio [@pawlowsky-glahn_etal15]. In the PCA, the Principal Components are orthogonal and thus the relationships between variables treated with log-ratio transformation are linear and independent of the total concentration [e.g. @reimann_etal12]. With this transformation, PCA is thus suitable for exploring geochemical trends related to the rock-forming process without being impacted by the closed sum effect.
 
-As the current dataset features values below the Limit of Detection (LOD) these were treated as NULL (or “missing values”) during PCA. A LOD value is defined as a measured value 3 times lower than the standard deviation for that measurement. Missing values are not permitted in the PCA and thus had to be imputed before the analysis, which was performed using the *lrEM* function from the *zCompositions* R package [@palarea-albaladejo_martin-fernandez15]. *lrEM* stands for “Log-ratio Expectation-Maximisation”, which is an algorithm used to impute “left-censored data” (e.g. values below LOD, rounded zeros). Following log-transformation the data was mean-centred and scaled to unit variance before PCA. Samples that were less than 10 mm in length or width were excluded from the model [@shackley11b: 9].
+As the current dataset features values below the Limit of Detection (LOD) these were treated as NULL (or “missing values”) during PCA. A LOD value is defined as a measured value 3 times lower than the standard deviation for that measurement. Missing values are not permitted in the PCA and thus had to be imputed before the analysis, which was performed using the *lrEM* function from the *zCompositions* R package [@palarea-albaladejo_martin-fernandez15]. *lrEM* stands for “Log-ratio Expectation-Maximisation”, which is an algorithm used to impute “left-censored data” (e.g. values below LOD, rounded zeros). Following log-transformation the data was mean-centred and scaled to unit variance before PCA. Samples that were less than 10 mm in length or width were excluded from the model [@shackley11b: 9; @lundblad_etal08].
 
  \linebreak
 
@@ -317,7 +319,7 @@ Spectra and PCA loadings for each instrumentation can be found in the supplement
 points.d.tot <-
   metadata.csv %>%
   filter( type == "Point" | type == "Point fragment" | type == "Preform", 
-         material == "Brecciated quartz" | material == "Quartz" | material == "Quartzite") %>% 
+         material == "Brecciated quartz" | material == "Quartzite") %>% 
   filter(hue == "Dark")
 
 #Filter out the dark quartzite samples that feature peaks of interest in their spectra 
@@ -401,7 +403,7 @@ fig
 ```
 -->
 
-![NIR PCA score plot for PC 1-3: a) dark and light material is separated out along PC 1, due to absorbance, with white and colourless material separating along PC 2, b) PC 3 adds little new information, mainly separating three of the light samples](../figures/004-nir-pca-with-photos.jpg){#fig-nir-pca width=100%, height=100%}
+![NIR PCA score plot for PC 1-3: a) dark and light material is separated out along PC 1, due to absorbance, with white and colourless material separating along PC 2, b) PC 3 adds little new information, mainly separating three of the light samples](../figures/004-nir-pca-with-photos_v1.jpg){#fig-nir-pca width=100%, height=100%}
 
  \linebreak
 
@@ -489,7 +491,7 @@ fig
 ```
 -->
 
-![PCA score plot for Raman data. Objects that feature only quartz peaks are clustered towards the top left of the plot, whilst the darker material that feature dominant D/G peaks are distributed towards the right of the plot. In the middle cluster the samples feature both quartz and D/G peaks, with those that have higher intensity D/G peaks in the bottom of the cluster](../figures/007-raman-pca-with-photos.jpg){#fig-raman-pca width=100%, height=100%}
+![PCA score plot for Raman data. Objects that feature only quartz peaks are clustered towards the top left of the plot, whilst the darker material that feature dominant D/G peaks are distributed towards the right of the plot. In the middle cluster the samples feature both quartz and D/G peaks, with those that have higher intensity D/G peaks in the bottom of the cluster](../figures/007-raman-pca-with-photos_v1.jpg){#fig-raman-pca width=100%, height=100%}
 
  \linebreak
 
@@ -567,7 +569,7 @@ fig2
 ```
 -->
 
-![XRF PCA score plots: a) Score plot featuring the full dataset, cluster 1 includes all samples with Si > 90%, while the remaining samples seem to cluster based on Fe and Zr content. This results in most of the darker materials clustering towards the bottom of the plot. b) Score plot with > 90% Si samples excluded. Similar to plot A there is a separation based on Fe and Zr values, with darker material towards the bottom of the plot. Light-to-colourless samples remain largely together in cluster 3. Cluster 1 stands out by featuring slightly lower Si, Fe, Ti, and Zr values, but higher values in Al, Ca, K, and Mg](../figures/009-xrf-pca-with-photos.jpg){#fig-xrf-pca width=100%, height=100%}
+![XRF PCA score plots: a) Score plot featuring the full dataset, cluster 1 includes all samples with Si > 90%, while the remaining samples seem to cluster based on Fe and Zr content. This results in most of the darker materials clustering towards the bottom of the plot. b) Score plot with > 90% Si samples excluded. Similar to plot A there is a separation based on Fe and Zr values, with darker material towards the bottom of the plot. Light-to-colourless samples remain largely together in cluster 3. Cluster 1 stands out by featuring slightly lower Si, Fe, Ti, and Zr values, but higher values in Al, Ca, K, and Mg](../figures/009-xrf-pca-with-photos_v1.jpg){#fig-xrf-pca width=100%, height=100%}
 
  \linebreak
 
