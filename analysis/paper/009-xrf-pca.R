@@ -420,7 +420,7 @@ fig2a <-
                  shape = factor(xrf$material)),
              size = 2) +
   scale_shape_manual(name = "Material",
-                     values=c(25,24,21),
+                     values=c(25,21),
                      guide = guide_legend(override.aes = list(fill = "black"),
                                           title.position="top",
                                           title.hjust = 0.5,
@@ -474,7 +474,7 @@ fig2b <-
                  shape = factor(xrf.low$material)),
              size = 2) +
   scale_shape_manual(name = "Material",
-                     values=c(25,24,21),
+                     values=c(25,21),
                      guide = "none") +
   scale_color_manual(values = pca.colors,
                      guide = "none") +
@@ -626,7 +626,7 @@ fig4 <-
                     values=c("#0072B2", "#CC79A7","#F0E442"),
                     na.value="#D62728FF") +
   scale_shape_manual(name = "Material",
-                     values=c(25,24,21)) +
+                     values=c(25,21)) +
   guides(fill = guide_legend(override.aes = list(shape = 22,
                                                  fill = c("#0072B2", "#CC79A7","#F0E442"), na.value="#D62728FF",
                                                  ncol = 4,

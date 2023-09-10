@@ -62,7 +62,7 @@ fig.1 <-
   labs(x = nir.pc1lab,
        y = nir.pc2lab) +
   scale_shape_manual(name = "Material",
-                     values=c(25,24,21)) +
+                     values=c(25,21)) +
   scale_fill_manual(name = "Hue",
                     values=pca.colors) +
   guides(fill = guide_legend(override.aes = list(shape = 22,
@@ -77,6 +77,12 @@ fig.1 <-
                               title.position="top",
                               title.hjust = 0.5,
                               order = 2)) +
+  stat_ellipse(aes(color = material, group = material),
+               linetype = 2,
+               lwd = 1.2) +
+  #scale_color_manual(name = "Group",
+  #                   values = c("#36454F", "#E69F00"),
+  #                   limits = c("Dark", "Light")) +
   theme(plot.title = element_text(size = 12, face = "bold", colour = "black", vjust = 1, hjust = 0.02),
         axis.title.x = element_text(size = 12, face = "bold", colour = "black"),
         axis.title.y = element_text(size = 12, face = "bold", colour = "black"),
@@ -95,7 +101,7 @@ fig.2 <-
   labs(x = nir.pc2lab,
        y = nir.pc3lab) +
   scale_shape_manual(name = "Material",
-                     values=c(25,24,21)) +
+                     values=c(25,21)) +
   scale_fill_manual(name = "Hue",
                     values=pca.colors) +
   guides(fill = guide_legend(override.aes = list(shape = 22,
@@ -110,6 +116,12 @@ fig.2 <-
                               title.position="top",
                               title.hjust = 0.5,
                               order = 2)) +
+  stat_ellipse(aes(color = hue, group = hue),
+               linetype = 2,
+               lwd = 1.2) +
+  scale_color_manual(name = "Group",
+                     values = c("#36454F", "#E69F00"),
+                     limits = c("Dark", "Light")) +
   theme(plot.title = element_blank(),
         axis.title.x = element_text(size = 12, face = "bold", colour = "black"),
         axis.title.y = element_text(size = 12, face = "bold", colour = "black"),

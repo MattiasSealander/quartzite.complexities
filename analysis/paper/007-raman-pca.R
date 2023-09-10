@@ -61,7 +61,7 @@ fig <-
   labs(x = raman.pc1lab,
        y = raman.pc2lab) +
   scale_shape_manual(name = "Material",
-                     values=c(25,24,21)) +
+                     values=c(25,21)) +
   scale_fill_manual(name = "Hue",
                     values=pca.colors) +
   guides(fill = guide_legend(override.aes = list(shape = 22,
