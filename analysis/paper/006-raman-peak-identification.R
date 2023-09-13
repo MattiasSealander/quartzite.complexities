@@ -25,7 +25,7 @@ Points.raman <-
            site_id == "Åsele 107" | site_id == "Åsele 115" | site_id == "Åsele 117" | site_id == "Åsele 119" | site_id == "Åsele 129" | site_id == "Åsele 182" | site_id == "Åsele 188" |
            site_id == "Åsele 393" | site_id == "Åsele 56" | site_id == "Åsele 91" | site_id == "Åsele 92" | site_id == "Åsele 99",
          type == "Point" | type == "Point fragment" | type == "Preform",
-         material == "Brecciated quartz" | material == "Quartz" | material == "Quartzite") %>%
+         material == "Brecciated quartz" | material == "Quartzite") %>%
   replace_na(list(munsell_hue = "Colourless"))
 
 #Filter raman data to focus on dark samples

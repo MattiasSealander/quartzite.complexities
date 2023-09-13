@@ -10,7 +10,7 @@ metadata.csv <-
 Points <-
   metadata.csv %>%
   dplyr::filter(type == "Point" | type == "Point fragment" | type == "Preform",
-                material == "Brecciated quartz" | material == "Quartz" | material == "Quartzite")  %>%
+                material == "Brecciated quartz" | material == "Quartzite")  %>%
   replace_na(list(munsell_hue = "Colourless"))
 
 #plot the length and width

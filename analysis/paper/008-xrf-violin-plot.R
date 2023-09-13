@@ -17,7 +17,7 @@ xrf.merged <-
 Points.xrf <-
   xrf.merged %>%
   filter(type == "Point" | type == "Point fragment" | type == "Preform",
-         material == "Brecciated quartz" | material == "Quartz" | material == "Quartzite") %>%
+         material == "Brecciated quartz" | material == "Quartzite") %>%
   replace_na(list(munsell_hue = "Colourless"))
 
 #Prepare XRF data in long format for violin plots, exclude samples with a dimension smaller than 10 mm

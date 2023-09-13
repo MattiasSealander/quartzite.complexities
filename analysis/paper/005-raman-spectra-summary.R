@@ -22,7 +22,7 @@ raman.baseline.merged <-
 Points.raman <-
   raman.baseline.merged %>%
   filter(type == "Point" | type == "Point fragment" | type == "Preform",
-         material == "Brecciated quartz" | material == "Quartz" | material == "Quartzite") %>%
+         material == "Brecciated quartz" | material == "Quartzite") %>%
   replace_na(list(munsell_hue = "Colourless"))
 
 #Filter raman data to focus on dark samples

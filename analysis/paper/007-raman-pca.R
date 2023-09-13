@@ -26,12 +26,12 @@ Points.raman <-
            site_id == "Åsele 107" | site_id == "Åsele 115" | site_id == "Åsele 117" | site_id == "Åsele 119" | site_id == "Åsele 129" | site_id == "Åsele 182" | site_id == "Åsele 188" |
            site_id == "Åsele 393" | site_id == "Åsele 56" | site_id == "Åsele 91" | site_id == "Åsele 92" | site_id == "Åsele 99",
          type == "Point" | type == "Point fragment" | type == "Preform",
-         material == "Brecciated quartz" | material == "Quartz" | material == "Quartzite") %>%
+         material == "Brecciated quartz" | material == "Quartzite") %>%
   replace_na(list(munsell_hue = "Colourless"))
 
 #perform PCA with SNV normalization and mean-center
 raman.pca <-
-  prcomp(Points.raman[,c(30:322)], center = TRUE, scale = FALSE)
+  prcomp(Points.raman[,c(32:324)], center = TRUE, scale = FALSE)
 
 #prepare labels for PCs, doing it in 2 steps allows variance percentage to be called on in the Rmd file
 raman.pc1var <- round(summary(raman.pca)$importance[2,1]*100, digits=1)
@@ -51,9 +51,9 @@ basic_plot1 <-
 
 #bind the basic fviz plot for PC 1 and 2, and use as basis for a more customizeable plot in ggpplot
 fig <-
-  ggplot(cbind(basic_plot1$data, Points.raman[, c(9,12)]),
+  ggplot(cbind(basic_plot1$data, Points.raman[, c(11,14)]),
          aes(x=x, y=y, shape = material, fill = hue)) +
-  #to add sample id as text
+  #remove hashtag to add sample id as text
   #geom_text(aes(label=Points.raman$sample_id, hjust=0.5,vjust=-1.0)) +
   geom_point(size=3.5) +
   theme_bw() +

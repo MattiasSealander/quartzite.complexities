@@ -20,7 +20,7 @@ nir.merged <-
 Points.nir <-
   nir.merged %>%
   dplyr::filter(type == "Point" | type == "Point fragment" | type == "Preform",
-                material == "Brecciated quartz" | material == "Quartz" | material == "Quartzite") %>%
+                material == "Brecciated quartz" | material == "Quartzite") %>%
   replace_na(list(munsell_hue = "Colourless")) %>%
   group_by(across(sample_id:weight_g)) %>%
   dplyr::summarise(across(`350.0`:`2500.0`, mean), .groups = "drop")

@@ -35,7 +35,7 @@ Points.xrf <-
            site_id == "Åsele 107" | site_id == "Åsele 115" | site_id == "Åsele 117" | site_id == "Åsele 119" | site_id == "Åsele 129" | site_id == "Åsele 182" | site_id == "Åsele 188" |
            site_id == "Åsele 393" | site_id == "Åsele 56" | site_id == "Åsele 91" | site_id == "Åsele 92" | site_id == "Åsele 99",
          type == "Point" | type == "Point fragment" | type == "Preform",
-         material == "Brecciated quartz" | material == "Quartz" | material == "Quartzite") %>%
+         material == "Brecciated quartz" | material == "Quartzite") %>%
   replace_na(list(munsell_hue = "Colourless"))
 
 #filter XRF data on sample size (only include samples with smallest dimension >= 10mm),
@@ -51,10 +51,11 @@ xrf <-
 
 #### Impute variables ####
 
+#Listed below are the elements and their listed limit of detection for the Niton XL5 pXRF instrument
 #limit of detection elements Mg, Al, Si, P, S, Cl, K, Ca, V, Cr, Mn, Fe, Co, Cu, Zn, As, Rb, Sr, Y, Zr, Nb, Pd, Ag, Cd, Sn, Sb, Ba, Ti, Pb
 #limit of detection values 2500, 487, 0, 47, 54, 38, 28, 15, 4, 4, 17, 14, 9, 5, 4, 2, 1, 2, 0, 2, 1, 2, 2, 2, 3, 4, 29, 9, 1
 
-#Create vector with limit of detection for variables, this will work as a "censor" of highest possible value
+#create vector with limit of detection for variables, this will work as a "censor" of highest possible value
 dl <- c(487, 0, 28, 15, 14, 2, 9, 29, 2500, 2, 47, 54)
 
 #use log-ratio Expectation - Maximisation algorithm to impute left-censored data (i.e values below LOD)
@@ -71,13 +72,13 @@ xrf <-
 #### PCA full ####
 
 #log-transform data in order to address issues with closure
-#clr can also be used, in that case comment this log10 code, but gives similar results in this instance
+#centered log-ratio can also be used, in that case comment this log10 code; this gives similar results with the current data
 xrf.log <-
   log10(xrf[,5:16])
 
 
 #remove comment from code below if you want to transform data using centered log-ratio
-#potential issues due to using geometric mean
+#potential issues for Si due to using geometric mean
 #xrf.clr <-
 #  compositions::clr(xrf[,5:16], ifclose = TRUE)
 
@@ -609,7 +610,7 @@ basic_plot1 <-
   fviz_pca_ind(nir.pca, axes = c(1,2), label="none")
 #bind the basic plot with the columns storing legend items
 nir <-
-  cbind(basic_plot1$data, Points.nir[, c(2181,12,1)])
+  cbind(basic_plot1$data, Points.nir[, c(2183,14,1)])
 
 #PCA score plot with k-means cluster as shape fill
 fig4 <-

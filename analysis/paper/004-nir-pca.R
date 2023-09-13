@@ -19,7 +19,7 @@ Points.nir <-
   nir.merged %>%
   filter(
          type == "Point" | type == "Point fragment" | type == "Preform",
-         material == "Brecciated quartz" | material == "Quartz" | material == "Quartzite") %>%
+         material == "Brecciated quartz" | material == "Quartzite") %>%
   filter(!sample_id %in% c("153","167","168","169","172","174","175","176","177","182","190","191","193","194","196","198","200","204","214",
                            "215","216","229","238","262","265","272","282","359","391","392","393","397","405",
                            "408","410","411","413","414","415","416","417","424","425","428","430","432","55","56")) %>%
@@ -52,9 +52,9 @@ basic_plot2 <-
 
 #bind the basic fviz plot for PC 1 and 2, and use as basis for a more customizeable plot in ggpplot
 fig.1 <-
-  ggplot(cbind(basic_plot1$data, Points.nir[, c(9,12)]),
+  ggplot(cbind(basic_plot1$data, Points.nir[, c(11,14)]),
          aes(x=x, y=y, shape = material, fill = hue)) +
-  #to add sample id as text
+  #remove hastag to add sample id as text
   #geom_text(aes(label=Points.nir$sample_id, hjust=0.5,vjust=-1.0)) +
   geom_point(size=3.5) +
   theme_bw() +
@@ -77,9 +77,9 @@ fig.1 <-
                               title.position="top",
                               title.hjust = 0.5,
                               order = 2)) +
-  stat_ellipse(aes(color = material, group = material),
-               linetype = 2,
-               lwd = 1.2) +
+  #stat_ellipse(aes(color = hue, group = hue),
+  #             linetype = 2,
+  #             lwd = 1.2) +
   #scale_color_manual(name = "Group",
   #                   values = c("#36454F", "#E69F00"),
   #                   limits = c("Dark", "Light")) +
@@ -91,7 +91,7 @@ fig.1 <-
         legend.position = "bottom")
 
 fig.2 <-
-  ggplot(cbind(basic_plot2$data, Points.nir[, c(9,12)]),
+  ggplot(cbind(basic_plot2$data, Points.nir[, c(11,14)]),
          aes(x=x, y=y, shape = material, fill = hue)) +
   #to add sample id as text
   #geom_text(aes(label=Points.nir$sample_id, hjust=0.5,vjust=-1.0)) +
@@ -116,12 +116,13 @@ fig.2 <-
                               title.position="top",
                               title.hjust = 0.5,
                               order = 2)) +
-  stat_ellipse(aes(color = hue, group = hue),
-               linetype = 2,
-               lwd = 1.2) +
-  scale_color_manual(name = "Group",
-                     values = c("#36454F", "#E69F00"),
-                     limits = c("Dark", "Light")) +
+  #remove hashtag and run this to add ellipses for group of choice
+  #stat_ellipse(aes(color = hue, group = hue),
+  #             linetype = 2,
+  #             lwd = 1.2) +
+  #scale_color_manual(name = "Group",
+  #                   values = c("#36454F", "#E69F00"),
+  #                   limits = c("Dark", "Light")) +
   theme(plot.title = element_blank(),
         axis.title.x = element_text(size = 12, face = "bold", colour = "black"),
         axis.title.y = element_text(size = 12, face = "bold", colour = "black"),

@@ -45,7 +45,7 @@ raman.averaged <-
 Points.nir <-
   nir.merged %>%
   dplyr::filter(type == "Point" | type == "Point fragment" | type == "Preform",
-                material == "Brecciated quartz" | material == "Quartz" | material == "Quartzite")
+                material == "Brecciated quartz" | material == "Quartzite")
 
 raman.baseline <-
   read.csv2(here::here("analysis", "data", "derived_data", "raman_baseline_corr.csv"), sep = ",", dec = ".", header = TRUE, check.names = FALSE, na = c("", "NA", "NULL"), encoding = "UTF-8")
