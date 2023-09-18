@@ -54,12 +54,13 @@ software](https://cloud.r-project.org/) itself and optionally [RStudio
 Desktop](https://rstudio.com/products/rstudio/download/).
 
 You can download the compendium as a zip from from this URL:
-[master.zip](/archive/refs/heads/main.zip). After unzipping: - open the
-`.Rproj` file in RStudio - run `devtools::install()` to ensure you have
-the packages this analysis depends on (also listed in the
-[DESCRIPTION](/DESCRIPTION) file). - finally, open
-`analysis/paper/paper.Rmd` and knit to produce the `paper.pdf`, or run
-`rmarkdown::render("analysis/paper/paper.qmd")` in the R console
+[master.zip](https://github.com/MattiasSealander/quartzite.complexities/archive/refs/heads/main.zip).
+After unzipping: - open the `.Rproj` file in RStudio - run
+`devtools::install()` to ensure you have the packages this analysis
+depends on (also listed in the [DESCRIPTION](/DESCRIPTION) file). -
+finally, open `analysis/paper/paper.Rmd` and knit to produce the
+`paper.pdf`, or run `rmarkdown::render("analysis/paper/paper.qmd")` in
+the R console
 
 ### Licenses
 
