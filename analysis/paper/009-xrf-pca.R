@@ -233,7 +233,7 @@ loadings.low <-
 xrf.transform.low = as.data.frame(-xrf.pca.low$x[,1:4])
 
 #Determine no. of clusters with elbow graph
-#fviz_nbclust(xrf.transform, kmeans, method = 'wss')
+#fviz_nbclust(xrf.transform.low, kmeans, method = 'wss')
 
 #Perform cluster analysis on the Principal Components
 #In order to ensure that the cluster numbering is consistent between different script runs, k-means is calculated one time initially,
