@@ -7,26 +7,28 @@
 
 This repository contains the data and code for our paper:
 
-> Sjölander M., Linderholm, J., Geladi P., Buckland, P. I. (2023).
+> Sjölander M., Linderholm, J., Geladi P., Buckland, P. I. (2024).
 > *Quartzite Complexities: Non-destructive analysis of bifacial points
 > from Västerbotten, Sweden*. (Journal of Archaeological
-> Science:Reports) <https://doi.org/xxx/xxx>
+> Science:Reports) <https://doi.org/10.1016/j.jasrep.2024.104381>
 
 Our pre-print is online here:
 
 > Sjölander M., Linderholm, J., Geladi P., Buckland, P. I. (2023).
 > *Quartzite Complexities: Non-destructive analysis of bifacial points
 > from Västerbotten, Sweden*. (Journal of Archaeological
-> Science:Reports) 18 sep 2023. Online at <https://doi.org/xxx/xxx>
+> Science:Reports) 24 sep 2024. Available at SSRN:
+> <http://dx.doi.org/10.2139/ssrn.4479650>
 
 ### How to cite
 
 Please cite this compendium as:
 
-> Sjölander M., Linderholm, J., Geladi P., Buckland, P. I. (2023).
-> (2023). *Compendium of R code and data for Quartzite Complexities:
+> Sjölander M., Linderholm, J., Geladi P., Buckland, P. I. (2024).
+> (2024). *Compendium of R code and data for Quartzite Complexities:
 > Non-destructive analysis of bifacial points from Västerbotten,
-> Sweden*. Accessed 18 sep 2023. Online at <https://doi.org/xxx/xxx>
+> Sweden*. Accessed 24 sep 2024. Online at
+> <https://doi.org/10.17605/OSF.IO/F6H98>
 
 ## Contents
 
